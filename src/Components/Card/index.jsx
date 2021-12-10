@@ -4,24 +4,19 @@ import imagenEjemplo from '../../Images/producto05.jpg';
 function Card() {
     return (
 			<div className="Card-Container">
-				<div className="product-img">
-					<img src={imagenEjemplo} alt="imagen de ejemplo" />
+				<div className='img-container'>
+					<img
+						className="product-img"
+						src={imagenEjemplo}
+						alt="imagen de ejemplo"
+					/>
 				</div>
 				<h3 className="title">Soy producto</h3>
-				<h3 className="price">$1234</h3>
-				<p className='description'>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Necessitatibus
+				<p className="price">$1234</p>
+				<p className="description">
+					Descripcion del producto en cuestion que va a venir por JSON
 				</p>
-				<div className='chart'>
-                    🗑                   
-                    <div className='chart-btn'>
-                        <button className='less'> - </button>
-                        <p>0</p>
-                        <button className='plus'> + </button>
-                    </div>
-                    🛒
-                </div>
+				<button className="chart-btn">Añadir al carrito</button>
 			</div>
 		);
 }

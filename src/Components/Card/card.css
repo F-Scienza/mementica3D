@@ -1,8 +1,8 @@
 .Card-Container{
-    width: 140px;
-    height: auto;
-    padding: .5em;
-    border: 1px solid red;
+    max-width: 360px;
+    height: 230px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: .7em;
     background-color: white;
     color: black;
     border-radius: 1em;
@@ -10,53 +10,42 @@
     margin-left: 1em;
     display: grid;
     grid-template-areas: 
-    " img img img "
-    " img img img "
-    " img img img "
-    " title . price "
-    " p    p    p  "
-    " chart chart chart"
+    " img title title"
+    " img   p     p  "
+    " img  price price  "
+    " img  chart chart"   
     ;
 }
-.product-img{
+.img-container{
     grid-area: img;
+    width: 150px;
+    align-self: center;
+    margin-right: 1em;
 }
-img{
-    height: 100px;
-    width: 140px;
+.product-img{
+    width: 100%;
 }
 .title{
     grid-area: title;
+    margin-block-start: 0;
 }
 .price{
     grid-area: price;
+    margin-block-start: 0;
+    font-size: 20px;
 }
 .description{
     grid-area: p;
-}
-.chart{
-    grid-area: chart;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 2em;
-    padding: 2px;
+    margin-block-start: 0;
 }
 .chart-btn{
-    display: flex;
-    align-items: center;
-    height: 22px;
-    width: auto;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-button{
-    border-style: none;
-    border-radius: 5px;
-}
-.less{
-    background-color: red;
-}
-.plus{
-    background-color: greenyellow;
+    grid-area: chart;
+    outline: 0;
+    padding: 7px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
