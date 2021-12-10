@@ -1,0 +1,62 @@
+.Card-Container{
+    width: 140px;
+    height: auto;
+    padding: .5em;
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    margin-top: 3em;
+    margin-left: 1em;
+    display: grid;
+    grid-template-areas: 
+    " img img img "
+    " img img img "
+    " img img img "
+    " title . price "
+    " p    p    p  "
+    " chart chart chart"
+    ;
+}
+.product-img{
+    grid-area: img;
+}
+img{
+    height: 100px;
+    width: 140px;
+}
+.title{
+    grid-area: title;
+}
+.price{
+    grid-area: price;
+}
+.description{
+    grid-area: p;
+}
+.chart{
+    grid-area: chart;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2em;
+    padding: 2px;
+}
+.chart-btn{
+    display: flex;
+    align-items: center;
+    height: 22px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    border-style: none;
+    border-radius: 5px;
+}
+.less{
+    background-color: red;
+}
+.plus{
+    background-color: greenyellow;
+}
