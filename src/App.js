@@ -1,10 +1,9 @@
 import './App.css';
-import { Card } from './Components/Card/'
+import { Slider } from './Components/Slider';
 function App() {
   return (
 		<div className="App">
-				<Card />
-				<Card />
+			<Slider/>
 		</div>
 	);
 }

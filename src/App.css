@@ -1,6 +1,11 @@
 .App {
   text-align: center;
   background-color: #F8F8FF;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-link {
