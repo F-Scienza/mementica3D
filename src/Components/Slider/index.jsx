@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef, useEffect} from 'react';
 import './Slider.css'
 import velas1 from '../../Images/velas.png';
 import velas2 from '../../Images/velas2.jpg';
@@ -10,6 +10,8 @@ import {ReactComponent as ArrowR} from '../../Images/derecha.svg'
 
 function Slider() {
 	const sliderContainer = useRef(null);
+	const slideInterval = useRef(null)
+
 	const nextSlide = () => {
 		if(sliderContainer.current.children.length>0){
 			console.log("siguiente")
@@ -23,14 +25,51 @@ function Slider() {
 					sliderContainer.current.style.transition = `none`;
 					sliderContainer.current.style.transform = `translateX(0)`;
 					sliderContainer.current.appendChild(firstEl)
+					sliderContainer.current.removeEventListener(
+						'transitionend',
+						transition
+					);
 			}
 			sliderContainer.current.addEventListener('transitionend', transition)
 
 		}
 	};
+
 	const prevSlide = () => {
-		console.log('anterior');
+		if(sliderContainer.current.children.length>0){
+			const index = sliderContainer.current.children.length - 1
+			const lastEl = sliderContainer.current.children[index];
+			sliderContainer.current.insertBefore(lastEl, sliderContainer.current.firstChild)
+			
+			sliderContainer.current.style.transition = `none`;
+			
+			const sizeSlide = sliderContainer.current.children[0].offsetWidth;
+			sliderContainer.current.style.transform = `translateX(-${sizeSlide}px)`;
+
+			setTimeout(() => {
+				sliderContainer.current.style.transition = `300ms ease-out`;
+				sliderContainer.current.style.transform = `translateX(0)`
+			}, 30);
+		}
 	};
+
+	useEffect(()=>{
+		slideInterval.current = setInterval(() => {
+			nextSlide()
+		}, 4000);
+		// cuando esta el mouse encima para
+		sliderContainer.current.addEventListener('mouseenter', ()=>{
+			clearInterval(slideInterval.current);
+		})
+		// cuando lo sacan continua
+		sliderContainer.current.addEventListener('mouseleave', () => {
+			slideInterval.current = setInterval(() => {
+				nextSlide();
+			}, 4000);
+		});
+
+	},[])
+
     return (
 			<div className="principal-container">
 				<div ref={sliderContainer} className="slider-container">
