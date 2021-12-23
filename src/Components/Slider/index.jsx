@@ -14,7 +14,6 @@ function Slider() {
 
 	const nextSlide = () => {
 		if(sliderContainer.current.children.length>0){
-			console.log("siguiente")
 			const firstEl = sliderContainer.current.children[0]
 			sliderContainer.current.style.transition=`500ms ease-out all`
 
