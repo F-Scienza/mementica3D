@@ -1,12 +1,12 @@
 .Card-Container{
-    max-width: 360px;
-    height: 230px;
+    width: 310px;
+    height: 290px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: .7em;
     background-color: white;
     color: black;
     border-radius: 1em;
-    margin-top: 3em;
+    margin-top: .5em;
     margin-left: 1em;
     display: grid;
     grid-template-areas: 
