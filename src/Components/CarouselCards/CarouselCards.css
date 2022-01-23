@@ -1,0 +1,31 @@
+.carousel-container{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;    
+    border: red 2px solid;
+}
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
+.cards-container::-webkit-scrollbar{
+    display: none;
+}
+.carousel-buttons{
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+.btn-carousel-cards{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
