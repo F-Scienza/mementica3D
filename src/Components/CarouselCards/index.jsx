@@ -15,7 +15,7 @@ function CarouselCards() {
 		};
     return (
 			<div className="carousel-container">
-				<h1>voy a ser un carousel 😁</h1>
+				<h1>Productos principales</h1>
 				<div className="cards-container" ref={carousel}>
 					<Card />
 					<Card />

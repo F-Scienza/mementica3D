@@ -5,8 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2em;    
-    border: red 2px solid;
+    padding: 2em;   
 }
 .cards-container{
     width: 100%;
