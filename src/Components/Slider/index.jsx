@@ -97,6 +97,7 @@ function Slider() {
 					<button onClick={nextSlide} className="slider-buttons right">
 						<ArrowR />
 					</button>
+
 				</div>
 			</div>
 		);

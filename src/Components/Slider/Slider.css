@@ -26,6 +26,8 @@
 }
 .img-slide{
     max-height: 500px;
+    max-width: 100%;
+    position: relative;
 }
 .texto-slide{
     background: rgba(0, 0,0,.3);
