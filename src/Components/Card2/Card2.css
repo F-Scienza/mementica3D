@@ -1,11 +1,11 @@
 .Category-card{
     position: relative;
-    width: 47%;
+    min-width: 125px;
+    max-width: 210px;
     height: 360px;
     padding: 0 2px 3px;
     margin: 0 auto;
     margin-bottom: 10px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;

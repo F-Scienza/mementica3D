@@ -11,14 +11,11 @@ import {ReactComponent as ArrowR} from '../../Images/derecha.svg'
 function Slider() {
 	const sliderContainer = useRef(null);
 	const slideInterval = useRef(null)
-
 	const nextSlide = () => {
 		if(sliderContainer.current.children.length>0){
 			const firstEl = sliderContainer.current.children[0]
 			sliderContainer.current.style.transition=`500ms ease-out all`
-
 			const sizeSlide = sliderContainer.current.children[0].offsetWidth
-
 			sliderContainer.current.style.transform=`translateX(-${sizeSlide}px)`
 			const transition = ()=>{
 					sliderContainer.current.style.transition = `none`;
@@ -30,7 +27,6 @@ function Slider() {
 					);
 			}
 			sliderContainer.current.addEventListener('transitionend', transition)
-
 		}
 	};
 
@@ -44,7 +40,6 @@ function Slider() {
 			
 			const sizeSlide = sliderContainer.current.children[0].offsetWidth;
 			sliderContainer.current.style.transform = `translateX(-${sizeSlide}px)`;
-
 			setTimeout(() => {
 				sliderContainer.current.style.transition = `300ms ease-out`;
 				sliderContainer.current.style.transform = `translateX(0)`
@@ -66,15 +61,13 @@ function Slider() {
 				nextSlide();
 			}, 4000);
 		});
-
 	},[])
-
     return (
 			<div className="principal-container">
 				<div ref={sliderContainer} className="slider-container">
 					<div className="slide">
 						<a href="/">
-							<img src={logoprinc} alt="logo" />
+							<img className='img-slide' src={logoprinc} alt="logo" />
 						</a>
 						<div className="texto-slide">
 							<p>algun texto descriptivo</p>
@@ -82,7 +75,7 @@ function Slider() {
 					</div>
 					<div className="slide">
 						<a href="/">
-							<img src={velas2} alt="logo" />
+							<img className='img-slide'  src={velas2} alt="logo" />
 						</a>
 						<div className="texto-slide">
 							<p>algun texto descriptivo</p>
@@ -90,14 +83,13 @@ function Slider() {
 					</div>
 					<div className="slide">
 						<a href="/">
-							<img src={velas1} alt="logo" />
+							<img className='img-slide' src={velas1} alt="logo" />
 						</a>
 						<div className="texto-slide">
 							<p>algun texto descriptivo</p>
 						</div>
 					</div>
 				</div>
-
 				<div className="slider-controls">
 					<button onClick={prevSlide} className="slider-buttons left">
 						<ArrowL />
