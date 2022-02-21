@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.32ba8ff8.chunk.css",
+    "main.css": "/mementica3D/static/css/main.3db796c9.chunk.css",
     "main.js": "/mementica3D/static/js/main.e4312556.chunk.js",
     "main.js.map": "/mementica3D/static/js/main.e4312556.chunk.js.map",
     "runtime-main.js": "/mementica3D/static/js/runtime-main.e47ce27c.js",
@@ -10,7 +10,7 @@
     "static/js/3.121a4fe1.chunk.js": "/mementica3D/static/js/3.121a4fe1.chunk.js",
     "static/js/3.121a4fe1.chunk.js.map": "/mementica3D/static/js/3.121a4fe1.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.32ba8ff8.chunk.css.map": "/mementica3D/static/css/main.32ba8ff8.chunk.css.map",
+    "static/css/main.3db796c9.chunk.css.map": "/mementica3D/static/css/main.3db796c9.chunk.css.map",
     "static/js/2.c2993eaa.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.c2993eaa.chunk.js.LICENSE.txt",
     "static/media/derecha.950b5f9d.svg": "/mementica3D/static/media/derecha.950b5f9d.svg",
     "static/media/izquierda.6bd8714b.svg": "/mementica3D/static/media/izquierda.6bd8714b.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e47ce27c.js",
     "static/js/2.c2993eaa.chunk.js",
-    "static/css/main.32ba8ff8.chunk.css",
+    "static/css/main.3db796c9.chunk.css",
     "static/js/main.e4312556.chunk.js"
   ]
 }
