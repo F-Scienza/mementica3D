@@ -7,10 +7,18 @@ function CategoryCards() {
 			<div>
 				<h2>Categorias</h2>
 				<div className="Category-cards-container">
-					<Card2 />
-					<Card2 />
-					<Card2 />
-					<Card2 />
+					<a href="/">
+						<Card2 />
+					</a>
+					<a href="/">
+						<Card2 />
+					</a>
+					<a href="/">
+						<Card2 />
+					</a>
+					<a href="/">
+						<Card2 />
+					</a>					
 				</div>
 			</div>
 		);
