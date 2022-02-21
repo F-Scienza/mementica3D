@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/mementica3D/static/css/main.08a003fd.chunk.css",
+    "main.js": "/mementica3D/static/js/main.e08c82ab.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.e08c82ab.chunk.js.map",
+    "runtime-main.js": "/mementica3D/static/js/runtime-main.b9b67a80.js",
+    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.b9b67a80.js.map",
+    "static/js/2.3654a43f.chunk.js": "/mementica3D/static/js/2.3654a43f.chunk.js",
+    "static/js/2.3654a43f.chunk.js.map": "/mementica3D/static/js/2.3654a43f.chunk.js.map",
+    "static/js/3.f6432cfb.chunk.js": "/mementica3D/static/js/3.f6432cfb.chunk.js",
+    "static/js/3.f6432cfb.chunk.js.map": "/mementica3D/static/js/3.f6432cfb.chunk.js.map",
+    "index.html": "/mementica3D/index.html",
+    "static/css/main.08a003fd.chunk.css.map": "/mementica3D/static/css/main.08a003fd.chunk.css.map",
+    "static/js/2.3654a43f.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.3654a43f.chunk.js.LICENSE.txt",
+    "static/media/derecha.950b5f9d.svg": "/mementica3D/static/media/derecha.950b5f9d.svg",
+    "static/media/izquierda.6bd8714b.svg": "/mementica3D/static/media/izquierda.6bd8714b.svg",
+    "static/media/logo-M-scaled.003abde6.webp": "/mementica3D/static/media/logo-M-scaled.003abde6.webp",
+    "static/media/logo-mementica-scaled.6e05e0e4.webp": "/mementica3D/static/media/logo-mementica-scaled.6e05e0e4.webp",
+    "static/media/logo-mm.9fde26ca.jpg": "/mementica3D/static/media/logo-mm.9fde26ca.jpg",
+    "static/media/producto05.74cc2456.jpg": "/mementica3D/static/media/producto05.74cc2456.jpg",
+    "static/media/velas.d3e54008.png": "/mementica3D/static/media/velas.d3e54008.png",
+    "static/media/velas2.967400f3.jpg": "/mementica3D/static/media/velas2.967400f3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9b67a80.js",
+    "static/js/2.3654a43f.chunk.js",
+    "static/css/main.08a003fd.chunk.css",
+    "static/js/main.e08c82ab.chunk.js"
+  ]
+}
