@@ -1,0 +1,29 @@
+.cardcart-container{
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-areas: 
+        "t . price"
+        "img p p"
+        "img btn btn"
+    ;
+}
+.cartcard-price{
+    grid-area: price;
+    font-size:larger;
+    font-weight: 500;
+}
+.cartcard-img{
+    grid-area: img;
+    width: 120px;
+    justify-self: center;
+    align-self: center;
+}
+.cartcard-description{
+    grid-area: p;
+}
+.cartcard-btn{
+    grid-area: btn;
+}

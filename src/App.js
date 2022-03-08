@@ -3,13 +3,15 @@ import { Routes, Route } from "react-router-dom";
 import { Header } from './Components/Header'
 import { Footer } from './Components/Footer/Index';
 import { Home } from './Routes/Home'
+import { Cart } from './Routes/Cart'
 
 function App() {
     return (
 			<div className="App">
 				<Header />
 				<Routes>
-					<Route path="/" element={<Home/>}/>
+					<Route path="/" element={<Home />} />
+					<Route path='/Cart' element={<Cart />}/>
 					{/*
 					<Route path='/Login' element={<Loguin/>}/>
 					<Route path='/ProductList' element={<ProductList />}/>
@@ -21,7 +23,7 @@ function App() {
 					<Route path='/Checkout/PayForm' element={< />}/>
 					<Route path='/Checkout/PayForm/Payment' element={< />}/>
 					*/}
-				</Routes >
+				</Routes>
 				<Footer />
 			</div>
 		);

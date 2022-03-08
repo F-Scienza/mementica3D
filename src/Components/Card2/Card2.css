@@ -1,7 +1,7 @@
 .Category-card{
     position: relative;
-    min-width: 125px;
-    max-width: 210px;
+    min-width: 120px;
+    max-width: 200px;
     height: 360px;
     padding: 0 2px 3px;
     margin: 0 auto;
