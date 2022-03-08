@@ -9,10 +9,14 @@ function App() {
     return (
 			<div className="App">
 				<Header />
+				<Slider />
+				<CarouselCards />
+				<CategoryCards />
+					
+				{/*
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path='/Cart' element={<Cart />}/>
-					{/*
 					<Route path='/Login' element={<Loguin/>}/>
 					<Route path='/ProductList' element={<ProductList />}/>
 					<Route path='/MoldesResina' element={<Resina />}/>
@@ -22,8 +26,8 @@ function App() {
 					<Route path='/Checkout' element={<Checkout />}/>
 					<Route path='/Checkout/PayForm' element={< />}/>
 					<Route path='/Checkout/PayForm/Payment' element={< />}/>
-					*/}
 				</Routes>
+				*/}
 				<Footer />
 			</div>
 		);

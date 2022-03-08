@@ -1,11 +1,11 @@
 .carousel-container{
-    width: 85%;
+    width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2em;   
+    padding: 0.5em;   
 }
 .cards-container{
     width: 100%;
