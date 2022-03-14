@@ -6,11 +6,14 @@ function Header() {
     return (
 			<div className="header-container">
 				<div className="burger-nav">🍔</div>
-                <div className='header-logos-container'>
-                    <img className="header-logo2" src={MLogo} alt="logo" />
-                    <img className="header-logo" src={BlackLogo} alt="logo" />
-                </div>
-				<div className="chart">🛒</div>
+				<div className="header-logos-container">
+					<img className="header-logo2" src={MLogo} alt="logo" />
+					<img className="header-logo" src={BlackLogo} alt="logo" />
+				</div>
+				<div className="chart">
+					{' '}
+					<a href="/Cart">🛒</a>
+				</div>
 			</div>
 		);
 }
