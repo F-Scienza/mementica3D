@@ -1,18 +1,22 @@
 import './App.css';
+import AppContext from '../Context/AppContext'
+import useInitialState from '../Hooks/useInitialState';
 import { Routes, Route } from "react-router-dom";
-import { Home } from './Routes/Home'
-import { Cart } from './Routes/Cart'
-import { Header } from './Components/Header'
-import { Footer } from './Components/Footer'
+import { Home } from '../Containers/Home'
+import { Cart } from '../Containers/Cart'
+import { Header } from '../Components/Header'
+import { Footer } from '../Components/Footer'
 
 function App() {
+	const initialState = useInitialState()
     return (
-			<div className="App">
-				<Header />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/Cart" element={<Cart />} />
-					{/*
+			<AppContext.Provider value={initialState}>
+				<div className="App">
+					<Header />
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/Cart" element={<Cart />} />
+						{/*
 					<Route path='/Login' element={<Loguin/>}/>
 					<Route path='/ProductList' element={<ProductList />}/>
 					<Route path='/MoldesResina' element={<Resina />}/>
@@ -23,9 +27,10 @@ function App() {
 					<Route path='/Checkout/PayForm' element={< />}/>
 					<Route path='/Checkout/PayForm/Payment' element={< />}/>
 					*/}
-				</Routes>
-				<Footer/>
-			</div>
+					</Routes>
+					<Footer />
+				</div>
+			</AppContext.Provider>
 		);
 }
 

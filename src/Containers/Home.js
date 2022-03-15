@@ -6,7 +6,7 @@ function Home() {
         <>
             <Slider />
             <CarouselCards />
-            <CategoryCards/>
+            <CategoryCards />
         </>
     );
 }

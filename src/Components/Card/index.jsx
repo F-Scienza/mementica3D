@@ -1,22 +1,21 @@
 import React from 'react';
 import './card.css'
-import imagenEjemplo from '../../Images/producto05.jpg';
-function Card() {
+function Card(product, handleAddToCart) {
     return (
 			<div className="Card-Container">
 				<div className='img-container'>
 					<img
 						className="product-img"
-						src={imagenEjemplo}
+						src={product.image}
 						alt="imagen de ejemplo"
 					/>
 				</div>
-				<h3 className="title">Soy producto</h3>
-				<p className="price">$1234</p>
+				<h3 className="title">{product.title}</h3>
+				<p className="price">${product.price}</p>
 				<p className="description">
-					Descripcion del producto en cuestion que va a venir por JSON
+					{product.description}
 				</p>
-				<button className="chart-btn">Añadir al carrito</button>
+				<button className="chart-btn" onClick={handleAddToCart}>Añadir al carrito</button>
 			</div>
 		);
 }

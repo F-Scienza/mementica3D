@@ -29,7 +29,6 @@
 }
 .title{
     grid-area: title;
-    margin-block-start: 0;
 }
 .price{
     grid-area: price;
