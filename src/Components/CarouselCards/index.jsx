@@ -6,10 +6,10 @@ import './CarouselCards.css'
 function CarouselCards() {
     const { state, addToCart } = useContext(AppContext);
     const { products } = state;
-
-    const handleAddToCart = (product)=>()=> {
-        addToCart(product)
-    }
+    const handleAddToCart = product => () => {
+			addToCart(product);
+			console.log(product);
+		};
 
     const carousel = useRef(null)
     const leftClick = e => {
@@ -27,11 +27,11 @@ function CarouselCards() {
 				<h1>Productos principales</h1>
 				<div className="cards-container" ref={carousel}>
 					{products.map(product => (
-						<Card 
-                            key = {product.id}
-                            product = {product}
-                            handleAddToCart = {handleAddToCart}
-                        />
+						<Card
+							key={product.id}
+							product={product}
+							handleAddToCart={handleAddToCart}
+						/>
 					))}
 				</div>
 				<div className="carousel-buttons">

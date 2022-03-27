@@ -6,7 +6,7 @@ const useInitialState = ()=>{
     
     // creo hooks
 
-    const addToCart = payload =>{
+    const addToCart = (payload) =>{
         setState({
             ...state,
             cart: [...state.cart, payload]

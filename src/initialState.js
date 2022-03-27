@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 export default {
-	cart: [],
+	cart: [	],
 	buyer: [],
 	orders: [],
 	products: [
@@ -92,13 +92,6 @@ export default {
 			price: 1600,
 			description: 'Molde de silicona para resina forma de expansores',
 			image: '/Images/ProductsImages/expansores.jpg',
-		},
-		{
-			id: 112,
-			title: 'Ninjacat x4',
-			price: 1800,
-			description: 'Molde de silicona con forma de gato ninjacat x4',
-			image: '/Images/ProductsImages/gato4.jpg',
 		},
 		{
 			id: 112,
@@ -228,13 +221,6 @@ export default {
 			image: '/Images/ProductsImages/posavasosconborde.jpg',
 		},
 		{
-			id: 129,
-			title: 'Posavaso hexagonal',
-			price: 1000,
-			description: 'Molde de silicona posavaso con borde forma hexagonal.',
-			image: '/Images/ProductsImages/',
-		},
-		{
 			id: 130,
 			title: 'Posavaso cuadrado',
 			price: 1000,
@@ -284,6 +270,20 @@ export default {
 			price: 1500,
 			description: 'Molde de silicona para velas forma zig-zag recta',
 			image: '/Images/ProductsImages/velazigzagrecta.jpg',
+		},
+		{
+			id: 137,
+			title: 'Posavaso hexagonal',
+			price: 1000,
+			description: 'Molde de silicona posavaso con borde forma hexagonal.',
+			image: '/Images/ProductsImages/',
+		},
+		{
+			id: 138,
+			title: 'Ninjacat x4',
+			price: 1800,
+			description: 'Molde de silicona con forma de gato ninjacat x4',
+			image: '/Images/ProductsImages/gato4.jpg',
 		},
 		{
 			id: 300,
