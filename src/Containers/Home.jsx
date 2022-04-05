@@ -4,7 +4,6 @@ import { CategoryCards } from '../Components/CategoryCards';
 function Home() {
     return (  
         <>
-            <Slider />
             <CarouselCards />
             <CategoryCards />
         </>

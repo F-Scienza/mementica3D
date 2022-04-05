@@ -1,7 +1,7 @@
 .Card-Container{
     min-width: 290px;
     max-width: 370px;
-    min-height: 230px;
+    min-height: 190px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: .7em;
     background-color: white;
@@ -10,6 +10,8 @@
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 1em;
+    text-align: center;
+    text-justify: center;
     display: grid;
     grid-template-areas: 
     " img title title"
@@ -29,15 +31,19 @@
 }
 .title{
     grid-area: title;
+    margin-block-end: 0;
 }
 .price{
     grid-area: price;
     margin-block-start: 0;
+    margin-block-end: 0;
     font-size: 20px;
+    font-weight: 600;
 }
 .description{
     grid-area: p;
     margin-block-start: 0;
+    margin-block-end: 0;
 }
 .chart-btn{
     grid-area: chart;
@@ -48,7 +54,9 @@
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
 }
 .chart-btn:active {
     transform: translateY(-2px);

@@ -3,9 +3,10 @@
   background-color: #F8F8FF;
   margin: 0 auto;
   width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 

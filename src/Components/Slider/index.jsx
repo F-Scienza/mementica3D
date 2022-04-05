@@ -6,11 +6,10 @@ import logoprinc from '../../Images/logo-mm.jpg';
 import {ReactComponent as ArrowL} from '../../Images/izquierda.svg'
 import {ReactComponent as ArrowR} from '../../Images/derecha.svg'
 
-
-
 function Slider() {
 	const sliderContainer = useRef(null);
 	const slideInterval = useRef(null)
+
 	const nextSlide = () => {
 		if(sliderContainer.current.children.length>0){
 			const firstEl = sliderContainer.current.children[0]
@@ -27,7 +26,7 @@ function Slider() {
 					);
 			}
 			sliderContainer.current.addEventListener('transitionend', transition)
-		}
+		} 
 	};
 
 	const prevSlide = () => {
@@ -62,6 +61,7 @@ function Slider() {
 			}, 4000);
 		});
 	},[])
+
     return (
 			<div className="principal-container">
 				<div ref={sliderContainer} className="slider-container">
