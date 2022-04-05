@@ -15,12 +15,10 @@ function CarouselCards({carouselTitle}) {
 	const leftClick = e => {
 		e.preventDefault();
 		carousel.current.scrollLeft -= carousel.current.offsetWidth;
-		console.log(carousel.current.offsetWidth);
 	};
 	const rightClick = e => {
 		e.preventDefault();
 		carousel.current.scrollLeft += carousel.current.offsetWidth;
-		console.log(carousel.current.offsetWidth);
 	};
 	return (
 		<div className="carousel-container">
