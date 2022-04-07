@@ -23,7 +23,7 @@ function Cart() {
 							/>
 						))
 					) : (
-						<h1>no hay productos</h1>
+						<h1>no hay productosss</h1>
 					)}
 				</div>
 			</>
