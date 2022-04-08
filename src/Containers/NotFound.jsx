@@ -1,10 +1,11 @@
 import React from 'react';
+import { PageNotFound } from '../Components/PageNotFound';
 function NotFound() {
-    return (  
-        <div>
-            <h1>not found</h1>
-        </div>
-    );
+    return (
+			<>
+				<PageNotFound />
+			</>
+		);
 }
 
 export {NotFound};

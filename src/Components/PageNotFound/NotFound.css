@@ -1,0 +1,33 @@
+.not-found-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img404{
+    width: 300px;
+}
+.not-found-msj{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.link{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.not-found-btn{ 
+    border-radius: 16px;
+    margin-top: 8px;
+    outline: 0;
+    padding: 7px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 170px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+}
