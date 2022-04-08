@@ -5,37 +5,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5em;  
-}
-.carousel-title{
-    height: 30px;
-    margin-block-start: 0;
-    margin-block-end: 4px;
+    padding: 0.5em;   
 }
 .cards-container{
-    width: 90%;
-    height: 220px;
+    width: 100%;
+    height: auto;
     display: flex;
     overflow-x: auto;
     overflow-y: visible;
     scroll-behavior: smooth;
-    position: relative; 
-    z-index: 5;
 }
 .cards-container::-webkit-scrollbar{
     display: none;
 }
 .carousel-buttons{
-    margin-top: 24px;
-    width: 92%;
-    height: 220px;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 4;
-
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
 }
 .btn-carousel-cards{
     background-color: transparent;

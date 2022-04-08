@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 export default {
-	cart: [	],
+	cart: [],
 	buyer: [],
 	orders: [],
 	products: [

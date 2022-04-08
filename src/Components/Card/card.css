@@ -1,7 +1,7 @@
 .Card-Container{
     min-width: 290px;
     max-width: 370px;
-    min-height: 180px;
+    min-height: 190px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: .7em;
     background-color: white;
