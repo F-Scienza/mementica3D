@@ -3,7 +3,7 @@ import AppContext from '../Context/AppContext'
 import useInitialState from '../Hooks/useInitialState';
 import {  Route, Routes } from 'react-router-dom';
 import { Home } from '../Containers/Home.jsx'
-import { Cart } from '../Containers/Cart.jsx'
+import { Cart } from '../Containers/Cart/Cart.jsx'
 import { Header } from '../Components/Header'
 import { Footer } from '../Components/Footer'
 import { NotFound } from '../Containers/NotFound';
