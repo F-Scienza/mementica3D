@@ -11,17 +11,23 @@ function Header() {
     return (
 			<div className="header-container">
 				<div className="burger-nav">🍔</div>
-				<div className="header-logos-container">
-					<Link to="/">
-						<img className="header-logo2" src={MLogo} alt="logo" />
-						<img className="header-logo" src={BlackLogo} alt="logo" />
-					</Link>
-				</div>
-				<div className="chart">
+				<Link className="header-logos-container" to="/">
+					<img className="header-logo2" src={MLogo} alt="logo" />
+					<img className="header-logo" src={BlackLogo} alt="logo" />
+				</Link>
+				<div>
 					{' '}
-					<Link to="/Cart">
-						<span>🛒</span>
-						<span>{cart.length}</span>
+					<Link className="cart" to="/Cart">
+						🛒
+						{cart.length > 0 ? (
+							<div className="cart-alert">
+								<span>{cart.length}</span>
+							</div>
+						) : (
+							<div className="cart-alert none-alert">
+								<span>{cart.length}</span>
+							</div>
+						)}
 					</Link>
 				</div>
 			</div>

@@ -13,11 +13,31 @@
 .header-logos-container{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .header-logo{
     width: 120px;
+    margin-top: 4px;
 }
 .header-logo2{
     width: 50px;
-    margin-right: 10px;
+    margin-right: 12px;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.cart-alert{
+    color: white;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.none-alert{
+    background-color: white;
 }
