@@ -24,7 +24,7 @@ function CarouselCards({titleCarousel}) {
 		};
     return (
 			<div className="carousel-container">
-				<h1>{titleCarousel}</h1>
+				<h1 className="carousel-title">{titleCarousel}</h1>
 				<div className="cards-container" ref={carousel}>
 					{products.map(product => (
 						<Card

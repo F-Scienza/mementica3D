@@ -1,13 +1,18 @@
 body {
-  margin: 0 auto;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  min-width: 360px !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 13px;
+	margin: 0 auto;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	min-width: 360px !important;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+}
+@font-face {
+	font-family: Agency FB;
+	src: url(http://uncutbeatz.com/clear/fonts/AGENCYR.TTF.ttf);
+	font-style: normal;
 }

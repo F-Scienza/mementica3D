@@ -4,10 +4,10 @@ function Home() {
     return (  
         <>
             <CarouselCards 
-                titleCarousel = 'Productos destacados'
+                titleCarousel = 'PRODUCTOS DESTACADOS'
             />
             <CarouselCards 
-                titleCarousel = 'Ofertas'
+                titleCarousel = 'OFERTAS'
             />
             <CategoryCards />
         </>

@@ -9,42 +9,39 @@ import impresion3D from '../../Images/logo-M-scaled.webp'
 
 function CategoryCards() {
     return (
-		<div>
-			<h2>Categorias</h2>
-			<div className="Category-cards-container">
-				<a href="/">
-					<Card2 
-						categoryTitle = 'Moldes para velas'
-						categoryBackground={moldesVelas}
-					/>
-				</a>
-				<a href="/">
-					<Card2 
-						categoryTitle = 'Moldes para resina'
-						categoryBackground={moldesResina}
-					/>
-				</a>
-				<a href="/">
-					<Card2 
-						categoryTitle = 'Productos de reventa'
-						categoryBackground={reventa}
-					/>
-				</a>
-				<a href="/">
-					<Card2 
-						categoryTitle = 'Impresion 3D'
-						categoryBackground={impresion3D}
-					/>
-				</a>
-				<a href="/">
-					<Card2 
-						categoryTitle = 'Outlet'
-						categoryBackground={outletProd}
-					/>
-				</a>					
+			<div>
+				<h2 className="carousel-title">CATEGORIAS</h2>
+				<div className="Category-cards-container">
+					<a href="/">
+						<Card2
+							categoryTitle="MOLDES PARA VELAS"
+							categoryBackground={moldesVelas}
+						/>
+					</a>
+					<a href="/">
+						<Card2
+							categoryTitle="MOLDES PARA RESINA"
+							categoryBackground={moldesResina}
+						/>
+					</a>
+					<a href="/">
+						<Card2
+							categoryTitle="PRODUCTOS DE REVENTA"
+							categoryBackground={reventa}
+						/>
+					</a>
+					<a href="/">
+						<Card2
+							categoryTitle="IMPRESION 3D"
+							categoryBackground={impresion3D}
+						/>
+					</a>
+					<a href="/">
+						<Card2 categoryTitle="OUTLET" categoryBackground={outletProd} />
+					</a>
+				</div>
 			</div>
-		</div>
-	);
+		);
 }
 
 export {CategoryCards};
