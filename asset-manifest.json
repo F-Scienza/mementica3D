@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.26cf8399.chunk.css",
-    "main.js": "/mementica3D/static/js/main.26294dba.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.26294dba.chunk.js.map",
-    "runtime-main.js": "/mementica3D/static/js/runtime-main.7901e2f6.js",
-    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.7901e2f6.js.map",
-    "static/js/2.3c1887ed.chunk.js": "/mementica3D/static/js/2.3c1887ed.chunk.js",
-    "static/js/2.3c1887ed.chunk.js.map": "/mementica3D/static/js/2.3c1887ed.chunk.js.map",
-    "static/js/3.b08de69c.chunk.js": "/mementica3D/static/js/3.b08de69c.chunk.js",
-    "static/js/3.b08de69c.chunk.js.map": "/mementica3D/static/js/3.b08de69c.chunk.js.map",
+    "main.css": "/mementica3D/static/css/main.ee0b076b.chunk.css",
+    "main.js": "/mementica3D/static/js/main.90d2e9ea.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.90d2e9ea.chunk.js.map",
+    "runtime-main.js": "/mementica3D/static/js/runtime-main.18d1dcfe.js",
+    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.18d1dcfe.js.map",
+    "static/js/2.e7b7d97c.chunk.js": "/mementica3D/static/js/2.e7b7d97c.chunk.js",
+    "static/js/2.e7b7d97c.chunk.js.map": "/mementica3D/static/js/2.e7b7d97c.chunk.js.map",
+    "static/js/3.f5e3a1d6.chunk.js": "/mementica3D/static/js/3.f5e3a1d6.chunk.js",
+    "static/js/3.f5e3a1d6.chunk.js.map": "/mementica3D/static/js/3.f5e3a1d6.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.26cf8399.chunk.css.map": "/mementica3D/static/css/main.26cf8399.chunk.css.map",
-    "static/js/2.3c1887ed.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.3c1887ed.chunk.js.LICENSE.txt",
+    "static/css/main.ee0b076b.chunk.css.map": "/mementica3D/static/css/main.ee0b076b.chunk.css.map",
+    "static/js/2.e7b7d97c.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.e7b7d97c.chunk.js.LICENSE.txt",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
     "static/media/ceniceros.0bfb5e07.jpg": "/mementica3D/static/media/ceniceros.0bfb5e07.jpg",
     "static/media/expansores.211c71eb.jpg": "/mementica3D/static/media/expansores.211c71eb.jpg",
@@ -21,9 +21,9 @@
     "static/media/velazigzagrecta.a4999040.jpg": "/mementica3D/static/media/velazigzagrecta.a4999040.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7901e2f6.js",
-    "static/js/2.3c1887ed.chunk.js",
-    "static/css/main.26cf8399.chunk.css",
-    "static/js/main.26294dba.chunk.js"
+    "static/js/runtime-main.18d1dcfe.js",
+    "static/js/2.e7b7d97c.chunk.js",
+    "static/css/main.ee0b076b.chunk.css",
+    "static/js/main.90d2e9ea.chunk.js"
   ]
 }
