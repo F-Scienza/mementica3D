@@ -13,7 +13,7 @@ function CategoryCards() {
 			<div>
 				<h2 className="carousel-title">CATEGORIAS</h2>
 				<div className="Category-cards-container">
-					<Link to="/ProductList/Velas">
+					<Link to="/ProductList/moldesvelas">
 						<Card2
 							categoryTitle="MOLDES PARA VELAS"
 							categoryBackground={moldesVelas}
