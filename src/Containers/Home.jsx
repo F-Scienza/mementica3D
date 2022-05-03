@@ -5,9 +5,11 @@ function Home() {
         <>
             <CarouselCards 
                 titleCarousel = 'PRODUCTOS DESTACADOS'
+                type = 'top'
             />
             <CarouselCards 
                 titleCarousel = 'OFERTAS'
+                type = 'offer'
             />
             <CategoryCards />
         </>
