@@ -8,6 +8,7 @@ import { Header } from '../Components/Header'
 import { Footer } from '../Components/Footer'
 import { NotFound }  from '../Containers/NotFound';
 import { ProductList } from '../Containers/ProductList'
+import { Checkout } from '../Containers/Checkout'
 
 function App() {
 	const initialState = useInitialState()
@@ -21,13 +22,13 @@ function App() {
 						<Route path="*" element={<NotFound />} />
 						<Route path="/ProductList" element={<ProductList />} />
 						<Route path="/ProductList/:type" element={<ProductList />} />
+						<Route path="/Checkout" element={<Checkout />} />
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
 						<Route path='/MoldesResina' element={<Resina />}/>
 						<Route path='/MoldesVelas' element={<Velas />}/>
 						<Route path='/3D' element={<Impresion />}/>
 						<Route path='/Outlet' element={<Outlet />}/>
-						<Route path='/Checkout' element={<Checkout />}/>
 						<Route path='/Checkout/PayForm' element={< />}/>
 						<Route path='/Checkout/PayForm/Payment' element={< />}/>
 						*/}
