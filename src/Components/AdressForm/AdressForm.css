@@ -32,10 +32,13 @@
 	padding: 5px 20px 15px 20px;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
+	width: 330px;
+	height: auto;
+	margin-top: 20px;
 }
 
 input[type='text'] {
-	width: 100%;
+	width: 300px;
 	margin-bottom: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -54,7 +57,7 @@ label {
 }
 
 .btn {
-	background-color: #04aa6d;
+	background-color: black;
 	color: white;
 	padding: 12px;
 	margin: 10px 0;

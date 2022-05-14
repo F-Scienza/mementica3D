@@ -9,7 +9,7 @@ import { Footer } from '../Components/Footer'
 import { NotFound }  from '../Containers/NotFound';
 import { ProductList } from '../Containers/ProductList'
 import { Checkout } from '../Containers/Checkout'
-
+import {Payment} from '../Containers/Payment'
 function App() {
 	const initialState = useInitialState()
     return (
@@ -18,11 +18,12 @@ function App() {
 					<Header />
 					<Routes>
 						<Route exact path="/" element={<Home />} />
-						<Route exact path="/Cart" element={<Cart />} />
 						<Route path="*" element={<NotFound />} />
 						<Route path="/ProductList" element={<ProductList />} />
 						<Route path="/ProductList/:type" element={<ProductList />} />
-						<Route path="/Checkout" element={<Checkout />} />
+						<Route exact path="/Cart" element={<Cart />} />
+						<Route exact path="/Checkout" element={<Checkout />} />
+						<Route exact path="/Checkout/Payment" element= {<Payment/>}/>
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
 						<Route path='/MoldesResina' element={<Resina />}/>
