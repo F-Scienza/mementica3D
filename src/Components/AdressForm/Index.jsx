@@ -1,17 +1,18 @@
-import React from 'react';
+import React, {useContext}from 'react';
 import './AdressForm.css';
-
+import AppContext from '../../Context/AppContext';
 function AdressForm() {
+	const { setBuyer } = useContext(AppContext)
 	return (
-		<div class="row">
-			<div class="col-75">
-				<div class="container">
+		<div className="row">
+			<div className="col-75">
+				<div className="container">
 					<form action="/checkout/payment">
-						<div class="row">
-							<div class="col-50">
+						<div className="row">
+							<div className="col-50">
 								<h3>Direccion de envio</h3>
-								<label for="fname">
-									<i class="fa fa-user"></i> Nombre completo:
+								<label htmlFor="fname">
+									<i className="fa fa-user"></i> Nombre completo:
 								</label>
 								<input
 									type="text"
@@ -19,8 +20,8 @@ function AdressForm() {
 									name="firstname"
 									placeholder="Juan Perez"
 								/>
-								<label for="email">
-									<i class="fa fa-envelope"></i> Email
+								<label htmlFor="email">
+									<i className="fa fa-envelope"></i> Email
 								</label>
 								<input
 									type="text"
@@ -28,10 +29,15 @@ function AdressForm() {
 									name="email"
 									placeholder="juan@ejemplo.com"
 								/>
-								<label for="state">Provincia</label>
-								<input type="text" id="state" name="state" placeholder="Córdoba" />
-								<label for="city">
-									<i class="fa fa-institution"></i> Ciudad
+								<label htmlFor="state">Provincia</label>
+								<input
+									type="text"
+									id="state"
+									name="state"
+									placeholder="Córdoba"
+								/>
+								<label htmlFor="city">
+									<i className="fa fa-institution"></i> Ciudad
 								</label>
 								<input
 									type="text"
@@ -39,8 +45,8 @@ function AdressForm() {
 									name="city"
 									placeholder="Córdoba"
 								/>
-								<label for="adr">
-									<i class="fa fa-address-card-o"></i> Direccion
+								<label htmlFor="adr">
+									<i className="fa fa-address-card-o"></i> Direccion
 								</label>
 								<input
 									type="text"
@@ -48,11 +54,11 @@ function AdressForm() {
 									name="address"
 									placeholder="Olmos 123"
 								/>
-								<label for="zip">Codigo postal</label>
+								<label htmlFor="zip">Codigo postal</label>
 								<input type="text" id="zip" name="zip" placeholder="0000" />
 							</div>
 						</div>
-						<input type="submit" value="Ir a pagar" class="btn" />
+						<input type="submit" value="Ir a pagar" className="btn" />
 					</form>
 				</div>
 			</div>
