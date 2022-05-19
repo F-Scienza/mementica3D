@@ -14,11 +14,11 @@
 }
 .cart-cards-container{
     height: 400px;
-    width: 340px;
+    width: 350px;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 12px;
+    margin-left: 12px;
     overflow-y: scroll;
     border-radius: 10px;
     box-shadow: 4px 3px 20px 3px rgba(0, 0, 0, 0.2);

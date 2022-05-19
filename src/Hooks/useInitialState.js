@@ -19,7 +19,16 @@ const useInitialState = ()=>{
         })
     }
     const setBuyer = buyerInfo =>{
-        
+        setState({
+            ...state,
+            buyer: {
+                name: buyerInfo.name,
+                lastName: buyerInfo.lastName,
+                mail: buyerInfo.email,
+                state: buyerInfo.state,
+                city: buyerInfo.city 
+            }
+        })
     }
 
     return{

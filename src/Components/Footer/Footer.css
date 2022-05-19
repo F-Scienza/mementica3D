@@ -10,7 +10,9 @@
     text-align: left;
 }   
 .footer-title{
-    font-weight: 600;
+    font-family: Agency FB;
+    font-weight: 500;
+    font-size: 1.5em;
 }
 .menu-list{
     list-style: none;
