@@ -1,0 +1,29 @@
+.cart-total{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 3px 20px 3px rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: 340px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-self: center;
+    align-self: flex-start;
+}
+.cart-total h3{
+    margin-block-start: 0.3em;
+}
+.cart-btn-pay{
+    width: 90%;
+}
+.cart-btn-confirm{
+    background-color: rgba(13, 191, 255, 0.842);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}

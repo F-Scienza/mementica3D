@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
-import { Link } from 'react-router-dom';
 import { CartCard } from '../../Components/CartCard';
+import { TotalCost } from '../../Components/TotalCost';
 import AppContext from '../../Context/AppContext';
 import './cart.css'
 function Cart() {
@@ -9,8 +9,6 @@ function Cart() {
 	const handleRemoveFromCart = (product) => () =>{
 		removeFromCart(product)
 	}
-	let cartTotal = 0
-	cart.forEach(prod => cartTotal += prod.price)
     return (
 		<>
 		<div className="cart-container">
@@ -32,12 +30,7 @@ function Cart() {
 					)}
 				</div>
 			</div>
-			<div className="cart-total">
-				<h3 className="carousel-title cart-title"> Total: ${cartTotal}</h3>
-				<Link className="cart-btn-pay" to="/Checkout">
-					<button className="chart-btn cart-btn-pay"> ir a pagar </button>
-				</Link>
-			</div>
+			<TotalCost/>
 		</div>
 		</>
 	);

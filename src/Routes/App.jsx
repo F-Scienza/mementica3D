@@ -23,7 +23,8 @@ function App() {
 						<Route path="/ProductList/:type" element={<ProductList />} />
 						<Route exact path="/Cart" element={<Cart />} />
 						<Route exact path="/Checkout" element={<Checkout />} />
-						<Route exact path="/Checkout/Payment" element= {<Payment/>}/>
+						<Route exact path="/Checkout/Payment" element={<Payment />} />
+						<Route exact path="/Contact" element={<Contact />} />
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
 						<Route path='/MoldesResina' element={<Resina />}/>
