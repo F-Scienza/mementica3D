@@ -32,7 +32,7 @@ function CarouselCards({titleCarousel, type }) {
     return (
 		<div className="carousel-container">
 			<div>
-				<h1 className="carousel-title">{titleCarousel}</h1>
+				<h1 className="mementica-font">{titleCarousel}</h1>
 			</div>
 			<div className="cards-container" ref={carousel}>
 				{carouselProducts.map(product => (

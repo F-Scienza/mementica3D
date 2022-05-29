@@ -11,7 +11,7 @@ function Card2({categoryTitle, categoryBackground}) {
 						className="Background-image-card2"
 					/>
 				</div>
-				<span className="Card2-span carousel-title">{categoryTitle}</span>
+				<span className="mementica-font Card2-span">{categoryTitle}</span>
 			</div>
 		);
 }

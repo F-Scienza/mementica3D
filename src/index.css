@@ -1,18 +1,18 @@
+@import url(//db.onlinewebfonts.com/c/f9b9a4fce362a3a9111c138859ccb422?family=Agency+FB);
 body {
 	margin: 0 auto;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	min-width: 360px !important;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 12px;
 }
-@font-face {
-	font-family: Agency FB;
-	src: url(http://uncutbeatz.com/clear/fonts/AGENCYR.TTF.ttf);
-	font-style: normal;
+.mementica-font{
+    font-family: Agency FB;
+    font-size: 28px;
+    font-weight: 100;
+	letter-spacing: 0.3em;
+	margin-block-start: 0.1em;
 }

@@ -3,9 +3,7 @@ import initialState from '../initialState'
 
 const useInitialState = ()=>{
     const [state, setState] = useState(initialState)
-    
     // creo hooks
-
     const addToCart = (payload) =>{
         setState({
             ...state,
@@ -18,7 +16,6 @@ const useInitialState = ()=>{
             cart: state.cart.filter(items => items.id !== payload.id)
         })
     }
-
     return{
         addToCart,
         removeFromCart,

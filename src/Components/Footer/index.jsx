@@ -1,10 +1,14 @@
 import React from 'react';
 import './Footer.css'
-
+import logomementica from '../../Images/logo-M-scaled.webp'
 function Footer() {
     return ( 
         <div className='footer-container'> 
-            <div>
+            <div className='footer-logo-container'>
+                <img src={logomementica} alt="logo-mementica" className='footer-logo'/>
+                <h1 className='mementica-font'>MEMENTICA</h1>
+            </div>
+            {/*<div>
                 <span className='footer-title'>AYUDA</span>
                 <ul className='menu-list'>
                     <li className='menu-list-li'>Preguntas frecuentes</li>
@@ -28,7 +32,8 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
-            </div>
+            /div>*/
+            }
         </div> 
     );
 }

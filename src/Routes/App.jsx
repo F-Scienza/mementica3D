@@ -9,7 +9,7 @@ import { Footer } from '../Components/Footer'
 import { NotFound }  from '../Containers/NotFound';
 import { ProductList } from '../Containers/ProductList'
 import { Checkout } from '../Containers/Checkout'
-import {Payment} from '../Containers/Payment'
+import { Payment } from '../Containers/Payment'
 function App() {
 	const initialState = useInitialState()
     return (

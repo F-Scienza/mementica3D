@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 function CategoryCards() {
     return (
 			<div>
-				<h2 className="carousel-title">CATEGORIAS</h2>
+				<h2 className="mementica-font">CATEGORIAS</h2>
 				<div className="Category-cards-container">
 					<Link to="/ProductList/moldesvelas">
 						<Card2
