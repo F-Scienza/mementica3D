@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     background-color: black;
     color: white;
     width: -webkit-fill-available;
@@ -18,4 +19,12 @@
 }
 .footer-logo{
     width: 190px;
+}
+.footer-we{
+    padding: 24px;
+    width: 350px;
+}
+.footer-contact{
+    padding: 24px;
+    width: auto;
 }

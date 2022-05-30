@@ -6,14 +6,15 @@
 ;
 }
 .cart-title{
-    margin-block-start: 0
+    margin-block-start: 0;
+    font-size: 24px;
 }
 .cart-container-cart{
     width: auto;
     height: auto;
 }
 .cart-cards-container{
-    height: 400px;
+    height: 500px;
     width: 350px;
     margin-top: 10px;
     margin-bottom: 20px;
