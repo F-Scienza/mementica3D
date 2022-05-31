@@ -8,7 +8,6 @@ function CarouselCards({titleCarousel, type }) {
     const { products } = state;
     const handleAddToCart = product => () => {
 			addToCart(product);
-			console.log(product);
 		};
     const carousel = useRef(null)
     const leftClick = e => {
