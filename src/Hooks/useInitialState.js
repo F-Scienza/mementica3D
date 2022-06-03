@@ -18,17 +18,20 @@ const useInitialState = ()=>{
             cart: state.cart.filter(items => items.id !== payload.id)
         })
     }
-    const setBuyer = buyerInfo =>{
+    const setBuyer = (buyerInfo) =>{
         setState({
             ...state,
-            buyer: {
-                name: buyerInfo.name,
-                lastName: buyerInfo.lastName,
+            buyer: [...state.buyer, buyerInfo]
+                /*    name: buyerInfo.fname,
+                lastName: buyerInfo.lname,
                 mail: buyerInfo.email,
                 state: buyerInfo.state,
-                city: buyerInfo.city 
-            }
-        })
+                city: buyerInfo.city, 
+                adr: buyerInfo.adr,
+                zip: buyerInfo.zip
+                ],
+                */  
+        });
     }
 
     return{

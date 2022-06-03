@@ -18,7 +18,16 @@ function AdressForm() {
 									type="text"
 									id="fname"
 									name="firstname"
-									placeholder="Juan Perez"
+									placeholder="Juan"
+								/>
+								<label htmlFor="lname">
+									<i className="fa fa-user"></i> Nombre completo:
+								</label>
+								<input
+									type="text"
+									id="lname"
+									name="lasttname"
+									placeholder="Perez"
 								/>
 								<label htmlFor="email">
 									<i className="fa fa-envelope"></i> Email
@@ -58,7 +67,7 @@ function AdressForm() {
 								<input type="text" id="zip" name="zip" placeholder="0000" />
 							</div>
 						</div>
-						<input type="submit" value="Ir a pagar" className="btn" />
+						<input type="submit" value="Ir a pagar" className="btn" onSubmit={setBuyer()} />
 					</form>
 				</div>
 			</div>
