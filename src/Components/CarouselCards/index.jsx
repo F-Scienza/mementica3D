@@ -8,7 +8,6 @@ function CarouselCards({titleCarousel, type }) {
     const { products } = state;
     const handleAddToCart = product => () => {
 			addToCart(product);
-			console.log(product);
 		};
     const carousel = useRef(null)
     const leftClick = e => {
@@ -32,7 +31,7 @@ function CarouselCards({titleCarousel, type }) {
     return (
 		<div className="carousel-container">
 			<div>
-				<h1 className="carousel-title">{titleCarousel}</h1>
+				<h1 className="mementica-font">{titleCarousel}</h1>
 			</div>
 			<div className="cards-container" ref={carousel}>
 				{carouselProducts.map(product => (

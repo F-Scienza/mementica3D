@@ -1,9 +1,9 @@
 import React from 'react';
-import { AdressForm } from '../../Components/AdressForm/Index';
+import { Form } from '../../Components/Form/Index';
 import './Checkout.css'
 function Checkout() {
     return (
-			<AdressForm/>
+			<Form/>
 		);
 }
 export { Checkout };

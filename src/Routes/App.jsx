@@ -10,7 +10,6 @@ import { NotFound }  from '../Containers/NotFound';
 import { ProductList } from '../Containers/ProductList'
 import { Checkout } from '../Containers/Checkout'
 import { Payment } from '../Containers/Payment'
-import { Contact } from '../Containers/Contact'
 function App() {
 	const initialState = useInitialState()
     return (
@@ -25,7 +24,6 @@ function App() {
 						<Route exact path="/Cart" element={<Cart />} />
 						<Route exact path="/Checkout" element={<Checkout />} />
 						<Route exact path="/Checkout/Payment" element={<Payment />} />
-						<Route exact path="/Contact" element={<Contact />} />
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
 						<Route path='/MoldesResina' element={<Resina />}/>

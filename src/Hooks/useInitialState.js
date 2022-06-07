@@ -2,10 +2,7 @@ import { useState } from 'react'
 import initialState from '../initialState'
 
 const useInitialState = ()=>{
-    const [state, setState] = useState(initialState)
-    
-    // creo hooks
-
+    const [state, setState] = useState( initialState )
     const addToCart = (payload) =>{
         setState({
             ...state,
@@ -18,26 +15,19 @@ const useInitialState = ()=>{
             cart: state.cart.filter(items => items.id !== payload.id)
         })
     }
-    const setBuyer = (buyerInfo) =>{
+
+    const createBuyer = buyer =>{
         setState({
             ...state,
-            buyer: [...state.buyer, buyerInfo]
-                /*    name: buyerInfo.fname,
-                lastName: buyerInfo.lname,
-                mail: buyerInfo.email,
-                state: buyerInfo.state,
-                city: buyerInfo.city, 
-                adr: buyerInfo.adr,
-                zip: buyerInfo.zip
-                ],
-                */  
-        });
+            buyer: buyer
+            }
+        )
     }
 
     return{
         addToCart,
         removeFromCart,
-        setBuyer,
+        createBuyer,
         state
     }
 }

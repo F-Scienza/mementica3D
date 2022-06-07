@@ -1,33 +1,46 @@
-import React, {useContext}from 'react';
-import './AdressForm.css';
+import React, {useContext, useState}from 'react';
+import './Form.css';
 import AppContext from '../../Context/AppContext';
-function AdressForm() {
-	const { setBuyer } = useContext(AppContext)
+function Form() {
+	const { createBuyer } = useContext(AppContext)
+	const [ buyer, setBuyer ] = useState({})
+	const handleSetBuyer = e => {
+		setBuyer({
+			...buyer,
+			[e.target.name]: e.target.value
+		})
+	}
+	const handleCreateBuyer = e => {
+		e.preventDefault()
+		createBuyer(buyer)
+	}
 	return (
 		<div className="row">
 			<div className="col-75">
 				<div className="container">
-					<form action="/checkout/payment">
+					<form onSubmit={handleCreateBuyer} >
 						<div className="row">
 							<div className="col-50">
 								<h3>Direccion de envio</h3>
 								<label htmlFor="fname">
-									<i className="fa fa-user"></i> Nombre completo:
+									<i className="fa fa-user"></i> Nombre:
 								</label>
 								<input
 									type="text"
 									id="fname"
 									name="firstname"
 									placeholder="Juan"
+									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="lname">
-									<i className="fa fa-user"></i> Nombre completo:
+									<i className="fa fa-user"></i> Apellido:
 								</label>
 								<input
 									type="text"
 									id="lname"
-									name="lasttname"
-									placeholder="Perez"
+									name="lastname"
+									placeholder="Juan Perez"
+									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="email">
 									<i className="fa fa-envelope"></i> Email
@@ -37,6 +50,7 @@ function AdressForm() {
 									id="email"
 									name="email"
 									placeholder="juan@ejemplo.com"
+									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="state">Provincia</label>
 								<input
@@ -44,6 +58,7 @@ function AdressForm() {
 									id="state"
 									name="state"
 									placeholder="Córdoba"
+									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="city">
 									<i className="fa fa-institution"></i> Ciudad
@@ -52,7 +67,8 @@ function AdressForm() {
 									type="text"
 									id="city"
 									name="city"
-									placeholder="Córdoba"
+									placeholder="Capital"
+									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="adr">
 									<i className="fa fa-address-card-o"></i> Direccion
@@ -62,9 +78,11 @@ function AdressForm() {
 									id="adr"
 									name="address"
 									placeholder="Olmos 123"
+									onChange={handleSetBuyer}
 								/>
-								<label htmlFor="zip">Codigo postal</label>
-								<input type="text" id="zip" name="zip" placeholder="0000" />
+								<label htmlFor="cp">Codigo postal</label>
+								<input type="text" id="cp" name="cp" placeholder="0000" 
+									onChange={handleSetBuyer}/>
 							</div>
 						</div>
 						<input type="submit" value="Ir a pagar" className="btn" onSubmit={setBuyer()} />
@@ -75,4 +93,4 @@ function AdressForm() {
 	);
 }
 
-export { AdressForm };
+export { Form };

@@ -3,24 +3,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     background-color: black;
     color: white;
     width: -webkit-fill-available;
     height: auto;
     text-align: left;
 }   
-.footer-title{
-    font-family: Agency FB;
-    font-weight: 500;
-    font-size: 1.5em;
+.footer-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
 }
-.menu-list{
-    list-style: none;
-    margin-bottom: 0.3em;
-    margin-block-start: 0;
-    padding-inline-start: 0.3em;
+.footer-logo{
+    width: 190px;
 }
-.menu-list-li{
-    list-style: none;
-    text-align: left;
+.footer-we{
+    padding: 24px;
+    width: 350px;
+}
+.footer-contact{
+    padding: 24px;
+    width: auto;
 }
