@@ -28,3 +28,14 @@
     font-weight: 500;
     margin-bottom: 15px;
 }
+.input-radio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.input-radio label{
+    margin-top: 5px;
+}
+.input-radio input{
+    margin-top: 5px;
+}

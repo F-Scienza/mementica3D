@@ -1,6 +1,7 @@
 import React, {useContext, useState}from 'react';
 import './Form.css';
 import AppContext from '../../Context/AppContext';
+
 function Form() {
 	const { createBuyer } = useContext(AppContext)
 	const [ buyer, setBuyer ] = useState({})
@@ -23,7 +24,7 @@ function Form() {
 							<div className="col-50">
 								<h3>Direccion de envio</h3>
 								<label htmlFor="fname">
-									<i className="fa fa-user"></i> Nombre:
+									Nombre:
 								</label>
 								<input
 									type="text"
@@ -33,7 +34,7 @@ function Form() {
 									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="lname">
-									<i className="fa fa-user"></i> Apellido:
+									Apellido:
 								</label>
 								<input
 									type="text"
@@ -43,7 +44,7 @@ function Form() {
 									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="email">
-									<i className="fa fa-envelope"></i> Email
+									Email
 								</label>
 								<input
 									type="text"
@@ -61,7 +62,7 @@ function Form() {
 									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="city">
-									<i className="fa fa-institution"></i> Ciudad
+									Ciudad
 								</label>
 								<input
 									type="text"
@@ -71,7 +72,7 @@ function Form() {
 									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="adr">
-									<i className="fa fa-address-card-o"></i> Direccion
+									Direccion
 								</label>
 								<input
 									type="text"
@@ -82,10 +83,11 @@ function Form() {
 								/>
 								<label htmlFor="cp">Codigo postal</label>
 								<input type="text" id="cp" name="cp" placeholder="0000" 
-									onChange={handleSetBuyer}/>
+									onChange={handleSetBuyer}
+								/>
 							</div>
 						</div>
-						<input type="submit" value="Ir a pagar" className="btn" onSubmit={setBuyer()} />
+						<input type="submit" value="Ir a pagar" className="btn" onSubmit={setBuyer} />
 					</form>
 				</div>
 			</div>
