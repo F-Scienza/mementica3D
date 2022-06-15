@@ -11,7 +11,7 @@ function Header() {
     return (
 			<div className="header-container">
 				<div className="burger-nav">🍔</div>
-				<Link className="header-logos-container" to="/">
+				<Link className="header-logos-container" to="/mementica3d">
 					<img className="header-logo2" src={MLogo} alt="logo" />
 					<img className="header-logo" src={BlackLogo} alt="logo" />
 				</Link>

@@ -17,7 +17,7 @@ function App() {
 				<div className="App">
 					<Header />
 					<Routes>
-						<Route exact path="/" element={<Home />} />
+						<Route exact path="/mementica3d" element={<Home />} />
 						<Route path="*" element={<NotFound />} />
 						<Route path="/ProductList" element={<ProductList />} />
 						<Route path="/ProductList/:type" element={<ProductList />} />

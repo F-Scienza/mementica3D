@@ -17,7 +17,7 @@ function ProductList() {
 
 	return (
 		<div className="ProductsList-container">
-			<h1 className="carousel-title"> {type} </h1>
+			<h1 className="mementica-font"> {type ? type : 'TODOS LOS PRODUCTOS'} </h1>
 			<div className="PorductsList-cards">
 				{typeProducts.length > 0 ?
 					typeProducts.map(product => (
@@ -27,7 +27,13 @@ function ProductList() {
 							handleAddToCart={handleAddToCart}
 						/>
 					))
-					:<h3> Lo sentimos, no hay productos para mostrar</h3>
+					:products.map(product => (
+						<Card
+							key={product.id}
+							product={product}
+							handleAddToCart={handleAddToCart}
+						/>
+					))
 				}
 			</div>
 		</div>

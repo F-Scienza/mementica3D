@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-image: linear-gradient(to left, #111010 0%, black 100%);
     color: white;
     width: -webkit-fill-available;
     height: auto;
