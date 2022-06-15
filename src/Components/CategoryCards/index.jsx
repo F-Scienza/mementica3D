@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 function CategoryCards() {
     return (
-			<div>
+			<div className='category-container'>
 				<h2 className="mementica-font">CATEGORIAS</h2>
 				<div className="Category-cards-container">
 					<Link to="/ProductList/moldesvelas">

@@ -1,3 +1,6 @@
+.category-container{
+    padding: 0.5em;
+}
 .Category-cards-container{
     display: flex;
     flex-wrap: wrap;
