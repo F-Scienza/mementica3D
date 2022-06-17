@@ -9,7 +9,6 @@ import {ReactComponent as ArrowR} from '../../Images/derecha.svg'
 function Slider() {
 	const sliderContainer = useRef(null);
 	const slideInterval = useRef(null)
-
 	const nextSlide = () => {
 		if(sliderContainer.current.children.length>0){
 			const firstEl = sliderContainer.current.children[0]
@@ -25,6 +24,7 @@ function Slider() {
 						transition
 					);
 			}
+			
 			sliderContainer.current.addEventListener('transitionend', transition)
 		} 
 	};
@@ -49,16 +49,16 @@ function Slider() {
 	useEffect(()=>{
 		slideInterval.current = setInterval(() => {
 			nextSlide()
-		}, 4000);
-		// cuando esta el mouse encima para
-		sliderContainer.current.addEventListener('mouseenter', ()=>{
-			clearInterval(slideInterval.current);
-		})
+		}, 5000);
+		// cuando esta el mouse encima paras	
+		sliderContainer.current.addEventListener('mouseenter', () => {
+			clearInterval(slideInterval.current)
+		});
 		// cuando lo sacan continua
 		sliderContainer.current.addEventListener('mouseleave', () => {
 			slideInterval.current = setInterval(() => {
 				nextSlide();
-			}, 4000);
+			}, 5000);
 		});
 	},[])
 
