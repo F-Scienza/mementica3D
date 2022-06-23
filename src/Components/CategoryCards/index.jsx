@@ -13,31 +13,31 @@ function CategoryCards() {
 			<div className='category-container'>
 				<h2 className="mementica-font">CATEGORIAS</h2>
 				<div className="Category-cards-container">
-					<Link to="/ProductList/moldesvelas">
+					<Link to="/mementica3d/ProductList/moldesvelas">
 						<Card2
 							categoryTitle="MOLDES PARA VELAS"
 							categoryBackground={moldesVelas}
 						/>
 					</Link>
-					<Link to="/ProductList/MoldesResina">
+					<Link to="/mementica3d/ProductList/MoldesResina">
 						<Card2
 							categoryTitle="MOLDES PARA RESINA"
 							categoryBackground={moldesResina}
 						/>
 					</Link>
-					<Link to="/ProductList/ProductosVarios">
+					<Link to="/mementica3d/ProductList/ProductosVarios">
 						<Card2
 							categoryTitle="PRODUCTOS DE REVENTA"
 							categoryBackground={reventa}
 						/>
 					</Link>
-					<Link to="/ProductList/Impresion3D">
+					<Link to="/mementica3d/ProductList/Impresion3D">
 						<Card2
 							categoryTitle="IMPRESION 3D"
 							categoryBackground={impresion3D}
 						/>
 					</Link>
-					<Link to="/ProductList/Outlet">
+					<Link to="/mementica3d/ProductList/Outlet">
 						<Card2 categoryTitle="OUTLET" categoryBackground={outletProd} />
 					</Link>
 				</div>

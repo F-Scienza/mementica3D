@@ -19,11 +19,11 @@ function App() {
 					<Routes>
 						<Route exact path="/mementica3d" element={<Home />} />
 						<Route path="*" element={<NotFound />} />
-						<Route path="/ProductList" element={<ProductList />} />
-						<Route path="/ProductList/:type" element={<ProductList />} />
-						<Route exact path="/Cart" element={<Cart />} />
-						<Route exact path="/Checkout" element={<Checkout />} />
-						<Route exact path="/Checkout/Payment" element={<Payment />} />
+						<Route path="/mementica3d/ProductList" element={<ProductList />} />
+						<Route path="/mementica3d/ProductList/:type" element={<ProductList />} />
+						<Route exact path="/mementica3d/Cart" element={<Cart />} />
+						<Route exact path="/mementica3d/Checkout" element={<Checkout />} />
+						<Route exact path="/mementica3d/Checkout/Payment" element={<Payment />} />
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
 						<Route path='/Checkout/PayForm/Payment' element={< />}/>

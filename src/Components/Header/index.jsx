@@ -17,7 +17,7 @@ function Header() {
 				</Link>
 				<div>
 					{' '}
-					<Link className="cart" to="/Cart">
+					<Link className="cart" to="/mementica3d/Cart">
 						🛒
 						{cart.length > 0 ? (
 							<div className="cart-alert">
