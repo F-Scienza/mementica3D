@@ -1,31 +1,30 @@
 import React, {useContext, useState}from 'react';
 import './Form.css';
 import AppContext from '../../Context/AppContext';
-
 function Form() {
-	const { createBuyer } = useContext(AppContext)
-	const [ buyer, setBuyer ] = useState({})
+	const { createBuyer, state } = useContext(AppContext)
+	const {buyer } = state
+	const [ buyer2, setBuyer2 ] = useState({})
 	const handleSetBuyer = e => {
-		setBuyer({
-			...buyer,
+		setBuyer2({
+			...buyer2,
 			[e.target.name]: e.target.value
 		})
 	}
 	const handleCreateBuyer = e => {
 		e.preventDefault()
-		createBuyer(buyer)
+		createBuyer(buyer2)
+
 	}
 	return (
 		<div className="row">
 			<div className="col-75">
 				<div className="container">
-					<form onSubmit={handleCreateBuyer} >
+					<form onSubmit={handleCreateBuyer}>
 						<div className="row">
 							<div className="col-50">
 								<h3>Direccion de envio</h3>
-								<label htmlFor="fname">
-									Nombre:
-								</label>
+								<label htmlFor="fname">Nombre:</label>
 								<input
 									type="text"
 									id="fname"
@@ -33,19 +32,15 @@ function Form() {
 									placeholder="Juan"
 									onChange={handleSetBuyer}
 								/>
-								<label htmlFor="lname">
-									Apellido:
-								</label>
+								<label htmlFor="lname">Apellido:</label>
 								<input
 									type="text"
 									id="lname"
 									name="lastname"
-									placeholder="Juan Perez"
+									placeholder="Perez"
 									onChange={handleSetBuyer}
 								/>
-								<label htmlFor="email">
-									Email
-								</label>
+								<label htmlFor="email">Email</label>
 								<input
 									type="text"
 									id="email"
@@ -61,9 +56,7 @@ function Form() {
 									placeholder="Córdoba"
 									onChange={handleSetBuyer}
 								/>
-								<label htmlFor="city">
-									Ciudad
-								</label>
+								<label htmlFor="city">Ciudad</label>
 								<input
 									type="text"
 									id="city"
@@ -71,9 +64,7 @@ function Form() {
 									placeholder="Capital"
 									onChange={handleSetBuyer}
 								/>
-								<label htmlFor="adr">
-									Direccion
-								</label>
+								<label htmlFor="adr">Direccion</label>
 								<input
 									type="text"
 									id="adr"
@@ -82,12 +73,21 @@ function Form() {
 									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="cp">Codigo postal</label>
-								<input type="text" id="cp" name="cp" placeholder="0000" 
+								<input
+									type="text"
+									id="cp"
+									name="cp"
+									placeholder="0000"
 									onChange={handleSetBuyer}
 								/>
 							</div>
 						</div>
-						<input type="submit" value="Ir a pagar" className="btn" onSubmit={setBuyer} />
+							<input
+								type="submit"
+								value="Ir a pagar"
+								className="btn"
+								onSubmit={setBuyer2}
+							/>
 					</form>
 				</div>
 			</div>

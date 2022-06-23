@@ -26,11 +26,6 @@ function App() {
 						<Route exact path="/Checkout/Payment" element={<Payment />} />
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
-						<Route path='/MoldesResina' element={<Resina />}/>
-						<Route path='/MoldesVelas' element={<Velas />}/>
-						<Route path='/3D' element={<Impresion />}/>
-						<Route path='/Outlet' element={<Outlet />}/>
-						<Route path='/Checkout/PayForm' element={< />}/>
 						<Route path='/Checkout/PayForm/Payment' element={< />}/>
 						*/}
 					</Routes>

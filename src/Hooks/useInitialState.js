@@ -16,6 +16,7 @@ const useInitialState = ()=>{
         })
     }
     const createBuyer = buyer =>{
+        console.log('datos del comprador' + buyer)
         setState({
             ...state,
             buyer: buyer

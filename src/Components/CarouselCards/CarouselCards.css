@@ -59,8 +59,3 @@
     filter: blur(6px);
     z-index: -1;
 }
-@media (width: 850px) {
-    .carousel-container{
-        width: 830px;
-    }
-}
