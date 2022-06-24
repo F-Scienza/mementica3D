@@ -32,7 +32,7 @@ function TotalCost() {
 			) : (
 				<div> no se encontro </div>
 			)}
-			<Link className="cart-btn-pay" to="/Checkout">
+			<Link className="cart-btn-pay" to="/mementica3d/Checkout">
 				<button className="chart-btn ">
 					{' '}
 					Confirmar carrito

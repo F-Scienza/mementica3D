@@ -1,26 +1,35 @@
-import React, {useContext, useState}from 'react';
+import React, { useContext, useRef } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import './Form.css';
 import AppContext from '../../Context/AppContext';
 function Form() {
-	const { createBuyer, state } = useContext(AppContext)
-	const {buyer } = state
-	const [ buyer2, setBuyer2 ] = useState({})
-	const handleSetBuyer = e => {
-		setBuyer2({
-			...buyer2,
-			[e.target.name]: e.target.value
-		})
-	}
-	const handleCreateBuyer = e => {
-		e.preventDefault()
-		createBuyer(buyer2)
+	const { state, addToBuyer } = useContext(AppContext)
+	const form = useRef(null)
+	const navigate = useNavigate()
+	const { cart } = state
+	let cartTotal2 = 0;
+	cart.forEach(prod => (cartTotal2 += prod.price));
 
+	const handleSubmit = () => {
+		const formData = new FormData(form.current)
+		const buyer = {
+			"firstname": formData.get(' firstname'),
+			"lastname": formData.get('lastname'),
+			"phone": formData.get('phone'),
+			"email": formData.get('email'),
+			"state": formData.get('state'),
+			"city": formData.get('city'),
+			"address": formData.get('address'),
+			"cp": formData.get('cp'),
+		}
+		addToBuyer(buyer)
+		navigate('/mementica3d/Checkout/Payment')
 	}
 	return (
 		<div className="row">
 			<div className="col-75">
 				<div className="container">
-					<form onSubmit={handleCreateBuyer}>
+					<form ref={form}>
 						<div className="row">
 							<div className="col-50">
 								<h3>Direccion de envio</h3>
@@ -30,7 +39,6 @@ function Form() {
 									id="fname"
 									name="firstname"
 									placeholder="Juan"
-									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="lname">Apellido:</label>
 								<input
@@ -38,7 +46,13 @@ function Form() {
 									id="lname"
 									name="lastname"
 									placeholder="Perez"
-									onChange={handleSetBuyer}
+								/>
+								<label htmlFor="phone">Telefono</label>
+								<input
+									type="text"
+									id="phone"
+									name="phone"
+									placeholder="numero de telefono"
 								/>
 								<label htmlFor="email">Email</label>
 								<input
@@ -46,7 +60,6 @@ function Form() {
 									id="email"
 									name="email"
 									placeholder="juan@ejemplo.com"
-									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="state">Provincia</label>
 								<input
@@ -54,7 +67,6 @@ function Form() {
 									id="state"
 									name="state"
 									placeholder="Córdoba"
-									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="city">Ciudad</label>
 								<input
@@ -62,7 +74,6 @@ function Form() {
 									id="city"
 									name="city"
 									placeholder="Capital"
-									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="adr">Direccion</label>
 								<input
@@ -70,7 +81,6 @@ function Form() {
 									id="adr"
 									name="address"
 									placeholder="Olmos 123"
-									onChange={handleSetBuyer}
 								/>
 								<label htmlFor="cp">Codigo postal</label>
 								<input
@@ -78,16 +88,18 @@ function Form() {
 									id="cp"
 									name="cp"
 									placeholder="0000"
-									onChange={handleSetBuyer}
 								/>
+								<h3>Vas a pagar: ${cartTotal2} </h3>
 							</div>
 						</div>
-							<input
-								type="submit"
-								value="Ir a pagar"
-								className="btn"
-								onSubmit={setBuyer2}
-							/>
+						<div>
+							<Link to='/mementica3d/cart'>
+								Regresar al carrito
+							</Link>
+						</div>
+						<div>
+							<button type="button" onClick={handleSubmit}> pagar </button>
+						</div>
 					</form>
 				</div>
 			</div>
