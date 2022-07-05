@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Form.css';
 import AppContext from '../../Context/AppContext';
@@ -9,6 +9,8 @@ function Form() {
 	const { cart } = state
 	let cartTotal2 = 0;
 	cart.forEach(prod => (cartTotal2 += prod.price));
+
+	let payment = 'mp'
 
 	const handleSubmit = () => {
 		const formData = new FormData(form.current)
@@ -21,6 +23,7 @@ function Form() {
 			"city": formData.get('city'),
 			"address": formData.get('address'),
 			"cp": formData.get('cp'),
+			"payment": payment
 		}
 		addToBuyer(buyer)
 		navigate('/mementica3d/Checkout/Payment')
@@ -90,6 +93,11 @@ function Form() {
 									placeholder="0000"
 								/>
 								<h3>Vas a pagar: ${cartTotal2} </h3>
+								<h3>Tu metodo de pago:</h3>
+								<div>
+									<input type="radio" value="meracadopago" name="mp" /> mercado pago
+        							<input type="radio" value="transferencia" name="ft" /> transferencia/efectivo	
+								</div>
 							</div>
 						</div>
 						<div>
