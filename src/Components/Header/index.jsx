@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import BlackLogo from '../../Images/logo-mementica-scaled.webp';
 import MLogo from '../../Images/logo-M-scaled.webp'
+import MainNavbar from '../MainNavbar';
 
 function Header() {
 	const {state} = useContext(AppContext)
 	const {cart} = state
     return (
 			<div className="header-container">
-				<div className="burger-nav">🍔</div>
+				<MainNavbar/>
 				<Link className="header-logos-container" to="/mementica3d">
 					<img className="header-logo2" src={MLogo} alt="logo" />
 					<img className="header-logo" src={BlackLogo} alt="logo" />
