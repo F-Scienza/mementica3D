@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.0740279a.chunk.css",
-    "main.js": "/mementica3D/static/js/main.c33abe6d.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.c33abe6d.chunk.js.map",
-    "runtime-main.js": "/mementica3D/static/js/runtime-main.994558ad.js",
-    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.994558ad.js.map",
-    "static/js/2.d98812d3.chunk.js": "/mementica3D/static/js/2.d98812d3.chunk.js",
-    "static/js/2.d98812d3.chunk.js.map": "/mementica3D/static/js/2.d98812d3.chunk.js.map",
-    "static/js/3.a5893876.chunk.js": "/mementica3D/static/js/3.a5893876.chunk.js",
-    "static/js/3.a5893876.chunk.js.map": "/mementica3D/static/js/3.a5893876.chunk.js.map",
+    "main.css": "/mementica3D/static/css/main.9f2dd77a.chunk.css",
+    "main.js": "/mementica3D/static/js/main.07ab2e65.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.07ab2e65.chunk.js.map",
+    "runtime-main.js": "/mementica3D/static/js/runtime-main.6c92b1ab.js",
+    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.6c92b1ab.js.map",
+    "static/js/2.05ddcc18.chunk.js": "/mementica3D/static/js/2.05ddcc18.chunk.js",
+    "static/js/2.05ddcc18.chunk.js.map": "/mementica3D/static/js/2.05ddcc18.chunk.js.map",
+    "static/js/3.b5cdd280.chunk.js": "/mementica3D/static/js/3.b5cdd280.chunk.js",
+    "static/js/3.b5cdd280.chunk.js.map": "/mementica3D/static/js/3.b5cdd280.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.0740279a.chunk.css.map": "/mementica3D/static/css/main.0740279a.chunk.css.map",
-    "static/js/2.d98812d3.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.d98812d3.chunk.js.LICENSE.txt",
+    "static/css/main.9f2dd77a.chunk.css.map": "/mementica3D/static/css/main.9f2dd77a.chunk.css.map",
+    "static/js/2.05ddcc18.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.05ddcc18.chunk.js.LICENSE.txt",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
     "static/media/ceniceros.0bfb5e07.jpg": "/mementica3D/static/media/ceniceros.0bfb5e07.jpg",
+    "static/media/entrega.b4aaa8c3.png": "/mementica3D/static/media/entrega.b4aaa8c3.png",
     "static/media/expansores.211c71eb.jpg": "/mementica3D/static/media/expansores.211c71eb.jpg",
     "static/media/logo-M-scaled.003abde6.webp": "/mementica3D/static/media/logo-M-scaled.003abde6.webp",
     "static/media/logo-mementica-scaled.6e05e0e4.webp": "/mementica3D/static/media/logo-mementica-scaled.6e05e0e4.webp",
@@ -21,9 +22,9 @@
     "static/media/velazigzagrecta.a4999040.jpg": "/mementica3D/static/media/velazigzagrecta.a4999040.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.994558ad.js",
-    "static/js/2.d98812d3.chunk.js",
-    "static/css/main.0740279a.chunk.css",
-    "static/js/main.c33abe6d.chunk.js"
+    "static/js/runtime-main.6c92b1ab.js",
+    "static/js/2.05ddcc18.chunk.js",
+    "static/css/main.9f2dd77a.chunk.css",
+    "static/js/main.07ab2e65.chunk.js"
   ]
 }
