@@ -22,22 +22,18 @@ function TotalCost() {
 	return (
 		<div className="cart-total">
 			<h3 className="carousel-title cart-title"> Subtotal: ${cartTotal}</h3>
-			{cart.find(el => el.id = 10000 ) ? (
+			{cart.find(el => (el.id = 10000)) ? (
 				<div className="cart-envio">
 					<button className="cart-total-btn" onClick={handleAddEnvio}>
 						Agregar envio
-						<img className='cart-envio-img' src={logoEnvio} alt="envio" />
+						<img className="cart-envio-img" src={logoEnvio} alt="envio" />
 					</button>
 				</div>
 			) : (
 				<div> no se encontro </div>
 			)}
-			<Link className="cart-btn-pay" to="/mementica3d/Checkout">
-				<button className="chart-btn ">
-					{' '}
-					Confirmar carrito
-					{' '}
-				</button>
+			<Link className="cart-btn-pay" to="/mementica3d/Checkout/form2">
+				<button className="chart-btn "> Confirmar carrito </button>
 			</Link>
 		</div>
 	);
