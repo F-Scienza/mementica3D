@@ -1,0 +1,39 @@
+.navbar__container{
+    padding: 0 40px;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__links{
+    padding-top: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    right: 0;
+    background-color:black;
+    display: grid;
+    place-items: left;
+    clip-path: circle(0% at top left);
+    transition: clip-path .4s;
+    z-index: 10000;
+}
+.nvabar__link{
+    align-self: center;
+    height: 15px;
+    width: auto;
+    text-decoration: none;
+    color: white;
+    font-family: Agency FB;
+    font-weight: 500;
+    font-size: 3em;
+}
+.nvabar__link:hover{
+    transform: scale(1.2);
+    transition: transform 0.12s;
+}
+.navbar__links:target{
+    clip-path: circle(150% at top left );
+}
