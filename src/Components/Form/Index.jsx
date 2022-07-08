@@ -35,7 +35,7 @@ function Form() {
 					<form ref={form}>
 						<div className="row">
 							<div className="col-50">
-								<h3>Direccion de envio</h3>
+								<h3>Informacion de comprador</h3>
 								<label htmlFor="fname">Nombre:</label>
 								<input
 									type="text"
@@ -86,27 +86,29 @@ function Form() {
 									placeholder="Olmos 123"
 								/>
 								<label htmlFor="cp">Codigo postal</label>
-								<input
-									type="text"
-									id="cp"
-									name="cp"
-									placeholder="0000"
-								/>
+								<input type="text" id="cp" name="cp" placeholder="0000" />
 								<h3>Vas a pagar: ${cartTotal2} </h3>
-								<h3>Tu metodo de pago:</h3>
-								<div>
-									<input type="radio" value="meracadopago" name="mp" /> mercado pago
-        							<input type="radio" value="transferencia" name="ft" /> transferencia/efectivo	
+								<div className="form-paymethod">
+									<h3> Selecciona un metodo de pago </h3>
+									<span>
+										<input type="radio" name="paymethod" value="ft" />{' '}
+										Efectivo/transferencia
+									</span>
+									<span>
+										<input type="radio" name="paymethod" value="mp" /> 
+										Mercadopago ( ${parseInt(cartTotal2*1.15)} )
+									</span>
 								</div>
 							</div>
 						</div>
 						<div>
-							<Link to='/mementica3d/cart'>
-								Regresar al carrito
-							</Link>
+							<Link to="/mementica3d/cart">Regresar al carrito</Link>
 						</div>
 						<div>
-							<button type="button" onClick={handleSubmit}> pagar </button>
+							<button type="button" onClick={handleSubmit}>
+								{' '}
+								pagar{' '}
+							</button>
 						</div>
 					</form>
 				</div>
@@ -114,5 +116,6 @@ function Form() {
 		</div>
 	);
 }
+
 
 export { Form };
