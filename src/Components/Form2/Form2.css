@@ -95,3 +95,7 @@ span.price {
 	font-weight: 550;
 	margin-block-end: 12px;
 }
+.alert{
+	margin-block-start: 0;
+	color: black;
+}
