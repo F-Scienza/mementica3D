@@ -21,7 +21,6 @@ export const useForm = (initalForm, validateForm) => {
 
 	const handleSetMp = e => {
 		const { name, value } = e.target;
-
         value === 'mp' ? setMercadoPago(true) : setMercadoPago(false)
 	};
 

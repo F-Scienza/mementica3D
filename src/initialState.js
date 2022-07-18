@@ -21,13 +21,7 @@ export default {
 			offer: false,
 			price: 4674,
 			description: `Moldes de silicona para resina ceniceros x6 formas 7cm:
-						Medias exteriores del producto sacado del molde:
-						Cuadrado: 8x8x1,8cm
-						Hoja: 8x8,5x1,5cm
-						Corazón: 8,5x8x1,5cm
-						Redondo: 7x1,8cm
-						Triangular: 8x1,7cm
-						Hexágono: 8x7x1,5cm`,
+						Cuadrado, Hoja, Corazón, Redondo, triangular, Hexágono`,
 			sells: 0,
 			image: '/Images/ProductsImages/ceniceros.jpg',
 		},
@@ -166,7 +160,7 @@ export default {
 			id: 114,
 			title: 'Huesito',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 700,
 			description: 'Molde de silicona tipo llavero con forma de huesito 7x4cm',
 			sells: 0,
@@ -176,7 +170,7 @@ export default {
 			id: 115,
 			title: 'Huesito x3 cavidades',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 1190,
 			description:
 				'Molde de silicona para resina, tipo llavero, forma de huesito x3 cavidades 5x3cm ',
@@ -397,7 +391,7 @@ export default {
 		{
 			id: 136,
 			title: 'Vela zig-zag recta',
-			type: 'moldevela',
+			type: 'moldesvelas',
 			offer: false,
 			price: 1700,
 			description: 'Molde de silicona para velas forma zig-zag recta',
@@ -734,7 +728,7 @@ export default {
 		{
 			id: 165,
 			title: 'Vela zig-zag simetrica',
-			type: 'moldevela',
+			type: 'moldesvelas',
 			offer: false,
 			price: 1700,
 			description: 'Molde de silicona para velas forma zig-zag simetrica',
@@ -766,18 +760,18 @@ export default {
 		{
 			id: 168,
 			title: '8 cavidades para jabónes/velas',
-			type: 'moldevela',
+			type: 'moldesvelas',
 			offer: false,
 			price: 1700,
 			description:
-				'Molde de silicona para jabones/shampoo/cosmetica/velas con 8 cavidades cubicas de 4x4x4cm',
+				`Molde de silicona para con 8 cavidades cubicas de 4cm`,
 			sells: 0,
 			image: '',
 		},
 		{
 			id: 169,
 			title: '4 cavidades para jabónes masajeadores',
-			type: 'moldevela',
+			type: 'moldesvelas',
 			offer: false,
 			price: 1700,
 			description:
@@ -788,7 +782,7 @@ export default {
 		{
 			id: 170,
 			title: '4 cavidades para jabónes/shampo/velas 8x6x2cm',
-			type: 'moldevela',
+			type: 'moldesvelas',
 			offer: false,
 			price: 1700,
 			description:
@@ -799,7 +793,7 @@ export default {
 		{
 			id: 171,
 			title: '4 cavidades para jabónes/shampo/velas 6x4x3cm',
-			type: 'moldevela',
+			type: 'moldesvelas',
 			offer: false,
 			price: 1530,
 			description:
@@ -810,7 +804,7 @@ export default {
 		{
 			id: 172,
 			title: '8 cavidades cilindricas para velas',
-			type: 'moldevela',
+			type: 'moldesvelas',
 			offer: false,
 			price: 2550,
 			description:
@@ -852,7 +846,7 @@ export default {
 		},
 		{
 			id: 176,
-			title: 'Posavasos triangulo con borde irregular',
+			title: 'Posavasos triangular',
 			type: 'MoldesResina',
 			offer: false,
 			price: 1700,

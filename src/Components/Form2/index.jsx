@@ -210,7 +210,7 @@ function Form2() {
 					</span>
 				</div>
 				<div>
-					<button type="submit"> pagar </button>
+					<button className='chart-btn' type="submit" > PAGAR </button>
 				</div>
 			</form>
 		</div>
