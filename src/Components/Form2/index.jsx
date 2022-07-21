@@ -42,7 +42,6 @@ const validateForm = form => {
 };
 
 function Form2() {
-	
 	const { state } = useContext(AppContext);
 	const { cart } = state;
 	let cartTotal2 = 0;
@@ -50,16 +49,19 @@ function Form2() {
 	let mercadoPago15 = {
 		price: cartTotal2 * 0.15,
 		title: 'Comision mercado Pago',
-		description: 'costo de servicio mercado pago'
+		description: 'costo de servicio mercado pago',
+		id: 2606
 	}
 	const {
 		form,
 		errors,
 		loading,
 		response,
+		mercadoPago,
 		handleBlur,
 		handleChange,
 		handleSubmit,
+		handleSetMp
 	} = useForm(initialForm, validateForm);
 
 	return (
@@ -115,80 +117,100 @@ function Form2() {
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
 
-				{//logica para que esta parte del formulario aparezca solo
-				 //si compraron el envio
-				<div>
-					<label htmlFor="state">Provincia</label>
-					<input
-						type="text"
-						id="state"
-						name="state"
-						placeholder="Córdoba"
-						onChange={handleChange}
-						onBlur={handleBlur}
-						value={form.state}
-						required
-					/>
-					{errors.state && <p className="required-p"> {errors.state} </p>}
-					<label htmlFor="city">Ciudad</label>
-					<input
-						type="text"
-						id="city"
-						name="city"
-						placeholder="Capital"
-						onChange={handleChange}
-						onBlur={handleBlur}
-						value={form.city}
-						required
-					/>
-					{errors.city && <p className="required-p"> {errors.city} </p>}
-					<label htmlFor="adr">Direccion</label>
-					<input
-						type="text"
-						id="adr"
-						name="adr"
-						placeholder="Olmos 123"
-						onChange={handleChange}
-						onBlur={handleBlur}
-						value={form.adr}
-						required
-					/>
-					{errors.adr && <p className="required-p"> {errors.adr} </p>}
-					<label htmlFor="dpto">Dpto</label>
-					<input
-						type="text"
-						id="dpto"
-						name="dpto"
-						placeholder="10"
-						onChange={handleChange}
-						onBlur={handleBlur}
-						value={form.dpto}
-					/>
-					<label htmlFor="cp">Codigo postal</label>
-					<input
-						type="text"
-						id="cp"
-						name="cp"
-						placeholder="0000"
-						onChange={handleChange}
-						onBlur={handleBlur}
-						value={form.cp}
-						required
-					/>
-				</div>
+				{
+					//logica para que esta parte del formulario aparezca solo
+					//si compraron el envio
+					<div>
+						<label htmlFor="state">Provincia</label>
+						<input
+							type="text"
+							id="state"
+							name="state"
+							placeholder="Córdoba"
+							onChange={handleChange}
+							onBlur={handleBlur}
+							value={form.state}
+							required
+						/>
+						{errors.state && <p className="required-p"> {errors.state} </p>}
+						<label htmlFor="city">Ciudad</label>
+						<input
+							type="text"
+							id="city"
+							name="city"
+							placeholder="Capital"
+							onChange={handleChange}
+							onBlur={handleBlur}
+							value={form.city}
+							required
+						/>
+						{errors.city && <p className="required-p"> {errors.city} </p>}
+						<label htmlFor="adr">Direccion</label>
+						<input
+							type="text"
+							id="adr"
+							name="adr"
+							placeholder="Olmos 123"
+							onChange={handleChange}
+							onBlur={handleBlur}
+							value={form.adr}
+							required
+						/>
+						{errors.adr && <p className="required-p"> {errors.adr} </p>}
+						<label htmlFor="dpto">Dpto</label>
+						<input
+							type="text"
+							id="dpto"
+							name="dpto"
+							placeholder="10"
+							onChange={handleChange}
+							onBlur={handleBlur}
+							value={form.dpto}
+						/>
+						<label htmlFor="cp">Codigo postal</label>
+						<input
+							type="text"
+							id="cp"
+							name="cp"
+							placeholder="0000"
+							onChange={handleChange}
+							onBlur={handleBlur}
+							value={form.cp}
+							required
+						/>
+					</div>
 				}
-
 				{errors.cp && <p> {errors.cp} </p>}
+
 				<div className="form-paymethod">
 					<h3> Selecciona un metodo de pago </h3>
 					<span>
-						<input type="radio" name="paymethod" value="ft" />{' '}
-						Efectivo/transferencia
+						<input
+							type="radio"
+							name="paymethod"
+							value="ft"
+							onChange={handleSetMp}
+						/>{' '}
+						Efectivo/transferencia ( $
+						{parseInt(cartTotal2	)} )
 					</span>
 					<span>
-						<input type="radio" name="paymethod" value="mp" />
+						<input
+							type="radio"
+							name="paymethod"
+							value="mp"
+							onChange={handleSetMp}
+						/>
 						Mercadopago ( ${parseInt(cartTotal2 + mercadoPago15.price)} )
+						{mercadoPago && (
+							<p className="alert">
+								pagar con mercado pago tiene una comision del 15%
+							</p>
+						)}
 					</span>
+				</div>
+				<div>
+					<button className='chart-btn' type="submit" > PAGAR </button>
 				</div>
 			</form>
 		</div>

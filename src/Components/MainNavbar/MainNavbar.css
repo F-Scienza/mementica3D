@@ -18,10 +18,10 @@
     place-items: left;
     clip-path: circle(0% at top left);
     transition: clip-path .4s;
-    z-index: 10000;
+    z-index: 1000;
 }
 .nvabar__link{
-    align-self: center;
+    align-self: flex-start;
     height: 15px;
     width: auto;
     text-decoration: none;
@@ -34,6 +34,13 @@
     transform: scale(1.2);
     transition: transform 0.12s;
 }
+.navbar__x{
+    justify-self: flex-end;
+    margin-right: 15%;
+}
 .navbar__links:target{
     clip-path: circle(150% at top left );
+}
+.burguericon{
+    width: 32px;
 }
