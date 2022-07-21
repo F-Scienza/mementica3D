@@ -9,7 +9,7 @@ function Footer() {
                 <h1 className='mementica-font'>MEMENTICA</h1>
             </div>
             <div className='footer-we'>
-                <h1>Somos mementica</h1>
+                <h1 className='mementica-font'>Somos MEMENTICA</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Veniam, enim qui alias dicta, necessitatibus atque nihil pariatur 

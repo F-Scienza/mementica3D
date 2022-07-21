@@ -16,3 +16,20 @@ body {
 	letter-spacing: 0.3em;
 	margin-block-start: 0.1em;
 }
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(14, 14, 13, 0.103);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(15, 15, 13, 0.200);
+    border-radius: 10px;
+}

@@ -7,7 +7,7 @@ const Card = ({product, handleAddToCart}) => {
 			<div className="img-container">
 				<img className="product-img" src={defaultImage} alt='product' />
 			</div>
-			<h3 className="title">{product.title}</h3>
+			<h3 className="card-title">{product.title}</h3>
 			<p className="price">${product.price}</p>
 			<p className="description">{product.description}</p>
 			<button className="chart-btn" onClick={handleAddToCart(product)}>

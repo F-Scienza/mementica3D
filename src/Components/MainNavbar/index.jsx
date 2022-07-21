@@ -14,9 +14,26 @@ function MainNavbar() {
 					<a className="nvabar__link navbar__x" href="#/">
 						x
 					</a>
+					<Link className="nvabar__link" to="/mementica3d/ProductList/moldesvelas">
+						{' '}
+						MOLDES PARA VELAS Y JABONES{' '}
+					</Link>
+					<Link className="nvabar__link" to="/mementica3d/ProductList/moldesresina">
+						{' '}
+						MOLDES PARA RESINA
+						{' '}
+					</Link>
+					<Link className="nvabar__link" to="/mementica3d/ProductList/Impresion3D">
+						{' '}
+						PRODUCTOS DE IMPRESION 3D{' '}
+					</Link>
 					<Link className="nvabar__link" to="/mementica3d/ProductList">
 						{' '}
-						PRODUCTOS
+						PRODUCTOS DE REVENTA
+					</Link>
+					<Link className="nvabar__link" to="/mementica3d/ProductList">
+						{' '}
+						TODOS LOS PRODUCTOS
 					</Link>
 					<Link className="nvabar__link" to="/mementica3d/cart">
 						{' '}

@@ -5,7 +5,7 @@ import AppContext from '../../Context/AppContext';
 import BlackLogo from '../../Images/logo-mementica-scaled.webp';
 import MLogo from '../../Images/logo-M-scaled.webp'
 import MainNavbar from '../MainNavbar';
-
+import cartIcon from '../../Images/Asets/shopping-cart.png'
 function Header() {
 	const {state} = useContext(AppContext)
 	const {cart} = state
@@ -19,7 +19,7 @@ function Header() {
 				<div>
 					{' '}
 					<Link className="cart" to="/mementica3d/Cart">
-						🛒
+						<img className="cart-icon" src={cartIcon} alt="" />
 						{cart.length > 0 ? (
 							<div className="cart-alert">
 								<span>{cart.length}</span>

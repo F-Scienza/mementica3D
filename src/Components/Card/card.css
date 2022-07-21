@@ -23,16 +23,17 @@
 }
 .img-container{
     grid-area: img;
-    width: 150px;
+    width: 134px;
     align-self: center;
     margin-right: 1em;
 }
 .product-img{
     width: 100%;
 }
-.title{
+.card-title{
     grid-area: title;
-    margin-block-end: 0;
+    margin-block-end: 4px;
+    height: auto;
 }
 .price{
     grid-area: price;

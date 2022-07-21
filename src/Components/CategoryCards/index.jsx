@@ -4,7 +4,6 @@ import './CategoryCards.css'
 import moldesResina from '../../Images/ProductsImages/ceniceros.jpg'
 import moldesVelas from '../../Images/ProductsImages/velazigzagrecta.jpg'
 import reventa from '../../Images/ProductsImages/resinaepoxi300.jpg'
-import outletProd from '../../Images/ProductsImages/expansores.jpg'
 import impresion3D from '../../Images/logo-M-scaled.webp'
 import { Link } from 'react-router-dom';
 
@@ -36,9 +35,6 @@ function CategoryCards() {
 							categoryTitle="IMPRESION 3D"
 							categoryBackground={impresion3D}
 						/>
-					</Link>
-					<Link to="/mementica3d/ProductList/Outlet">
-						<Card2 categoryTitle="OUTLET" categoryBackground={outletProd} />
 					</Link>
 				</div>
 			</div>

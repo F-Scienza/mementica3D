@@ -1,6 +1,7 @@
 import React from 'react';
 import './CartCard.css'
 import defaultImage from '../../Images/logo-M-scaled.webp';
+import deleteIcon from '../../Images/Asets/delete.png'
 const CartCard = ({ product, handleRemoveFromCart }) => {
 	return (
 		<>
@@ -13,7 +14,7 @@ const CartCard = ({ product, handleRemoveFromCart }) => {
 					className="cartcard-btn"
 					onClick={handleRemoveFromCart(product)}
 				>
-					x
+					<img className='cartcard-delete' src={deleteIcon} alt="x" />
 				</button>
 			</div>
 		</>

@@ -44,14 +44,12 @@
 }
 .cartcard-btn{
     grid-area: btn;
-    border-radius: 50%;
-    background-color: red;
+    background-color: transparent;
     border-color: transparent;
-    height: 22px;
-    width: 22px;
-    color: white;
-    padding: 0px 0px;
-    font-size: 16px;
-    font-weight: 600;
+    height: 24px;
     justify-self: right;
+    cursor: pointer;
+}
+.cartcard-delete{
+    height: 24px;
 }

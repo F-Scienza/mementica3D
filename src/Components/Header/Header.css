@@ -25,9 +25,15 @@
     margin-right: 12px;
 }
 .cart{
+    height: 40px;
+    padding: 0 40px;
     display: flex;
     flex-direction: row;
     text-decoration: none;
+}
+.cart-icon{
+    margin-top: 8px;
+    height: 24px;
 }
 .cart-alert{
     color: white;
