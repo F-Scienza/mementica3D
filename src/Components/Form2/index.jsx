@@ -1,8 +1,8 @@
-import React, {useContext} from 'react';
+import React, { useContext, useState } from 'react';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
 import './Form2.css';
-
+import mpimg from '../../Images/Asets/mp.png'
 const initialForm = {
 	fname: '',
 	lname: '',
@@ -18,12 +18,11 @@ const validateForm = form => {
 	let errors = {};
 	let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
 	let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
-	
 
 	if (!form.fname.trim()) {
 		errors.fname = 'El campo nobmre es requerido';
 	} else if (!regexName.test(form.fname.trim())) {
-		errors.fname = 'Este campo solo acepta letras y espacios en blanco'
+		errors.fname = 'Este campo solo acepta letras y espacios en blanco';
 	}
 	if (!form.lname.trim()) {
 		errors.lname = 'El campo apellido es requerido';
@@ -50,22 +49,24 @@ function Form2() {
 		price: cartTotal2 * 0.15,
 		title: 'Comision mercado Pago',
 		description: 'costo de servicio mercado pago',
-		id: 2606
-	}
+		id: 2606,
+	};
 	const {
 		form,
 		errors,
 		loading,
 		response,
 		mercadoPago,
+		envio,
 		handleBlur,
 		handleChange,
 		handleSubmit,
-		handleSetMp
+		handleSetMp,
+		handleSetEnvio,
 	} = useForm(initialForm, validateForm);
 
 	return (
-		<div>
+		<div className="form-container">
 			<h1>Informacion del comprador</h1>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor="fname">Nombre:</label>
@@ -116,11 +117,32 @@ function Form2() {
 					required
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
+				<div className="label-envio">
+					<label htmlFor="envio">¿Deseas agregar informacion de envio?</label>
+					<input
+						id="envio"
+						type="checkbox"
+						name="envio"
+						defaultChecked={envio}
+						onChange={handleSetEnvio}
+					/>
+				</div>
 
-				{
+				{envio && (
 					//logica para que esta parte del formulario aparezca solo
 					//si compraron el envio
-					<div>
+					<div className="form-infoenvio">
+						<label htmlFor="cp">Codigo postal</label>
+						<input
+							type="text"
+							id="cp"
+							name="cp"
+							placeholder="0000"
+							onChange={handleChange}
+							onBlur={handleBlur}
+							value={form.cp}
+							required
+						/>
 						<label htmlFor="state">Provincia</label>
 						<input
 							type="text"
@@ -167,50 +189,48 @@ function Form2() {
 							onBlur={handleBlur}
 							value={form.dpto}
 						/>
-						<label htmlFor="cp">Codigo postal</label>
-						<input
-							type="text"
-							id="cp"
-							name="cp"
-							placeholder="0000"
-							onChange={handleChange}
-							onBlur={handleBlur}
-							value={form.cp}
-							required
-						/>
 					</div>
-				}
+				)}
 				{errors.cp && <p> {errors.cp} </p>}
 
-				<div className="form-paymethod">
+				<div className="form-paymethod ">
 					<h3> Selecciona un metodo de pago </h3>
-					<span>
+					<div className="label-envio">
 						<input
 							type="radio"
 							name="paymethod"
 							value="ft"
+							id="ft"
 							onChange={handleSetMp}
 						/>{' '}
-						Efectivo/transferencia ( $
-						{parseInt(cartTotal2	)} )
-					</span>
-					<span>
+						<label htmlFor="ft">
+							Efectivo/transferencia ( ${parseInt(cartTotal2)} )
+						</label>
+					</div>
+					<div className="label-envio">
 						<input
 							type="radio"
 							name="paymethod"
 							value="mp"
 							onChange={handleSetMp}
+							id="mp"
 						/>
-						Mercadopago ( ${parseInt(cartTotal2 + mercadoPago15.price)} )
-						{mercadoPago && (
-							<p className="alert">
-								pagar con mercado pago tiene una comision del 15%
-							</p>
-						)}
-					</span>
+						<label htmlFor="mp">
+							<img src={mpimg} alt="mp" className='icon-mp' />
+							(${parseInt(cartTotal2 + mercadoPago15.price)})
+						</label>
+					</div>
+					{mercadoPago && (
+						<h4 className="alert">
+							pagar con mercado pago tiene una comision del 15%
+						</h4>
+					)}
 				</div>
 				<div>
-					<button className='chart-btn' type="submit" > PAGAR </button>
+					<button className="chart-btn" type="submit">
+						{' '}
+						PAGAR{' '}
+					</button>
 				</div>
 			</form>
 		</div>

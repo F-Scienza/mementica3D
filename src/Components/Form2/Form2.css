@@ -27,14 +27,16 @@
 	padding: 0 16px;
 }
 
-.container {
+.form-container {
 	background-color: #f2f2f2;
 	padding: 5px 20px 15px 20px;
 	border: 1px solid lightgrey;
-	border-radius: 3px;
-	width: 330px;
+	border-radius: 12px;
+	width: auto;
 	height: auto;
 	margin-top: 20px;
+	display: grid;
+
 }
 
 input[type='text'],
@@ -42,7 +44,7 @@ input[type='email'],
 input[type='number'] {
 	width: 300px;
 	margin-top: 4px;
-	margin-bottom: 12px;
+	margin-bottom: 16px;
 	padding: 12px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
@@ -51,14 +53,20 @@ input[type='number']::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 }
 label {
-	margin-bottom: 4px;
-	display: block;
+	font-size: 1.2em;
+	margin-bottom: 0px;
 }
 
 .icon-container {
 	margin-bottom: 20px;
 	padding: 7px 0;
 	font-size: 24px;
+}
+.label-envio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2px;
 }
 
 .btn {
@@ -81,7 +89,9 @@ span.price {
 	float: right;
 	color: grey;
 }
-
+.form-infoenvio{
+	margin-top: 16px;
+}
 .form-paymethod {
 	margin-bottom: 1em;
 	display: flex;
@@ -98,4 +108,7 @@ span.price {
 .alert{
 	margin-block-start: 0;
 	color: black;
+}
+.icon-mp{
+	height: 1.5em;
 }

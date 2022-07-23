@@ -6,6 +6,7 @@ export const useForm = (initalForm, validateForm) => {
 	const [loading, setLoading] = useState(false);
 	const [response, setResponse] = useState(null);
     const [mercadoPago, setMercadoPago] = useState(false)
+	const [envio, setEnvio] = useState(false)
 	const handleChange = e => {
 		const { name, value } = e.target;
 		setForm({
@@ -20,10 +21,12 @@ export const useForm = (initalForm, validateForm) => {
 	};
 
 	const handleSetMp = e => {
-		const { name, value } = e.target;
+		const { value } = e.target;
         value === 'mp' ? setMercadoPago(true) : setMercadoPago(false)
 	};
-
+	const handleSetEnvio = () =>{
+		setEnvio(!envio)
+	}
 	const handleSubmit = e => {
 		e.preventDefault();
 		setErrors(validateForm(form));
@@ -41,9 +44,11 @@ export const useForm = (initalForm, validateForm) => {
 		loading,
 		response,
         mercadoPago,
+		envio,
 		handleBlur,
 		handleChange,
 		handleSubmit,
-		handleSetMp
+		handleSetMp,
+		handleSetEnvio
 	};
 };
