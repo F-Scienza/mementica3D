@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
 import './Form2.css';
-import mpimg from '../../Images/Asets/mp.png'
+import mpimg from '../../Images/Asets/mp.png';
 const initialForm = {
 	fname: '',
 	lname: '',
@@ -216,7 +216,7 @@ function Form2() {
 							id="mp"
 						/>
 						<label htmlFor="mp">
-							<img src={mpimg} alt="mp" className='icon-mp' />
+							<img src={mpimg} alt="mp" className="icon-mp" />
 							(${parseInt(cartTotal2 + mercadoPago15.price)})
 						</label>
 					</div>
