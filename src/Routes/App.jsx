@@ -29,7 +29,6 @@ function App() {
 
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
-						<Route path='/Checkout/PayForm/Payment' element={< />}/>
 						*/}
 					</Routes>
 					<Footer />

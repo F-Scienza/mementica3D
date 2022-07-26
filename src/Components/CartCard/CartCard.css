@@ -1,7 +1,7 @@
 .cardcart-container{
     background-color: white;
     padding: 20px;
-    height: 100px;
+    height: 60px;
     width: 270px;
     border-radius: 25px;
     margin: 10px 16px;
@@ -9,38 +9,32 @@
     display: grid;
     grid-template-areas: 
         "img t btn"
-        "img p price"
+        "img price btn"
     ;
-}
-.cartcard-price{
-    margin-top: 4px;
-    grid-area: price;
-    font-size:larger;
-    font-weight: 600;
-    align-self:flex-end;
-    margin-block-end: 0;
-    margin-block-start: 0;
-}
-.cartcard-img{
-    grid-area: img;
-    width: 90px;
-    margin-right: 12px;
-    justify-self: center;
-    align-self: center;
+    grid-template-columns: 60px 1fr 60px;
 }
 .cartcard-title{
     height: 20px;
     margin-top: 4px;
     margin-bottom: 4px;
     align-self: center;
+    font-weight: lighter;
     grid-area: t;
 }
-.cartcard-description{
+.cartcard-price{
+    grid-area: price;
+    font-size: 1.5em;
+    font-weight: bold;
+    align-self:flex-end;
     margin-block-end: 0;
     margin-block-start: 0;
-    height: auto;
-    width: 120px;
-    grid-area: p;
+}
+.cartcard-img{
+    grid-area: img;
+    width: 60px;
+    margin-right: 12px;
+    justify-self: center;
+    align-self: center;
 }
 .cartcard-btn{
     grid-area: btn;
@@ -48,6 +42,7 @@
     border-color: transparent;
     height: 24px;
     justify-self: right;
+    align-self: center;
     cursor: pointer;
 }
 .cartcard-delete{
