@@ -239,7 +239,8 @@ export default {
 			description:
 				'Molde de silicona para paleta de maquillaje pintura de uñas 12,5cm x 9,5cm',
 			sells: 4,
-			image: '/Images/ProductsImages/paletamaquillaje.jpg',
+			image:
+				'https://drive.google.com/file/d/1PMt9raOjc4f6kLci623YzmqAqyMY5UE7/view?usp=sharing',
 		},
 		{
 			id: 122,
@@ -763,8 +764,7 @@ export default {
 			type: 'moldesvelas',
 			offer: false,
 			price: 1700,
-			description:
-				`Molde de silicona para con 8 cavidades cubicas de 4cm`,
+			description: `Molde de silicona para con 8 cavidades cubicas de 4cm`,
 			sells: 0,
 			image: '',
 		},

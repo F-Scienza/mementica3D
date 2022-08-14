@@ -3,28 +3,33 @@ import './Footer.css'
 import logomementica from '../../Images/logo-M-scaled.webp'
 function Footer() {
     return (
-        <div className='footer-container'>
-            <div className='footer-logo-container'>
-                <img src={logomementica} alt="logo-mementica" className='footer-logo' />
-                <h1 className='mementica-font'>MEMENTICA</h1>
-            </div>
-            <div className='footer-we'>
-                <h1 className='mementica-font'>Somos MEMENTICA</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Veniam, enim qui alias dicta, necessitatibus atque nihil pariatur 
-                    facilis illum tempore aliquid tempora. Molestiae, officia cum maiores 
-                    ea dicta nihil voluptates.
-                </p>
-            </div>
-            <div className='footer-contact'>
-                <h2>Contactanos</h2>
-                <p>mementica@gmail.com</p>
-                <p>351000000</p>
-                <h3>Buscanos en instagram</h3>
-                <p>@mementica3d</p>
-            </div>
-            {/*<div>
+			<div className="footer-container">
+				<div className="footer-logo-container">
+					<img
+						src={logomementica}
+						alt="logo-mementica"
+						className="footer-logo"
+					/>
+					<h1 className="mementica-font">MEMENTICA</h1>
+				</div>
+				<div className="footer-we">
+					<h1 className="mementica-font">¿QUIENES SOMOS?</h1>
+					<p>
+						Somos emprendedores igual que vos, buscamos crecer junto a nuestros clientes,
+                        innovamos con vos. <br/>
+                        Todos los productos son de fabricacion propia: molderia de caucho,
+                        impresiones 3D y carteleria con polifan. <br/>
+                        Si es necesario algún molde o impresión 3D en particular que no esté en nuestro catálogo, 
+                        podes contactarnos y nosotros lo diseñamos. 
+					</p>
+				</div>
+				<div className="footer-contact">
+					<h2 className="mementica-font">Contactanos</h2>
+					<p>mementica@gmail.com</p>
+					<p>351000000</p>
+					<p>@mementica3d</p>
+				</div>
+				{/*<div>
                 <span className='footer-title'>AYUDA</span>
                 <ul className='menu-list'>
                     <li className='menu-list-li'>Preguntas frecuentes</li>
@@ -48,9 +53,8 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
-            /div>*/
-            }
-        </div>
-    );
+            /div>*/}
+			</div>
+		);
 }
 export { Footer };

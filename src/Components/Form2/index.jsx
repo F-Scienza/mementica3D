@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
 import './Form2.css';
@@ -222,11 +223,14 @@ function Form2() {
 					</div>
 					{mercadoPago && (
 						<h4 className="alert">
-							pagar con mercado pago tiene una comision del 15%
+							Pagar con mercado pago tiene una comision del 15%
 						</h4>
 					)}
 				</div>
 				<div>
+					<div className="backbutton">
+						<Link to="/mementica3d/cart">Regresar al carrito</Link>
+					</div>
 					<button className="chart-btn" type="submit">
 						{' '}
 						PAGAR{' '}
