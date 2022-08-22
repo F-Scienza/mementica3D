@@ -10,7 +10,7 @@ import { NotFound }  from '../Containers/NotFound';
 import { ProductList } from '../Containers/ProductList'
 import { Checkout } from '../Containers/Checkout'
 import { Payment } from '../Containers/Payment'
-import Form2 from '../Components/Form2';
+import {Form2} from '../Components/Form2';
 function App() {
 	const initialState = useInitialState()
     return (
