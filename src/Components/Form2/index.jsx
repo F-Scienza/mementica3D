@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
@@ -7,6 +7,7 @@ import mpimg from '../../Images/Asets/mp.png';
 const initialForm = {
 	fname: '',
 	lname: '',
+	dni: '',
 	email: '',
 	phone: '',
 	state: '',
@@ -94,7 +95,21 @@ function Form2() {
 					required
 				/>
 				{errors.lname && <p className="required-p"> {errors.lname} </p>}
-				<label htmlFor="phone">Telefono</label>
+
+				<label htmlFor="dni">Numero de documento</label>
+				<input
+					type="number"
+					id="dni"
+					name="dni"
+					placeholder="dni"
+					onChange={handleChange}
+					onBlur={handleBlur}
+					value={form.dni}
+					required
+				/>
+				{errors.dni && <p className="required-p"> {errors.dni} </p>}
+
+				<label htmlFor="phone">Numero de documento</label>
 				<input
 					type="number"
 					id="phone"
@@ -221,20 +236,24 @@ function Form2() {
 							(${parseInt(cartTotal2 + mercadoPago15.price)})
 						</label>
 					</div>
-					{mercadoPago && (
-						<h4 className="alert">
-							Pagar con mercado pago tiene una comision del 15%
-						</h4>
-					)}
+
+					<h4 className="alert ">
+						Pagar con mercado pago tiene una comision del 15%
+					</h4>
 				</div>
 				<div>
-					<div className="backbutton">
-						<Link to="/mementica3d/cart">Regresar al carrito</Link>
-					</div>
-					<button className="chart-btn" type="submit">
-						{' '}
-						PAGAR{' '}
-					</button>
+					<Link className="backbutton-link" to="/mementica3d/cart">
+						<div className="backbutton">Regresar al carrito</div>
+					</Link>
+					{mercadoPago === true ? (
+						<button className="chart-btn btn-mercadopago" type="submit">
+							IR A PAGAR
+						</button>
+					) : (
+						<button className="chart-btn btn-transferencia" type="submit">
+							IR A PAGAR
+						</button>
+					)}
 				</div>
 			</form>
 		</div>
