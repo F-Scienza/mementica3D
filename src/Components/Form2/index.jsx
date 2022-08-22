@@ -101,7 +101,7 @@ function Form2() {
 					type="number"
 					id="dni"
 					name="dni"
-					placeholder="dni"
+					placeholder="N° DNI"
 					onChange={handleChange}
 					onBlur={handleBlur}
 					value={form.dni}
