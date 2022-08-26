@@ -11,6 +11,7 @@ import { ProductList } from '../Containers/ProductList'
 import { Checkout } from '../Containers/Checkout'
 import { Payment } from '../Containers/Payment'
 import {Form2} from '../Components/Form2';
+import { PayInfo } from '../Containers/PayInfo';
 function App() {
 	const initialState = useInitialState()
     return (
@@ -26,7 +27,7 @@ function App() {
 						<Route exact path="/mementica3d/Checkout" element={<Checkout />} />
 						<Route exact path="/mementica3d/Checkout/Payment" element={<Payment />} />
 						<Route exact path="/mementica3d/Checkout/form2" element={<Form2/>} />
-
+						<Route exact path="/mementica3d/Checkout/form/payinfo" element={<PayInfo/>}/>
 						{/*
 						<Route path='/Login' element={<Loguin/>}/>
 						*/}

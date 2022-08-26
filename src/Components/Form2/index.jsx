@@ -250,9 +250,11 @@ function Form2() {
 							IR A PAGAR
 						</button>
 					) : (
-						<button className="chart-btn btn-transferencia" type="submit">
-							IR A PAGAR
-						</button>
+						<Link to="/mementica3d/Checkout/form/PAYINFO">
+							<button className="chart-btn btn-transferencia" type="submit">
+								IR A PAGAR
+							</button>
+						</Link>
 					)}
 				</div>
 			</form>
