@@ -507,17 +507,6 @@ export default {
 			image: '',
 		},
 		{
-			id: 146,
-			title: 'Bandeja irregular 29x17cm',
-			type: 'MoldesResina',
-			offer: false,
-			price: 2550,
-			description:
-				'Molde de silicona para resina con forma irregular para bandeja de 29x17cm acabado liso brillante',
-			sells: 0,
-			image: '',
-		},
-		{
 			id: 147,
 			title: 'Marcador doble 18x4cm',
 			type: 'MoldesResina',
@@ -525,17 +514,6 @@ export default {
 			price: 1360,
 			description:
 				'Molde de silicona para resina forma de marcapaginas 18x4cm x 2 cavidades',
-			sells: 0,
-			image: '',
-		},
-		{
-			id: 148,
-			title: 'Paleta pintor 8,5cm',
-			type: 'MoldesResina',
-			offer: false,
-			price: 1105,
-			description:
-				'Molde de silicona para paleta de pintor con agujero. 8,5cm acabado liso.',
 			sells: 0,
 			image: '',
 		},
@@ -854,6 +832,28 @@ export default {
 				'Molde de silicona para resina con forma de triangulos con un borde irregular para posavasos 4 cavidades',
 			sells: 0,
 			image: '/Images/ProductsImages/pastillas.jpg',
+		},
+		{
+			id: 177,
+			title: 'Bandeja irregular 29x17cm',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2550,
+			description:
+				'Molde de silicona para resina con forma irregular para bandeja de 29x17cm acabado liso brillante',
+			sells: 0,
+			image: '',
+		},
+		{
+			id: 178,
+			title: 'Paleta pintor 8,5cm',
+			type: 'MoldesResina',
+			offer: false,
+			price: 1105,
+			description:
+				'Molde de silicona para paleta de pintor con agujero. 8,5cm acabado liso.',
+			sells: 0,
+			image: '',
 		},
 
 		{
