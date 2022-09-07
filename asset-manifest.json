@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mementica3D/static/css/main.1615a2c0.chunk.css",
-    "main.js": "/mementica3D/static/js/main.f66764d8.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.f66764d8.chunk.js.map",
+    "main.js": "/mementica3D/static/js/main.a61b4e1b.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.a61b4e1b.chunk.js.map",
     "runtime-main.js": "/mementica3D/static/js/runtime-main.6c92b1ab.js",
     "runtime-main.js.map": "/mementica3D/static/js/runtime-main.6c92b1ab.js.map",
     "static/js/2.b200cc39.chunk.js": "/mementica3D/static/js/2.b200cc39.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.6c92b1ab.js",
     "static/js/2.b200cc39.chunk.js",
     "static/css/main.1615a2c0.chunk.css",
-    "static/js/main.f66764d8.chunk.js"
+    "static/js/main.a61b4e1b.chunk.js"
   ]
 }
