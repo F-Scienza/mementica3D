@@ -9,9 +9,15 @@ import { Link } from 'react-router-dom';
 
 function CategoryCards() {
     return (
-			<div className='category-container'>
+			<div className="category-container">
 				<h2 className="mementica-font">CATEGORIAS</h2>
 				<div className="Category-cards-container">
+					<Link to="/mementica3d/ProductList/">
+						<Card2
+							categoryTitle="VER TODOS LOS PRODUCTOS"
+							categoryBackground={impresion3D}
+						/>
+					</Link>
 					<Link to="/mementica3d/ProductList/moldesvelas">
 						<Card2
 							categoryTitle="MOLDES PARA VELAS"

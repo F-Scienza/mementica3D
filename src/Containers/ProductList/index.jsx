@@ -5,8 +5,7 @@ import { Card } from '../../Components/Card';
 import { Searcher } from '../../Components/Searcher';
 import './productList.css';
 function ProductList() {
-	const { state, addToCart, searchedProducts } = useContext(AppContext);
-	const { products } = state;
+	const { addToCart, searchedProducts } = useContext(AppContext);
 	const handleAddToCart = product => () => {
 		addToCart(product);
 	};

@@ -10,7 +10,7 @@ function PayInfo() {
 				<h2>PAGO MEDIANTE EFECTIVO O TRANSFERENCIA</h2>
 				<p>
 					Para completar tu compra debes realizar una transferencia con el monto
-					$$$ MONTO
+					${importeTotal} MONTO
 					<br />
 					una vez confirmado el pago, nos comunicaremos contigo, mediante los
 					datos solicitados en el formulario anterior e informaremos los plazos
