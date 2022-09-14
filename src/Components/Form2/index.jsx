@@ -47,8 +47,8 @@ function Form2() {
 	const { cart } = state;
 	let cartTotal2 = 0;
 	cart.forEach(prod => (cartTotal2 += prod.price));
-	let mercadoPago15 = {
-		price: cartTotal2 * 0.15,
+	let mercadoPago10 = {
+		price: cartTotal2 * 0.10,
 		title: 'Comision mercado Pago',
 		description: 'costo de servicio mercado pago',
 		id: 2606,
@@ -56,8 +56,6 @@ function Form2() {
 	const {
 		form,
 		errors,
-		loading,
-		response,
 		mercadoPago,
 		envio,
 		handleBlur,
@@ -233,13 +231,9 @@ function Form2() {
 						/>
 						<label htmlFor="mp">
 							<img src={mpimg} alt="mp" className="icon-mp" />
-							(${parseInt(cartTotal2 + mercadoPago15.price)})
+							(${parseInt(cartTotal2 + mercadoPago10.price)})
 						</label>
 					</div>
-
-					<h4 className="alert ">
-						Pagar con mercado pago tiene una comision del 15%
-					</h4>
 				</div>
 				<div>
 					<Link className="backbutton-link" to="/mementica3d/cart">

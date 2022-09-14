@@ -146,7 +146,7 @@ span.price {
 	background: #4CAF50;
 	font-weight: 600;
     line-height: 1.25;
-
+	cursor: not-allowed;
 }
 
 .btn-mercadopago{
