@@ -34,6 +34,9 @@ const validateForm = form => {
 	if (!form.phone.trim()) {
 		errors.phone = 'Escribe un numero de telefono';
 	}
+	if (!form.dni.trim()) {
+		errors.dni = 'Escribe un numero de documento';
+	}
 	if (!form.email.trim()) {
 		errors.email = 'El campo email es requerido';
 	} else if (!regexEmail.test(form.email.trim())) {
@@ -48,7 +51,7 @@ function Form2() {
 	let cartTotal2 = 0;
 	cart.forEach(prod => (cartTotal2 += prod.price));
 	let mercadoPago10 = {
-		price: cartTotal2 * 0.10,
+		price: cartTotal2 * 0.1,
 		title: 'Comision mercado Pago',
 		description: 'costo de servicio mercado pago',
 		id: 2606,
@@ -107,7 +110,7 @@ function Form2() {
 				/>
 				{errors.dni && <p className="required-p"> {errors.dni} </p>}
 
-				<label htmlFor="phone">Numero de documento</label>
+				<label htmlFor="phone">Numero de telefono</label>
 				<input
 					type="number"
 					id="phone"
@@ -239,16 +242,20 @@ function Form2() {
 					<Link className="backbutton-link" to="/mementica3d/cart">
 						<div className="backbutton">Regresar al carrito</div>
 					</Link>
-					{mercadoPago === true ? (
-						<button className="chart-btn btn-mercadopago" type="submit">
-							IR A PAGAR
-						</button>
-					) : (
-						<Link to="/mementica3d/Checkout/form/PAYINFO">
-							<button className="chart-btn btn-transferencia" type="submit">
+					{Object.entries(errors) == 0 ? (
+						mercadoPago === true ? (
+							<button className="chart-btn btn-mercadopago" type="submit">
 								IR A PAGAR
 							</button>
-						</Link>
+						) : (
+							<Link to="/mementica3d/Checkout/form/PAYINFO">
+								<button className="chart-btn btn-transferencia" type="submit">
+									IR A PAGAR
+								</button>
+							</Link>
+						)
+					) : (
+						<div className="backbutton alert">IR A PAGAR</div>
 					)}
 				</div>
 			</form>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export const useForm = (initalForm, validateForm) => {
 	const [form, setForm] = useState(initalForm);
-	const [errors, setErrors] = useState({});
+	const [errors, setErrors] = useState({defecto:'pordefecto'});
 	const [loading, setLoading] = useState(false);
 	const [response, setResponse] = useState(null);
     const [mercadoPago, setMercadoPago] = useState(false)
