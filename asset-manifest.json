@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.cece227c.chunk.css",
-    "main.js": "/mementica3D/static/js/main.5d8edb05.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.5d8edb05.chunk.js.map",
+    "main.css": "/mementica3D/static/css/main.57569bb4.chunk.css",
+    "main.js": "/mementica3D/static/js/main.b60cb8cc.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.b60cb8cc.chunk.js.map",
     "runtime-main.js": "/mementica3D/static/js/runtime-main.6c92b1ab.js",
     "runtime-main.js.map": "/mementica3D/static/js/runtime-main.6c92b1ab.js.map",
     "static/js/2.b200cc39.chunk.js": "/mementica3D/static/js/2.b200cc39.chunk.js",
@@ -10,21 +10,24 @@
     "static/js/3.b5cdd280.chunk.js": "/mementica3D/static/js/3.b5cdd280.chunk.js",
     "static/js/3.b5cdd280.chunk.js.map": "/mementica3D/static/js/3.b5cdd280.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.cece227c.chunk.css.map": "/mementica3D/static/css/main.cece227c.chunk.css.map",
+    "static/css/main.57569bb4.chunk.css.map": "/mementica3D/static/css/main.57569bb4.chunk.css.map",
     "static/js/2.b200cc39.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.b200cc39.chunk.js.LICENSE.txt",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
+    "static/media/Galicia-logo.8c4b90ea.svg": "/mementica3D/static/media/Galicia-logo.8c4b90ea.svg",
     "static/media/ceniceros.0bfb5e07.jpg": "/mementica3D/static/media/ceniceros.0bfb5e07.jpg",
+    "static/media/gmail.2c70fa80.svg": "/mementica3D/static/media/gmail.2c70fa80.svg",
     "static/media/hamburguesa.7a9a0e2f.ico": "/mementica3D/static/media/hamburguesa.7a9a0e2f.ico",
     "static/media/logo-M-scaled.003abde6.webp": "/mementica3D/static/media/logo-M-scaled.003abde6.webp",
     "static/media/logo-mementica-scaled.6e05e0e4.webp": "/mementica3D/static/media/logo-mementica-scaled.6e05e0e4.webp",
     "static/media/mp.bc33e42a.png": "/mementica3D/static/media/mp.bc33e42a.png",
     "static/media/resinaepoxi300.30051c66.jpg": "/mementica3D/static/media/resinaepoxi300.30051c66.jpg",
-    "static/media/velazigzagrecta.a4999040.jpg": "/mementica3D/static/media/velazigzagrecta.a4999040.jpg"
+    "static/media/velazigzagrecta.a4999040.jpg": "/mementica3D/static/media/velazigzagrecta.a4999040.jpg",
+    "static/media/whatsapp.150c7451.svg": "/mementica3D/static/media/whatsapp.150c7451.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6c92b1ab.js",
     "static/js/2.b200cc39.chunk.js",
-    "static/css/main.cece227c.chunk.css",
-    "static/js/main.5d8edb05.chunk.js"
+    "static/css/main.57569bb4.chunk.css",
+    "static/js/main.b60cb8cc.chunk.js"
   ]
 }
