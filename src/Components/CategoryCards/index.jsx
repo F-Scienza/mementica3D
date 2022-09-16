@@ -36,7 +36,7 @@ function CategoryCards() {
 							categoryBackground={reventa}
 						/>
 					</Link>
-					<Link to="/mementica3d/ProductList/Impresion3D">
+					<Link to="/mementica3d/ProductList/3D">
 						<Card2
 							categoryTitle="IMPRESION 3D"
 							categoryBackground={impresion3D}

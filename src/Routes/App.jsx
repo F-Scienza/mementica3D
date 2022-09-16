@@ -26,11 +26,8 @@ function App() {
 						<Route exact path="/mementica3d/Cart" element={<Cart />} />
 						<Route exact path="/mementica3d/Checkout" element={<Checkout />} />
 						<Route exact path="/mementica3d/Checkout/Payment" element={<Payment />} />
-						<Route exact path="/mementica3d/Checkout/form2" element={<Form2/>} />
+						<Route exact path="/mementica3d/Checkout/form" element={<Form2/>} />
 						<Route exact path="/mementica3d/Checkout/form/payinfo" element={<PayInfo/>}/>
-						{/*
-						<Route path='/Login' element={<Loguin/>}/>
-						*/}
 					</Routes>
 					<Footer />
 				</div>

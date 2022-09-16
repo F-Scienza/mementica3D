@@ -19,7 +19,7 @@ function ProductList() {
 		<div className="ProductsList-container">
 			<h1 className="mementica-font">
 				{' '}
-				{type ? type : 'TODOS LOS PRODUCTOS'}{' '}
+				{type ? type.toUpperCase() : 'TODOS LOS PRODUCTOS'}{' '}
 			</h1>
 			<Searcher />
 			<div className="PorductsList-cards">

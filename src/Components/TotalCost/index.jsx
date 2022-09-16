@@ -10,7 +10,7 @@ function TotalCost() {
 	return (
 		<div className="cart-total">
 			<h3 className="carousel-title cart-title"> Subtotal: ${cartTotal}</h3>
-			<Link className="cart-btn-pay" to="/mementica3d/Checkout/form2">
+			<Link className="cart-btn-pay" to="/mementica3d/Checkout/form">
 				<button className="chart-btn "> Confirmar carrito </button>
 			</Link>
 		</div>

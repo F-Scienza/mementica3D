@@ -1,11 +1,54 @@
 .payinfo-container {
+	background-color: white;
     padding: 20px;
-	width: 370px;
+	width: 70%;
+	max-width: 500px;
 	height: auto;
 	border-radius: 6px;
 	display: flex;
 	flex-direction: column;
 	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
     font-family: Agency FB;
-    font-size: 16px;
+    font-size: 1.3em;
+}
+.payinfo-contact-container{
+	display: flex;
+	flex-direction: column;
+}
+.payinfo-contact{
+	align-self: center;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+}
+.payinfo-contact-info{
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-bottom: 8px;
+	margin-left: 12px;
+}
+.payinfo-icons{
+	width: 1.3em;
+	margin-bottom: 10px;
+}
+.payinfo-bank{
+	display: flex;
+	flex-direction: column;
+}
+.payinfo-bank-info{
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+.galicia-container{
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center	;
+	height: 120px;
+	width: auto;
+	margin-bottom: 25px;
+}
+.payinfo-galicia{
+	height: 220px;
 }
