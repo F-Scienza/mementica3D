@@ -1,0 +1,7 @@
+.pmodal-container{
+    background-color: lightblue;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+}

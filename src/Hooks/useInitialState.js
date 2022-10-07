@@ -38,6 +38,7 @@ const useInitialState = () => {
 			return prodText.includes(searchText);
 		});
 	}
+
 	return {
 		addToCart,
 		removeFromCart,

@@ -3,8 +3,8 @@ import { useState } from 'react';
 export const useForm = (initalForm, validateForm) => {
 	const [form, setForm] = useState(initalForm);
 	const [errors, setErrors] = useState({defecto:'pordefecto'});
-	const [loading, setLoading] = useState(false);
-	const [response, setResponse] = useState(null);
+	//const [loading, setLoading] = useState(false);
+	//const [response, setResponse] = useState(null);
     const [mercadoPago, setMercadoPago] = useState(false)
 	const [envio, setEnvio] = useState(false)
 	const handleChange = e => {
@@ -14,12 +14,10 @@ export const useForm = (initalForm, validateForm) => {
 			[name]: value,
 		});
 	};
-
 	const handleBlur = e => {
 		handleChange(e);
 		setErrors(validateForm(form));
 	};
-
 	const handleSetMp = e => {
 		const { value } = e.target;
         value === 'mp' ? setMercadoPago(true) : setMercadoPago(false)
@@ -41,8 +39,8 @@ export const useForm = (initalForm, validateForm) => {
 	return {
 		form,
 		errors,
-		loading,
-		response,
+		//loading,
+		//response,
         mercadoPago,
 		envio,
 		handleBlur,

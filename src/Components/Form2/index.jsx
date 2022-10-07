@@ -242,11 +242,13 @@ function Form2() {
 					<Link className="backbutton-link" to="/mementica3d/cart">
 						<div className="backbutton">Regresar al carrito</div>
 					</Link>
-					{Object.entries(errors) == 0 ? (
+					{Object.entries(errors) === 0 ? (
 						mercadoPago === true ? (
-							<button className="chart-btn btn-mercadopago" type="submit">
-								IR A PAGAR
-							</button>
+							<Link to="/mementica3d/Checkout/form/PAYINFO">
+								<button className="chart-btn btn-mercadopago" type="submit">
+									IR A PAGAR
+								</button>
+							</Link>
 						) : (
 							<Link to="/mementica3d/Checkout/form/PAYINFO">
 								<button className="chart-btn btn-transferencia" type="submit">
