@@ -37,7 +37,7 @@ function PayInfo() {
 				<span> Alias: </span>
 				<span className="payinfo-bank-info"> MEMENTICA3D </span>
 				<span> CBU: </span>
-				<span className="payinfo-bank-info"> 0000000000000 </span>
+				<span className="payinfo-bank-info"> 0070115630004016063612 </span>
 			</div>
 			<div className="galicia-container">
 				<img className="payinfo-galicia" src={galicia} alt="banco galicia" />
