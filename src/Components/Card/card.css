@@ -18,7 +18,7 @@
     " img title title"
     " img   p     p  "
     " img   p     p  "
-    " img  price sm  "
+    " img  price price "
     " img  chart chart"   
     ;
 }
@@ -30,6 +30,8 @@
 }
 .product-img{
     width: 100%;
+    height: 134px;
+    object-fit: contain;
 }
 .card-title{
     grid-area: title;
