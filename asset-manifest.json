@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.57569bb4.chunk.css",
-    "main.js": "/mementica3D/static/js/main.b60cb8cc.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.b60cb8cc.chunk.js.map",
-    "runtime-main.js": "/mementica3D/static/js/runtime-main.6c92b1ab.js",
-    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.6c92b1ab.js.map",
-    "static/js/2.b200cc39.chunk.js": "/mementica3D/static/js/2.b200cc39.chunk.js",
-    "static/js/2.b200cc39.chunk.js.map": "/mementica3D/static/js/2.b200cc39.chunk.js.map",
-    "static/js/3.b5cdd280.chunk.js": "/mementica3D/static/js/3.b5cdd280.chunk.js",
-    "static/js/3.b5cdd280.chunk.js.map": "/mementica3D/static/js/3.b5cdd280.chunk.js.map",
+    "main.css": "/mementica3D/static/css/main.1fde9ad1.chunk.css",
+    "main.js": "/mementica3D/static/js/main.4f37c70e.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.4f37c70e.chunk.js.map",
+    "runtime-main.js": "/mementica3D/static/js/runtime-main.95299697.js",
+    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.95299697.js.map",
+    "static/js/2.05ddcc18.chunk.js": "/mementica3D/static/js/2.05ddcc18.chunk.js",
+    "static/js/2.05ddcc18.chunk.js.map": "/mementica3D/static/js/2.05ddcc18.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.57569bb4.chunk.css.map": "/mementica3D/static/css/main.57569bb4.chunk.css.map",
-    "static/js/2.b200cc39.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.b200cc39.chunk.js.LICENSE.txt",
+    "static/css/main.1fde9ad1.chunk.css.map": "/mementica3D/static/css/main.1fde9ad1.chunk.css.map",
+    "static/js/2.05ddcc18.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.05ddcc18.chunk.js.LICENSE.txt",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
     "static/media/Galicia-logo.8c4b90ea.svg": "/mementica3D/static/media/Galicia-logo.8c4b90ea.svg",
     "static/media/ceniceros.0bfb5e07.jpg": "/mementica3D/static/media/ceniceros.0bfb5e07.jpg",
@@ -25,9 +23,9 @@
     "static/media/whatsapp.150c7451.svg": "/mementica3D/static/media/whatsapp.150c7451.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c92b1ab.js",
-    "static/js/2.b200cc39.chunk.js",
-    "static/css/main.57569bb4.chunk.css",
-    "static/js/main.b60cb8cc.chunk.js"
+    "static/js/runtime-main.95299697.js",
+    "static/js/2.05ddcc18.chunk.js",
+    "static/css/main.1fde9ad1.chunk.css",
+    "static/js/main.4f37c70e.chunk.js"
   ]
 }
