@@ -1,9 +1,9 @@
 import React from 'react';
 import Card2 from '../Card2/Index';
 import './CategoryCards.css'
-import moldesResina from '../../Images/ProductsImages/ceniceros.jpg'
-import moldesVelas from '../../Images/ProductsImages/velazigzagrecta.jpg'
-import reventa from '../../Images/ProductsImages/resinaepoxi300.jpg'
+import moldesResina from '../../Images/logo-M-scaled.webp';
+import moldesVelas from '../../Images/logo-M-scaled.webp';
+import reventa from '../../Images/logo-M-scaled.webp';
 import impresion3D from '../../Images/logo-M-scaled.webp'
 import { Link } from 'react-router-dom';
 
