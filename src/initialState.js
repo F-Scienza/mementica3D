@@ -8,7 +8,7 @@ export default {
 			id: 100,
 			title: 'Bandeja con borde',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 2600,
 			description: 'Molde bandeja de 18x9cm para resina',
 			sells: 0,
@@ -106,7 +106,7 @@ export default {
 			offer: false,
 			price: 3851,
 			description: 'Molde de silicona circulo de 29 cm',
-			sells: 10,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/circ29cm.webp?alt=media&token=0ca31b30-193a-47c2-b605-d145b856354a',
 		},
@@ -150,7 +150,7 @@ export default {
 			id: 112,
 			title: 'Ninjacat',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 1350,
 			description:
 				'Molde de silicona para resina tipo llavero con forma de gato ninjacat defensa personal',
@@ -185,7 +185,7 @@ export default {
 			id: 115,
 			title: 'Huesito x3 cavidades',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 1443,
 			description:
 				'Molde de silicona para resina, tipo llavero, forma de huesito x3 cavidades 5x3cm ',
@@ -209,7 +209,7 @@ export default {
 			id: 117,
 			title: 'Llaveros cuadrados 8 cavidades',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 2505,
 			description:
 				'Molde de silicona para resina tipo llaveros cuadrados 5cm x 8 cavidades',
@@ -221,7 +221,7 @@ export default {
 			id: 118,
 			title: 'Marcador 15x3',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 1160,
 			description: 'Molde de silicona forma de marcador 15x3cm',
 			sells: 0,
@@ -383,7 +383,7 @@ export default {
 			id: 133,
 			title: 'Tapa de agenda A5 doble',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 3851,
 			description:
 				'Molde de silicona forma tapa de agenda A5 con anillado x 2 cavidades',
@@ -561,7 +561,7 @@ export default {
 			price: 2880,
 			description:
 				'Molde de silicona para paleta de pintor con agujero. 30x20cm acabado liso.',
-			sells: 5,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/palpintor.webp?alt=media&token=281db2b1-de95-456c-8efb-4fbad22e472b',
 		},
@@ -825,7 +825,7 @@ export default {
 			price: 2890,
 			description:
 				'Molde de silicona para resina circulo de 20 cm acabado brillante',
-			sells: 10,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/circ15cm.webp?alt=media&token=71cd359e-bbf3-40d3-bbac-68aa41f10728',
 		},
@@ -880,10 +880,10 @@ export default {
 			id: 179,
 			title: 'Tapa agenda A6 doble',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 3370,
 			description: 'Molde de silicona para tapa agenda tamaño A6 para anillado',
-			sells: 100,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapaaga6x2.webp?alt=media&token=6594556e-3856-4555-ba7c-bd7967741168',
 		},
@@ -902,8 +902,8 @@ export default {
 			id: 182,
 			title: 'LLavero camiseta x3 cav.',
 			type: 'MoldesResina',
-			offer: true,
-			price: 1440,
+			offer: false,
+			price: true,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de camiseta de futlbol x3 cavidades 5x3,6cm',
 			sells: 0,
@@ -997,7 +997,7 @@ export default {
 			id: 190,
 			title: 'LLavero camiseta x11 cav.',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 3270,
 			description:
 				'Molde de silicona con 11 cavidades tipo llavero con forma de camiseta de futlbol x3 cavidades 5x3,6cm',
@@ -1009,7 +1009,7 @@ export default {
 			id: 191,
 			title: 'Posavasos forma corazon x2 cav.',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 1820,
 			description:
 				'Molde de silicona con dos cavidades con forma de corazon 9x8cm acabado liso',
@@ -1021,7 +1021,7 @@ export default {
 			id: 192,
 			title: 'Molde silicona 30 cav cuadradas',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 1630,
 			description:
 				'Molde de silicona con 30 cavidades con forma de cuadrada 20x5mm acabado liso',
@@ -1071,7 +1071,7 @@ export default {
 			offer: false,
 			price: 3060,
 			description: 'Molde de silicona para tapa agenda tamaño A4 para anillado',
-			sells: 100,
+			sells: 5,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapag-a4simple.webp?alt=media&token=b507fef1-888d-40d6-9f4b-2ebf56d230e6',
 		},
@@ -1082,7 +1082,7 @@ export default {
 			offer: false,
 			price: 2610,
 			description: 'Molde de silicona para tapa agenda tamaño A5 para anillado',
-			sells: 100,
+			sells: 4,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapaga5anillado.webp?alt=media&token=f646546f-c90e-4140-b16f-7ae6b0d7d62d',
 		},
@@ -1093,7 +1093,7 @@ export default {
 			offer: false,
 			price: 5400,
 			description: 'Molde de silicona para tapa agenda tamaño A4 para anillado',
-			sells: 100,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapag-a4doble.webp?alt=media&token=33819d71-77b2-475c-bd17-945b64365491',
 		},
@@ -1101,11 +1101,11 @@ export default {
 			id: 199,
 			title: 'Llavero copa del mundo x3 cav',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 1530,
 			description:
 				'Molde de silicona para llaveros con forma de la copa del mundo 3 cavidades',
-			sells: 100,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-mundialx3.webp?alt=media&token=a4891534-2d5a-40ae-b938-eb9da389422e',
 		},
@@ -1117,7 +1117,7 @@ export default {
 			price: 2520,
 			description:
 				'Molde de silicona para llaveros con forma de la copa del mundo 8 cavidades',
-			sells: 100,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-mundialx8.webp?alt=media&token=74901d80-6de7-4835-9244-dffbd44144fa',
 		},
@@ -1125,11 +1125,11 @@ export default {
 			id: 201,
 			title: 'Posavasos doble panal 9cm',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 2520,
 			description:
 				'Molde de silicona para posavasos con dos cavidades forma de panal',
-			sells: 100,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/posa-panalx2.webp?alt=media&token=783bb76f-5d0f-4a10-a3ef-10135b212d65',
 		},
