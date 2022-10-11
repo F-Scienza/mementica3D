@@ -242,23 +242,27 @@ function Form2() {
 					<Link className="backbutton-link" to="/mementica3d/cart">
 						<div className="backbutton">Regresar al carrito</div>
 					</Link>
-					{Object.entries(errors) === 0 ? (
-						mercadoPago === true ? (
-							<Link to="/mementica3d/Checkout/form/PAYINFO">
-								<button className="chart-btn btn-mercadopago" type="submit">
-									IR A PAGAR
-								</button>
-							</Link>
+
+					{
+						// eslint-disable-next-line
+						Object.entries(errors) == 0 ? (
+							mercadoPago === true ? (
+								<Link to="/mementica3d/Checkout/form/PAYINFO">
+									<button className="chart-btn btn-mercadopago" type="submit">
+										IR A PAGAR CON MERCADO PAGO
+									</button>
+								</Link>
+							) : (
+								<Link to="/mementica3d/Checkout/form/PAYINFO">
+									<button className="chart-btn btn-transferencia" type="submit">
+										IR A PAGAR MEDIANTE TRANSFERENCIA
+									</button>
+								</Link>
+							)
 						) : (
-							<Link to="/mementica3d/Checkout/form/PAYINFO">
-								<button className="chart-btn btn-transferencia" type="submit">
-									IR A PAGAR
-								</button>
-							</Link>
+							<div className="backbutton alert">IR A PAGAR</div>
 						)
-					) : (
-						<div className="backbutton alert">IR A PAGAR</div>
-					)}
+					}
 				</div>
 			</form>
 		</div>

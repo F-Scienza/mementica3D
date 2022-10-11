@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import galicia from '../../Images/Galicia-logo.svg';
 import wsp from '../../Images/Asets/whatsapp.svg';
 import gmail from '../../Images/Asets/gmail.svg';
 import './PayInfo.css';
+import AppContext from '../../Context/AppContext';
 function PayInfo() {
+	const {state} = useContext(AppContext)
+	const {cart} = state
+	let carttotal = 0
 	return (
 		<div className="payinfo-container">
 			<h2>PAGO MEDIANTE EFECTIVO O TRANSFERENCIA</h2>
+			<h3>Estas por comprar: </h3>
+			<table className="table-products">
+				{cart.map(p => (
+					// eslint-disable-next-line
+					(carttotal = carttotal + p.price),
+					<tr>
+						<th>{p.title}</th>
+						<td>${p.price}</td>
+					</tr>
+				))}
+				<tr className="table-total">
+					<th>Total a pagar:</th>
+					<td>${carttotal}</td>
+				</tr>
+			</table>
 			<p>
 				Para completar tu compra debes realizar una transferencia con el monto
 				indicado
@@ -27,7 +46,7 @@ function PayInfo() {
 				</div>
 				<div className="payinfo-contact">
 					<img src={wsp} className="payinfo-icons" alt="wsp" />
-					<span className="payinfo-contact-info">+54 9 3517 71-9390</span>
+					<span className="payinfo-contact-info">+54 9 351 771-9390</span>
 				</div>
 			</div>
 			<div className="payinfo-bank">
