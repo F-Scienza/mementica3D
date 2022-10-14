@@ -14,14 +14,14 @@ const useInitialState = () => {
 			...state,
 			cart: state.cart.filter(items => items.id !== payload.id),
 		});
-	};
+	}
 
-	const addToBuyer = payload => {
+	const setBuyer = payload => {
 		setState({
 			...state,
-			buyer: [...state.buyer, payload],
-		});
-	};
+			buyer: payload
+		})
+	}
 
 	const [searchValue, setSearchValue] = useState('');
 	const onSearchValueChange = e => {
@@ -42,7 +42,7 @@ const useInitialState = () => {
 	return {
 		addToCart,
 		removeFromCart,
-		addToBuyer,
+		setBuyer,
 		searchValue,
 		searchedProducts,
 		onSearchValueChange,

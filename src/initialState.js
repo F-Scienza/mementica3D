@@ -1,7 +1,18 @@
 // eslint-disable-next-line
 export default {
 	cart: [],
-	buyer: [],
+	buyer: {
+		fname: '',
+		lname: '',
+		dni: '',
+		email: '',
+		phone: '',
+		state: '',
+		city: '',
+		adr: '',
+		dpto: '',
+		cp: '',
+	},
 	orders: [],
 	products: [
 		{

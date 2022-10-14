@@ -10,8 +10,7 @@
 	justify-content: center;
 	align-items: center;
 	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    font-family: Agency FB;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .payinfo-contact-container{
 	display: flex;
@@ -39,17 +38,17 @@
 }
 .payinfo-bank-info{
 	font-size: 1.5em;
-	font-weight: 500;
-	margin-bottom: 8px;
+	font-weight: 600;
+	margin-bottom: 0.5em;
 }
 .galicia-container{
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center	;
-	height: 120px;
-	width: auto;
+	height: 50px;
 	margin-bottom: 25px;
+	width: auto;
 }
 .payinfo-galicia{
 	height: 220px;
