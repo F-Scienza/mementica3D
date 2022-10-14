@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.3f9e52e6.chunk.css",
-    "main.js": "/mementica3D/static/js/main.63b53d23.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.63b53d23.chunk.js.map",
+    "main.css": "/mementica3D/static/css/main.b9ac392d.chunk.css",
+    "main.js": "/mementica3D/static/js/main.6a4ad399.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.6a4ad399.chunk.js.map",
     "runtime-main.js": "/mementica3D/static/js/runtime-main.95299697.js",
     "runtime-main.js.map": "/mementica3D/static/js/runtime-main.95299697.js.map",
-    "static/js/2.05ddcc18.chunk.js": "/mementica3D/static/js/2.05ddcc18.chunk.js",
-    "static/js/2.05ddcc18.chunk.js.map": "/mementica3D/static/js/2.05ddcc18.chunk.js.map",
+    "static/js/2.d98812d3.chunk.js": "/mementica3D/static/js/2.d98812d3.chunk.js",
+    "static/js/2.d98812d3.chunk.js.map": "/mementica3D/static/js/2.d98812d3.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.3f9e52e6.chunk.css.map": "/mementica3D/static/css/main.3f9e52e6.chunk.css.map",
-    "static/js/2.05ddcc18.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.05ddcc18.chunk.js.LICENSE.txt",
+    "static/css/main.b9ac392d.chunk.css.map": "/mementica3D/static/css/main.b9ac392d.chunk.css.map",
+    "static/js/2.d98812d3.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.d98812d3.chunk.js.LICENSE.txt",
     "static/media/3d.081cd6ca.png": "/mementica3D/static/media/3d.081cd6ca.png",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
     "static/media/Galicia-logo.8c4b90ea.svg": "/mementica3D/static/media/Galicia-logo.8c4b90ea.svg",
@@ -18,15 +18,14 @@
     "static/media/logo-M-scaled.003abde6.webp": "/mementica3D/static/media/logo-M-scaled.003abde6.webp",
     "static/media/logo-mementica-scaled.6e05e0e4.webp": "/mementica3D/static/media/logo-mementica-scaled.6e05e0e4.webp",
     "static/media/moldesvarios.49682792.png": "/mementica3D/static/media/moldesvarios.49682792.png",
-    "static/media/mp.bc33e42a.png": "/mementica3D/static/media/mp.bc33e42a.png",
     "static/media/reventa.4a1e53ee.jpg": "/mementica3D/static/media/reventa.4a1e53ee.jpg",
     "static/media/vela.58ca59f6.png": "/mementica3D/static/media/vela.58ca59f6.png",
     "static/media/whatsapp.150c7451.svg": "/mementica3D/static/media/whatsapp.150c7451.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.95299697.js",
-    "static/js/2.05ddcc18.chunk.js",
-    "static/css/main.3f9e52e6.chunk.css",
-    "static/js/main.63b53d23.chunk.js"
+    "static/js/2.d98812d3.chunk.js",
+    "static/css/main.b9ac392d.chunk.css",
+    "static/js/main.6a4ad399.chunk.js"
   ]
 }
