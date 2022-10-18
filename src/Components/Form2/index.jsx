@@ -49,7 +49,7 @@ function Form2() {
 	const { state } = useContext(AppContext);
 	const { cart } = state;
 	let cartTotal2 = 0;
-	cart.forEach(prod => (cartTotal2 += prod.price));
+	cart.forEach(prod => cartTotal2 += prod.price);
 	
 	{/*let mercadoPago10 = {
 		price: cartTotal2 * 0.1,
