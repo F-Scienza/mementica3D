@@ -15,6 +15,7 @@ const initialForm = {
 	adr: '',
 	dpto: '',
 	cp: '',
+	total: 0
 };
 const validateForm = form => {
 	let errors = {};
@@ -50,23 +51,23 @@ function Form2() {
 	const { cart } = state;
 	let cartTotal2 = 0;
 	cart.forEach(prod => cartTotal2 += prod.price);
-	
 	{/*let mercadoPago10 = {
 		price: cartTotal2 * 0.1,
 		title: 'Comision mercado Pago',
 		description: 'costo de servicio mercado pago',
 		id: 2606,
 	};*/}
+	let envio = false
+	cart.find(p => p.title === 'envio') ? envio = true : envio =false
 	const {
 		form,
 		errors,
 		//mercadoPago,
-		envio,
 		handleBlur,
 		handleChange,
 		handleSubmit,
 		//handleSetMp,
-		handleSetEnvio,
+		//handleSetEnvio,
 	} = useForm(initialForm, validateForm);
 
 	return (
@@ -135,20 +136,11 @@ function Form2() {
 					required
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
-				<div className="label-envio">
-					<label htmlFor="envio">¿Deseas agregar informacion de envio?</label>
-					<input
-						id="envio"
-						type="checkbox"
-						name="envio"
-						defaultChecked={envio}
-						onChange={handleSetEnvio}
-					/>
-				</div>
-
+				
 				{envio && (
 					//logica para que esta parte del formulario aparezca solo
 					//si compraron el envio
+					
 					<div className="form-infoenvio">
 						<label htmlFor="cp">Codigo postal</label>
 						<input
