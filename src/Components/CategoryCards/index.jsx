@@ -1,10 +1,11 @@
 import React from 'react';
 import Card2 from '../Card2/Index';
 import './CategoryCards.css'
-import moldesResina from '../../Images/ProductsImages/ceniceros.jpg'
-import moldesVelas from '../../Images/ProductsImages/velazigzagrecta.jpg'
-import reventa from '../../Images/ProductsImages/resinaepoxi300.jpg'
-import impresion3D from '../../Images/logo-M-scaled.webp'
+import moldesResina from '../../Images/moldesvarios.png';
+import moldesVelas from '../../Images/vela.png';
+import reventa from '../../Images/reventa.jpg';
+import impresion3D from '../../Images/3d.png';
+import allproducts from '../../Images/logo-M-scaled.webp';
 import { Link } from 'react-router-dom';
 
 function CategoryCards() {
@@ -15,7 +16,7 @@ function CategoryCards() {
 					<Link to="/mementica3d/ProductList/">
 						<Card2
 							categoryTitle="VER TODOS LOS PRODUCTOS"
-							categoryBackground={impresion3D}
+							categoryBackground={allproducts}
 						/>
 					</Link>
 					<Link to="/mementica3d/ProductList/moldesvelas">

@@ -12,7 +12,7 @@ function MainNavbar() {
 				</a>
 				<div className="navbar__links" id="menu">
 					<a className="nvabar__link navbar__x" href="#/">
-						x
+						cerrar
 					</a>
 					<Link className="nvabar__link" to="/mementica3d/ProductList/moldesvelas">
 						{' '}

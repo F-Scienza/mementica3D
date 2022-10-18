@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
 import './Form2.css';
-import mpimg from '../../Images/Asets/mp.png';
+//import mpimg from '../../Images/Asets/mp.png';
 const initialForm = {
 	fname: '',
 	lname: '',
@@ -49,22 +49,23 @@ function Form2() {
 	const { state } = useContext(AppContext);
 	const { cart } = state;
 	let cartTotal2 = 0;
-	cart.forEach(prod => (cartTotal2 += prod.price));
-	let mercadoPago10 = {
+	cart.forEach(prod => cartTotal2 += prod.price);
+	
+	{/*let mercadoPago10 = {
 		price: cartTotal2 * 0.1,
 		title: 'Comision mercado Pago',
 		description: 'costo de servicio mercado pago',
 		id: 2606,
-	};
+	};*/}
 	const {
 		form,
 		errors,
-		mercadoPago,
+		//mercadoPago,
 		envio,
 		handleBlur,
 		handleChange,
 		handleSubmit,
-		handleSetMp,
+		//handleSetMp,
 		handleSetEnvio,
 	} = useForm(initialForm, validateForm);
 
@@ -78,9 +79,9 @@ function Form2() {
 					id="fname"
 					name="fname"
 					placeholder="Juan"
+					value={form.name}
 					onChange={handleChange}
 					onBlur={handleBlur}
-					value={form.fname}
 					required
 				/>
 				{errors.fname && <p className="required-p"> {errors.fname} </p>}
@@ -90,9 +91,9 @@ function Form2() {
 					id="lname"
 					name="lname"
 					placeholder="Perez"
+					value={form.lname}
 					onChange={handleChange}
 					onBlur={handleBlur}
-					value={form.lname}
 					required
 				/>
 				{errors.lname && <p className="required-p"> {errors.lname} </p>}
@@ -210,7 +211,7 @@ function Form2() {
 				)}
 				{errors.cp && <p> {errors.cp} </p>}
 
-				<div className="form-paymethod ">
+				{/*<div className="form-paymethod ">
 					<h3> Selecciona un metodo de pago </h3>
 					<div className="label-envio">
 						<input
@@ -237,28 +238,22 @@ function Form2() {
 							(${parseInt(cartTotal2 + mercadoPago10.price)})
 						</label>
 					</div>
-				</div>
-				<div>
+				</div>*/}
+				<div className='btnform-container'>
 					<Link className="backbutton-link" to="/mementica3d/cart">
 						<div className="backbutton">Regresar al carrito</div>
 					</Link>
-					{Object.entries(errors) === 0 ? (
-						mercadoPago === true ? (
-							<Link to="/mementica3d/Checkout/form/PAYINFO">
-								<button className="chart-btn btn-mercadopago" type="submit">
-									IR A PAGAR
-								</button>
-							</Link>
+
+					{
+						// eslint-disable-next-line
+						Object.entries(errors) == 0 ? (
+									<button className="chart-btn btn-transferencia" type="submit">
+										IR A PAGAR MEDIANTE TRANSFERENCIA
+									</button>
 						) : (
-							<Link to="/mementica3d/Checkout/form/PAYINFO">
-								<button className="chart-btn btn-transferencia" type="submit">
-									IR A PAGAR
-								</button>
-							</Link>
+							<div className="backbutton alert">IR A PAGAR</div>
 						)
-					) : (
-						<div className="backbutton alert">IR A PAGAR</div>
-					)}
+					}
 				</div>
 			</form>
 		</div>

@@ -21,6 +21,7 @@
     align-self: center;
     font-weight: lighter;
     grid-area: t;
+    z-index: 10;
 }
 .cartcard-price{
     grid-area: price;
@@ -32,7 +33,7 @@
 }
 .cartcard-img{
     grid-area: img;
-    width: 60px;
+    height: 50px;
     justify-self: center;
     align-self: center;
 }

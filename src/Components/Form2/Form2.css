@@ -161,3 +161,6 @@ span.price {
 	color:black;
 	cursor: not-allowed;
 }
+.btnform-container{
+	margin-top: 20px;
+}
