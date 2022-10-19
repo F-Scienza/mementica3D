@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.b9ac392d.chunk.css",
-    "main.js": "/mementica3D/static/js/main.6a4ad399.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.6a4ad399.chunk.js.map",
-    "runtime-main.js": "/mementica3D/static/js/runtime-main.95299697.js",
-    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.95299697.js.map",
-    "static/js/2.d98812d3.chunk.js": "/mementica3D/static/js/2.d98812d3.chunk.js",
-    "static/js/2.d98812d3.chunk.js.map": "/mementica3D/static/js/2.d98812d3.chunk.js.map",
+    "main.css": "/mementica3D/static/css/main.d6e40b5d.chunk.css",
+    "main.js": "/mementica3D/static/js/main.f17c49b7.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.f17c49b7.chunk.js.map",
+    "runtime-main.js": "/mementica3D/static/js/runtime-main.f8c3e0d5.js",
+    "runtime-main.js.map": "/mementica3D/static/js/runtime-main.f8c3e0d5.js.map",
+    "static/js/2.6f87983f.chunk.js": "/mementica3D/static/js/2.6f87983f.chunk.js",
+    "static/js/2.6f87983f.chunk.js.map": "/mementica3D/static/js/2.6f87983f.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.b9ac392d.chunk.css.map": "/mementica3D/static/css/main.b9ac392d.chunk.css.map",
-    "static/js/2.d98812d3.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.d98812d3.chunk.js.LICENSE.txt",
+    "static/css/main.d6e40b5d.chunk.css.map": "/mementica3D/static/css/main.d6e40b5d.chunk.css.map",
+    "static/js/2.6f87983f.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.6f87983f.chunk.js.LICENSE.txt",
     "static/media/3d.081cd6ca.png": "/mementica3D/static/media/3d.081cd6ca.png",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
     "static/media/Galicia-logo.8c4b90ea.svg": "/mementica3D/static/media/Galicia-logo.8c4b90ea.svg",
@@ -23,9 +23,9 @@
     "static/media/whatsapp.150c7451.svg": "/mementica3D/static/media/whatsapp.150c7451.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.95299697.js",
-    "static/js/2.d98812d3.chunk.js",
-    "static/css/main.b9ac392d.chunk.css",
-    "static/js/main.6a4ad399.chunk.js"
+    "static/js/runtime-main.f8c3e0d5.js",
+    "static/js/2.6f87983f.chunk.js",
+    "static/css/main.d6e40b5d.chunk.css",
+    "static/js/main.f17c49b7.chunk.js"
   ]
 }
