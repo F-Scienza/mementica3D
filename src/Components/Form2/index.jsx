@@ -1,7 +1,8 @@
-import React, { useContext } from 'react';
+import React, { useContext, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
+import emailjs from '@emailjs/browser'
 import './Form2.css';
 //import mpimg from '../../Images/Asets/mp.png';
 const initialForm = {
@@ -15,7 +16,9 @@ const initialForm = {
 	adr: '',
 	dpto: '',
 	cp: '',
-	total: 0
+	total: '',
+	cantProd: '',
+	productos: ''
 };
 const validateForm = form => {
 	let errors = {};
@@ -47,6 +50,19 @@ const validateForm = form => {
 };
 
 function Form2() {
+
+	const formmm = useRef()
+	const sendEmail = (e) => {
+		e.preventDefault();
+		emailjs.sendForm('service_af5klkp', 'template_6oj20bs', formmm.current, 'hz9bIy8_CFkFxfHkl')
+			.then((result) => {
+				console.log(result.text, formmm);
+			}, (error) => {
+				console.log(error.text);
+			});
+		handleSubmit()
+	};
+
 	const { state } = useContext(AppContext);
 	const { cart } = state;
 	let cartTotal2 = 0;
@@ -58,7 +74,7 @@ function Form2() {
 		id: 2606,
 	};*/}
 	let envio = false
-	cart.find(p => p.title === 'envio') ? envio = true : envio =false
+	cart.find(p => p.title === 'envio') ? envio = true : envio = false
 	const {
 		form,
 		errors,
@@ -69,11 +85,17 @@ function Form2() {
 		//handleSetMp,
 		//handleSetEnvio,
 	} = useForm(initialForm, validateForm);
-
+	form.productos = cart.map(p => ' ' + p.title)
+	form.cantProd = cart.length
+	form.total = cartTotal2
 	return (
 		<div className="form-container">
 			<h1>Informacion del comprador</h1>
-			<form onSubmit={handleSubmit}>
+			<form ref={formmm} onSubmit={sendEmail}>
+				<input className='hiddeninputs' type="number" name='cantProd' id='cantProd' value={form.cantProd} />
+				<input className='hiddeninputs' type="text" name="productos" id="productos" value={form.productos} />
+				<input className='hiddeninputs' type="number" name="total" id="total" value={form.total} />
+
 				<label htmlFor="fname">Nombre:</label>
 				<input
 					type="text"
@@ -136,11 +158,11 @@ function Form2() {
 					required
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
-				
+
 				{envio && (
 					//logica para que esta parte del formulario aparezca solo
 					//si compraron el envio
-					
+
 					<div className="form-infoenvio">
 						<label htmlFor="cp">Codigo postal</label>
 						<input
@@ -239,9 +261,9 @@ function Form2() {
 					{
 						// eslint-disable-next-line
 						Object.entries(errors) == 0 ? (
-									<button className="chart-btn btn-transferencia" type="submit">
-										IR A PAGAR MEDIANTE TRANSFERENCIA
-									</button>
+							<button className="chart-btn btn-transferencia" type="submit">
+								IR A PAGAR MEDIANTE TRANSFERENCIA
+							</button>
 						) : (
 							<div className="backbutton alert">IR A PAGAR</div>
 						)
