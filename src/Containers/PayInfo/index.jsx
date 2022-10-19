@@ -5,15 +5,13 @@ import gmail from '../../Images/Asets/gmail.svg';
 import './PayInfo.css';
 import AppContext from '../../Context/AppContext';
 import { useNavigate } from 'react-router-dom';
-import { Mailer } from '../../Hooks/Mailer';
 function PayInfo() {
 	const { state } = useContext(AppContext);
 	const { cart, buyer } = state;
 	let carttotal = 0;
 	const navigate = useNavigate();
-	const handlePayConfirm = (cart, buyer, carttotal) =>{
+	const handlePayConfirm = () =>{
 		navigate('/mementica3d/Checkout/form/payinfo/paycheck')
-		Mailer(cart, buyer, carttotal)
 	}
 	return (
 		<div className="payinfo-container">
