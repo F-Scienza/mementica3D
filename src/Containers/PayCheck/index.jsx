@@ -39,8 +39,8 @@ function PayCheck() {
 			<h3>Muchas gracias por confiar en nosotros</h3>
 			<span className='mementica-font'>MEMENTICA</span>
 			<br />
-			<Link className="backbutton" to="/mementica3d/">
-				<div className="backbutton-link">Regresar al inicio</div>
+			<Link className="backbutton homelink" to="/mementica3d/">
+				Regresar al inicio
 			</Link>
 		</div>
 	);
