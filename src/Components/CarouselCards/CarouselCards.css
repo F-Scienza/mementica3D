@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5em;   
+    padding: 0.5em;
+    margin-bottom: 2em;   
 }
 .carousel-title{
     font-family: Agency FB;

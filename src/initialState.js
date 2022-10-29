@@ -209,7 +209,7 @@ export default {
 			title: 'Llaveros circulos x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 3000,
 			description:
 				'Molde de silicona para resina tipo llaveros con forma circular de 5cm con 8 cavidades',
 			sells: 0,
@@ -221,7 +221,7 @@ export default {
 			title: 'Llaveros cuadrados 8 cavidades',
 			type: 'MoldesResina',
 			offer: true,
-			price: 2505,
+			price: 3000,
 			description:
 				'Molde de silicona para resina tipo llaveros cuadrados 5cm x 8 cavidades',
 			sells: 0,
@@ -462,7 +462,7 @@ export default {
 			title: 'Llaveros 3,5cm x12 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2310,
+			price: 2600,
 			description: 'Molde de silicona tipo llavero. 12 cavidades 3,5cm',
 			sells: 0,
 			image:
@@ -473,7 +473,7 @@ export default {
 			title: 'Llaveros con forma de corazon 5cm x 8 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 3000,
 			description:
 				'Molde de silicona para resina tipo llavero de 8 cavidades con forma de corazón 5cm',
 			sells: 0,
@@ -509,7 +509,7 @@ export default {
 			title: 'Llaveros con forma de corazon 5cm x 3 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1440,
+			price: 1650,
 			description:
 				'Molde de silicona para resina tipo llavero de 3 cavidades con forma de corazón 5cm',
 			sells: 0,
@@ -701,7 +701,7 @@ export default {
 			title: 'Llaveros hexagonales',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2505,
+			price: 3000,
 			description:
 				'Molde de silicona para resina tipo llavero con 8 cavidades hexagonales de 5cm',
 			sells: 0,
@@ -914,7 +914,7 @@ export default {
 			title: 'LLavero camiseta x3 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: true,
+			price: 1600,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de camiseta de futlbol x3 cavidades 5x3,6cm',
 			sells: 0,
@@ -926,7 +926,7 @@ export default {
 			title: 'LLavero circulos x3 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1440,
+			price: 1600,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de circular 3 cavidades 5cm',
 			sells: 0,
@@ -950,7 +950,7 @@ export default {
 			title: 'LLavero gatito x3 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1440,
+			price: 1500,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de gatito 3 cavidades 3x3cm',
 			sells: 0,
@@ -962,7 +962,7 @@ export default {
 			title: 'LLavero huesito x8 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2890,
+			price: 3000,
 			description:
 				'Molde de silicona con 8 cavidades tipo llavero con forma de huesito x8 cavidades 5x3cm',
 			sells: 0,
@@ -974,7 +974,7 @@ export default {
 			title: 'Cilindro 4cm',
 			type: 'moldesvelas',
 			offer: false,
-			price: 1170,
+			price: 1400,
 			description: 'Molde de silicona con forma de cilindro de 4cm',
 			sells: 0,
 			image:
@@ -985,7 +985,7 @@ export default {
 			title: 'LLavero gatito x8 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'Molde de silicona con 8 cavidades tipo llavero con forma de gatito 8 cavidades 3x3cm',
 			sells: 0,
@@ -1030,15 +1030,15 @@ export default {
 		},
 		{
 			id: 192,
-			title: 'Molde silicona 30 cav cuadradas',
+			title: '20 cav cuadradas 3x3cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1630,
+			price: 2100,
 			description:
-				'Molde de silicona con 30 cavidades con forma de cuadrada 20x5mm acabado liso',
+				'Molde de silicona con 20 cavidades con forma de cuadrada 3x3cm acabado liso',
 			sells: 0,
 			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/30cavcuadrados.webp?alt=media&token=39806a92-e908-4c7d-aa1e-5735f9f0ca9a',
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/20cav-3x3cm-cuadrado.webp?alt=media&token=4aa8c67e-a5df-4fc4-9d66-8776b8906184',
 		},
 		{
 			id: 193,
@@ -1125,7 +1125,7 @@ export default {
 			title: 'Llavero copa del mundo x8 cav',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2520,
+			price: 2800,
 			description:
 				'Molde de silicona para llaveros con forma de la copa del mundo 8 cavidades',
 			sells: 0,
@@ -1149,7 +1149,7 @@ export default {
 			title: 'Circulo 35cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3851,
+			price: 8050,
 			description:
 				'Molde de silicona circulo de 35x3cm. Apto para resina,cemento, yeso, etc.',
 			sells: 0,
@@ -1157,17 +1157,82 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/circulo-35cm.webp?alt=media&token=5b43249a-8b6a-4530-a95b-60fdeaf800e6',
 		},
 		{
-			id: 203,
+			id: 204,
 			title: 'Circulo 50cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3851,
+			price: 15900,
 			description:
 				'Molde de silicona circulo de 50x3cm. Apto para resina,cemento, yeso, etc.',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/circulo-50cm.webp?alt=media&token=c49daa18-8e26-45ad-9eb0-8b683c4d5d36',
 		},
+		{
+			id: 205,
+			title: 'Mariposa x8',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3000,
+			description:
+				'Molde de silicona tipo llaeveros con forma de mariposa x8 cavidades',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-mariposasx8.webp?alt=media&token=4b529cb1-8470-46c6-8966-5138d7cc4088',
+		},
+		{
+			id: 206,
+			title: 'Mariposa x3',
+			type: 'MoldesResina',
+			offer: false,
+			price: 1685,
+			description:
+				'Molde de silicona tipo llaeveros con forma de Mariposa x3 cavidades',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-mariposasx3.webp?alt=media&token=b9e982be-13b2-41d9-b77c-833d83e80b2a',
+		},
+		{
+			id: 207,
+			title: 'Adornos navideños',
+			type: 'MoldesResina',
+			offer: false,
+			price: 1800,
+			description:
+				'Molde de silicona para adornos navideños 3 formas',
+			sells: 0,
+			image:
+			'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/adorn-navidadv1.webp?alt=media&token=274e4a92-8b80-42a5-bd31-24720a82207b',
+		},
+		{
+			id: 208,
+			title: 'Oval x8',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2700,
+			description:
+				'Molde de silicona tipo llaeveros con forma de oval x8 cavidades',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-ovalx8.webp?alt=media&token=332c334c-805f-4dfc-bbd3-41417298b93b',
+		},
+		{
+			id: 209,
+			title: 'Marcador x8',
+			type: 'MoldesResina',
+			offer: false,
+			price: 5130,
+			description:
+				'Molde de silicona tipo separador de paginas x8 cavidades',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/marcx8.webp?alt=media&token=378d1e5d-9fda-4eb3-8d1f-75756668dc51',
+		},
+
+
+
+
+
 
 		{
 			id: 300,

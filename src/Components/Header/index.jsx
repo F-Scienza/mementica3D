@@ -17,7 +17,6 @@ function Header() {
 					<img className="header-logo" src={BlackLogo} alt="logo" />
 				</Link>
 				<div>
-					{' '}
 					<Link className="cart" to="/mementica3d/Cart">
 						<img className="cart-icon" src={cartIcon} alt="" />
 						{cart.length > 0 ? (
