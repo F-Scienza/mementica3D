@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mementica3D/static/css/main.bb5aca8d.chunk.css",
-    "main.js": "/mementica3D/static/js/main.3541ac83.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.3541ac83.chunk.js.map",
+    "main.css": "/mementica3D/static/css/main.cbc71dc6.chunk.css",
+    "main.js": "/mementica3D/static/js/main.93c33109.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.93c33109.chunk.js.map",
     "runtime-main.js": "/mementica3D/static/js/runtime-main.f8c3e0d5.js",
     "runtime-main.js.map": "/mementica3D/static/js/runtime-main.f8c3e0d5.js.map",
     "static/js/2.6f87983f.chunk.js": "/mementica3D/static/js/2.6f87983f.chunk.js",
     "static/js/2.6f87983f.chunk.js.map": "/mementica3D/static/js/2.6f87983f.chunk.js.map",
     "index.html": "/mementica3D/index.html",
-    "static/css/main.bb5aca8d.chunk.css.map": "/mementica3D/static/css/main.bb5aca8d.chunk.css.map",
+    "static/css/main.cbc71dc6.chunk.css.map": "/mementica3D/static/css/main.cbc71dc6.chunk.css.map",
     "static/js/2.6f87983f.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.6f87983f.chunk.js.LICENSE.txt",
     "static/media/3d.081cd6ca.png": "/mementica3D/static/media/3d.081cd6ca.png",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.f8c3e0d5.js",
     "static/js/2.6f87983f.chunk.js",
-    "static/css/main.bb5aca8d.chunk.css",
-    "static/js/main.3541ac83.chunk.js"
+    "static/css/main.cbc71dc6.chunk.css",
+    "static/js/main.93c33109.chunk.js"
   ]
 }
