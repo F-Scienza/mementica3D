@@ -17,10 +17,12 @@ export const useForm = (initalForm, validateForm) => {
 
 	const handleChange = e => {
 		const { name, value } = e.target;
+		
 		setForm({
 			...form,
 			[name]: value,
 		});
+		setBuyer(form)
 	};
 	const handleBlur = e => {
 		handleChange(e);

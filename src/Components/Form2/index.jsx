@@ -64,7 +64,7 @@ function Form2() {
 	};
 
 	const { state } = useContext(AppContext);
-	const { cart } = state;
+	const { cart, buyer } = state;
 	let cartTotal2 = 0;
 	cart.forEach(prod => cartTotal2 += prod.price);
 	{/*let mercadoPago10 = {
@@ -74,7 +74,7 @@ function Form2() {
 		id: 2606,
 	};*/}
 	let envio = false
-	cart.find(p => p.title === 'envio') ? envio = true : envio = false
+	cart.find(p => p.title === 'ClicOH envio') ? envio = true : envio = false
 	const {
 		form,
 		errors,
@@ -102,7 +102,7 @@ function Form2() {
 					id="fname"
 					name="fname"
 					placeholder="Juan"
-					value={form.name}
+					value={form.fname}
 					onChange={handleChange}
 					onBlur={handleBlur}
 					required

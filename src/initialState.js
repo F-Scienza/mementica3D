@@ -31,7 +31,7 @@ export default {
 			title: 'Combo ceniceros',
 			type: 'MoldesResina',
 			offer: false,
-			price: 5780,
+			price: 6370,
 			description: `Moldes de silicona para resina ceniceros x6 formas 7cm:
 						Cuadrado, Hoja, Corazón, Redondo, triangular, Hexágono`,
 			sells: 0,
@@ -43,7 +43,7 @@ export default {
 			title: 'Cenicero Corazon',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1450,
+			price: 1690,
 			description:
 				'Molde de silicona para resina: cenicero con forma de corazon 8,5x8x1,5cm',
 			sells: 0,
@@ -55,7 +55,7 @@ export default {
 			title: 'cenicero cuadrado',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1450,
+			price: 1690,
 			description:
 				'molde de silicona para resina: cenicero con forma de cuadrado 8x8x1,8cm',
 			sells: 0,
@@ -67,7 +67,7 @@ export default {
 			title: 'Cenicero redondo',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1450,
+			price: 1690,
 			description:
 				'Molde de silicona para resina: cenicero con forma redonda 7x1,8cm',
 			sells: 0,
@@ -79,7 +79,7 @@ export default {
 			title: 'Cenicero hexagonal',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1450,
+			price: 1690,
 			description:
 				'Molde de silicona para resina: cenicero con forma hexagonal 8x7x1,5cm',
 			sells: 0,
@@ -91,7 +91,7 @@ export default {
 			title: 'Cenicero triangular',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1450,
+			price: 1690,
 			description:
 				'Molde de silicona para resina: ceniceros con forma triangular 8x1,7cm',
 			sells: 0,
@@ -103,7 +103,7 @@ export default {
 			title: 'Cenicero hoja',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1450,
+			price: 1690,
 			description:
 				'Molde de silicona para resina: ceniceros con forma de hoja 8x8,5x1,5cm',
 			sells: 0,
@@ -126,10 +126,10 @@ export default {
 			title: 'Dijes en formas varias',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2400,
+			price: 2700,
 			description:
 				'Molde de silicona para resina para dijes en varias formas (11 cavidades)',
-			sells: 15,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llavdijes.webp?alt=media&token=dfa0c56f-9949-4d33-b097-c7bcc67a671f',
 		},
@@ -138,7 +138,7 @@ export default {
 			title: 'Escudos con agujero',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2250,
+			price: 2800,
 			description:
 				'Molde de silicona para resina con forma de escudos 8 cavidades de 3,5cm',
 			sells: 0,
@@ -161,7 +161,7 @@ export default {
 			id: 112,
 			title: 'Ninjacat',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 1350,
 			description:
 				'Molde de silicona para resina tipo llavero con forma de gato ninjacat defensa personal',
@@ -174,7 +174,7 @@ export default {
 			title: 'Huesito x10',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3755,
+			price: 4150,
 			description:
 				'Molde de silicona tipo llavero con forma de huesito x10 cavidades de 7x4cm',
 			sells: 0,
@@ -196,7 +196,7 @@ export default {
 			id: 115,
 			title: 'Huesito x3 cavidades',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 1443,
 			description:
 				'Molde de silicona para resina, tipo llavero, forma de huesito x3 cavidades 5x3cm ',
@@ -220,7 +220,7 @@ export default {
 			id: 117,
 			title: 'Llaveros cuadrados 8 cavidades',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 3000,
 			description:
 				'Molde de silicona para resina tipo llaveros cuadrados 5cm x 8 cavidades',
@@ -247,7 +247,7 @@ export default {
 			price: 2410,
 			description:
 				'Molde de silicona para resina forma de marcador 15x3cm x 3 cavidades',
-			sells: 5,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/marc-15x3-triple.webp?alt=media&token=c4fb3095-a8b4-4245-ba09-b23cd7676fe9',
 		},
@@ -270,7 +270,7 @@ export default {
 			price: 1925,
 			description:
 				'Molde de silicona para paleta de maquillaje pintura de uñas 12,5cm x 9,5cm',
-			sells: 4,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/palmaq.webp?alt=media&token=883fdba3-641f-4ff0-b36b-7c16fcd07cd2',
 		},
@@ -279,7 +279,7 @@ export default {
 			title: 'Pastillas x30 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1440,
+			price: 1550,
 			description:
 				'Molde de silicona para jabones con forma de pastillas 12x6mm',
 			sells: 0,
@@ -325,7 +325,7 @@ export default {
 			title: 'Picador herb grinder',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1650,
+			price: 1820,
 			description:
 				'Molde de silicona con forma de picador con puntas 5,5cm de diametro x 2,5cm de alto (estando cerrado)',
 			sells: 0,
@@ -361,7 +361,7 @@ export default {
 			title: 'Posavaso cuadrado',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1540,
+			price: 1650,
 			description: 'Molde de silicona posavaso con borde forma cuadrado',
 			sells: 0,
 			image:
@@ -372,23 +372,11 @@ export default {
 			title: 'Posavasos redondo',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1540,
+			price: 1650,
 			description: 'Molde de silicona posavaso con borde forma circular',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/posa-circ-borde.webp?alt=media&token=5eb48b38-e5d3-4664-a1be-eb4e12d547d3',
-		},
-		{
-			id: 132,
-			title: 'Tapa de agenda A5',
-			type: 'MoldesResina',
-			offer: false,
-			price: 2795,
-			description:
-				'Molde de silicona forma de tapa de agenda A5 con 6 agujeros',
-			sells: 0,
-			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapaga5anillado.webp?alt=media&token=f646546f-c90e-4140-b16f-7ae6b0d7d62d',
 		},
 		{
 			id: 133,
@@ -418,7 +406,7 @@ export default {
 			title: 'Vela zig-zag curvo',
 			type: 'moldesvelas',
 			offer: false,
-			price: 2320,
+			price: 2540,
 			description: 'Molde de silicona para velas forma zig-zag curvo',
 			sells: 0,
 			image:
@@ -429,7 +417,7 @@ export default {
 			title: 'Vela zig-zag recta',
 			type: 'moldesvelas',
 			offer: false,
-			price: 2320,
+			price: 2540,
 			description: 'Molde de silicona para velas forma zig-zag recta',
 			sells: 0,
 			image:
@@ -440,7 +428,7 @@ export default {
 			title: 'Posavasos hexagonal',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1540,
+			price: 1650,
 			description: 'Molde de silicona posavaso con borde forma hexagonal.',
 			sells: 0,
 			image:
@@ -581,10 +569,10 @@ export default {
 			title: 'Llaveros rectangulares',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1735,
+			price: 3100,
 			description:
 				'Molde de silicona para resina tipo llaveros rectangulares 4,2x8cm 8 cavidades.',
-			sells: 5,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llavrectx8.webp?alt=media&token=55113af6-a553-4d48-b9ce-9ea47d0e64a8',
 		},
@@ -617,7 +605,7 @@ export default {
 			title: 'Combo 4 moldes para llaveros',
 			type: 'MoldesResina',
 			offer: false,
-			price: 8670,
+			price: 9650,
 			description:
 				'Molde de silicona tipo llaveros de 8 cavidades de 5cm cada uno con formas cuadradas, circulares, hexagonales y corazones',
 			sells: 0,
@@ -641,7 +629,7 @@ export default {
 			title: 'Vela con forma de almeja',
 			type: 'moldesvelas',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'Moldes de silicona para velas con forma de almeja 9x6,5x4cm',
 			sells: 0,
@@ -677,9 +665,9 @@ export default {
 			title: 'Tabla picadas',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3850,
+			price: 4235,
 			description:
-				'Molde de silicona para resina tipo paleta de pinturs/tabla de picadas 35x15x1cm',
+				'Molde de silicona para resina tipo paleta de pintura/tabla de picadas 35x15x1cm',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tablapicadas.webp?alt=media&token=870116f5-6d82-4232-97e0-e3e5033a15c6',
@@ -725,7 +713,7 @@ export default {
 			title: 'Cuadrado 20cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2700,
+			price: 2900,
 			description:
 				'Molde de silicona para resina forma Cuadrada de 20x0,5 cm acabado liso.',
 			sells: 0,
@@ -737,7 +725,7 @@ export default {
 			title: 'Rectangulo 17x8cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1445,
+			price: 1600,
 			description:
 				'Molde de silicona para resina forma rectangular de 17x8cm acabado liso.',
 			sells: 0,
@@ -833,7 +821,7 @@ export default {
 			title: 'Circulo 20cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2890,
+			price: 3430,
 			description:
 				'Molde de silicona para resina circulo de 20 cm acabado brillante',
 			sells: 0,
@@ -845,7 +833,7 @@ export default {
 			title: 'Pastillas x30 cavidades 20mm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1640,
+			price: 1720,
 			description: 'Molde de silicona para jabones con forma de pastillas 20mm',
 			sells: 0,
 			image:
@@ -856,7 +844,7 @@ export default {
 			title: 'Posavasos triangular',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2215,
+			price: 2360,
 			description:
 				'Molde de silicona para resina con forma de triangulos con un borde irregular para posavasos 4 cavidades',
 			sells: 0,
@@ -877,10 +865,10 @@ export default {
 		},
 		{
 			id: 178,
-			title: 'Paleta pintor 8,5cm',
+			title: 'Paleta pintor pequeña',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1445,
+			price: 1530,
 			description:
 				'Molde de silicona para paleta de pintor con agujero. 8,5cm acabado liso.',
 			sells: 0,
@@ -891,10 +879,10 @@ export default {
 			id: 179,
 			title: 'Tapa agenda A6 doble',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 3370,
 			description: 'Molde de silicona para tapa agenda tamaño A6 para anillado',
-			sells: 0,
+			sells: 10,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapaaga6x2.webp?alt=media&token=6594556e-3856-4555-ba7c-bd7967741168',
 		},
@@ -929,7 +917,7 @@ export default {
 			price: 1600,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de circular 3 cavidades 5cm',
-			sells: 0,
+			sells: 5,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llavredx3.webp?alt=media&token=eaaea1a2-59cb-4255-b6f0-d1bef11fde37',
 		},
@@ -949,7 +937,7 @@ export default {
 			id: 185,
 			title: 'LLavero gatito x3 cav.',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 1500,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de gatito 3 cavidades 3x3cm',
@@ -1021,7 +1009,7 @@ export default {
 			title: 'Posavasos forma corazon x2 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1820,
+			price: 1900,
 			description:
 				'Molde de silicona con dos cavidades con forma de corazon 9x8cm acabado liso',
 			sells: 0,
@@ -1045,7 +1033,7 @@ export default {
 			title: 'Jabonera 8x8cm Bubble',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2220,
+			price: 2420,
 			description: 'Molde de silicona para resina con forma de jabonera 8x8cm',
 			sells: 0,
 			image:
@@ -1068,7 +1056,7 @@ export default {
 			title: 'Vela forma simetrica',
 			type: 'moldesvelas',
 			offer: false,
-			price: 2310,
+			price: 2460,
 			description:
 				'Molde de silicona para velas forma simetrica 20cm clande soja',
 			sells: 0,
@@ -1080,9 +1068,9 @@ export default {
 			title: 'Tapa agenda A4 para anillado',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3060,
+			price: 3250,
 			description: 'Molde de silicona para tapa agenda tamaño A4 para anillado',
-			sells: 5,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapag-a4simple.webp?alt=media&token=b507fef1-888d-40d6-9f4b-2ebf56d230e6',
 		},
@@ -1093,7 +1081,7 @@ export default {
 			offer: false,
 			price: 2610,
 			description: 'Molde de silicona para tapa agenda tamaño A5 para anillado',
-			sells: 4,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapaga5anillado.webp?alt=media&token=f646546f-c90e-4140-b16f-7ae6b0d7d62d',
 		},
@@ -1102,7 +1090,7 @@ export default {
 			title: 'Tapa agenda A4 Doble para anillado ',
 			type: 'MoldesResina',
 			offer: false,
-			price: 5400,
+			price: 5800,
 			description: 'Molde de silicona para tapa agenda tamaño A4 para anillado',
 			sells: 0,
 			image:
@@ -1112,11 +1100,11 @@ export default {
 			id: 199,
 			title: 'Llavero copa del mundo x3 cav',
 			type: 'MoldesResina',
-			offer: true,
+			offer: false,
 			price: 1530,
 			description:
 				'Molde de silicona para llaveros con forma de la copa del mundo 3 cavidades',
-			sells: 0,
+			sells: 10,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-mundialx3.webp?alt=media&token=a4891534-2d5a-40ae-b938-eb9da389422e',
 		},
@@ -1125,7 +1113,7 @@ export default {
 			title: 'Llavero copa del mundo x8 cav',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2800,
+			price: 3000,
 			description:
 				'Molde de silicona para llaveros con forma de la copa del mundo 8 cavidades',
 			sells: 0,
@@ -1197,12 +1185,12 @@ export default {
 			title: 'Adornos navideños',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1800,
+			price: 2250,
 			description:
 				'Molde de silicona para adornos navideños 3 formas',
 			sells: 0,
 			image:
-			'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/adorn-navidadv1.webp?alt=media&token=274e4a92-8b80-42a5-bd31-24720a82207b',
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/adorn-navidadv1.webp?alt=media&token=274e4a92-8b80-42a5-bd31-24720a82207b',
 		},
 		{
 			id: 208,
@@ -1228,7 +1216,152 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/marcx8.webp?alt=media&token=378d1e5d-9fda-4eb3-8d1f-75756668dc51',
 		},
+		{
+			id: 210,
+			title: 'Combo tapas agendas',
+			type: 'MoldesResina',
+			offer: false,
+			price: 7900,
+			description:
+				'Tapas de agenda A4, A5 y A6 simples',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/combo-agendassimples.webp?alt=media&token=af5e6615-22a0-4293-bab8-920efd9fe008',
+		},
+		{
+			id: 211,
+			title: 'Combo tapas agendas doble',
+			type: 'MoldesResina',
+			offer: false,
+			price: 14965,
+			description:
+				'Tapas de agenda A4, A5 y A6 dobles',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/combo-agendasdobles.webp?alt=media&token=9bcc43ee-31f0-4285-b8c2-d6ba3603d293',
+		},
 
+		{
+			id: 212,
+			title: 'Kit futbol',
+			type: 'MoldesResina',
+			offer: false,
+			price: 4500,
+			description:
+				'Kit 3 moldes futbol Copa mundial, pelota y camiseta 3 cavidades cada uno.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/kit-futbolx3.webp?alt=media&token=a9dc0f95-aa6d-407a-8239-10d187c4b0aa',
+		},
+
+		{
+			id: 213,
+			title: 'Portacopas',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2940,
+			description:
+				'Molde para resina con forma de porta copas de champagne',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/portacopas.webp?alt=media&token=61f5a6d1-2017-48b1-842a-126bb5e764fb',
+		},
+		{
+			id: 214,
+			title: 'Futbol x3 cavidades',
+			type: 'MoldesResina',
+			offer: false,
+			price: 1600,
+			description:
+				'Molde con 3 cavidades con forma de futbol grabado.',
+			sells: 10,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-futx3.webp?alt=media&token=9ffa3b2e-cf15-44df-bb74-9c808b11c632',
+		},
+		{
+			id: 215,
+			title: 'Futbol x8 cavidades',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2940,
+			description:
+				'Molde con 8 cavidades con forma de futbol grabado.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-futx8.webp?alt=media&token=ded2793a-49e0-499d-885a-3a8dbfe582dd',
+		},
+		{
+			id: 216,
+			title: 'Reloj 30cm',
+			type: 'MoldesResina',
+			offer: false,
+			price: 4500,
+			description:
+				'Molde con forma de reloj 30cm, orificio en el centro y lineas que marcan la hora.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/reloj30cm.webp?alt=media&token=e947eb00-3e9c-491d-96f2-fb8de083cae9',
+		},
+		{
+			id: 217,
+			title: 'Estrellas x8 cavidades',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3100,
+			description:
+				'Molde con 8 cavidades con forma de estrellas.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-estrellax8.webp?alt=media&token=ca6fe370-5ffe-40a2-9b48-6ebf9d0f2336',
+		},
+		{
+			id: 218,
+			title: 'Aritos/dijes 32 cavidades',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2600,
+			description:
+				'32 cavidades para pendientes 8 formas diferentes 2cm cada uno, detalles grabados',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/aritosx32.webp?alt=media&token=896563b2-6c0e-4c22-a3ac-981f7d7d818b',
+		},
+		{
+			id: 219,
+			title: 'Messi x3 cavidades',
+			type: 'MoldesResina',
+			offer: false,
+			price: 1690,
+			description:
+				'Molde con 3 cavidades con forma de Messi grabado (5x5cm).',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/messix3.webp?alt=media&token=46a5ff71-f05f-4317-9786-bf34e4604d64',
+		},
+		{
+			id: 220,
+			title: 'Messi x8 cavidades',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3000,
+			description:
+				'Molde con 8 cavidades con forma de Messi grabado (5x5cm)',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/messix8.webp?alt=media&token=4be0bb59-3daf-44ef-af46-7ce04cdc723b',
+		},
+		{
+			id: 221,
+			title: 'Signos zodiacales',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2700,
+			description:
+				'!2 cavidades tipo llavero con 12 cavidades con los signos zodiacales',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-zodiacalesx12.webp?alt=media&token=91167c92-58eb-4639-8251-f890d0506481',
+		},
 
 
 
@@ -1236,9 +1369,9 @@ export default {
 
 		{
 			id: 300,
-			title: 'Resina expoxi 300gr',
+			title: 'Resina epoxi 300gr',
 			type: 'ProductosVarios',
-			offer: true,
+			offer: false,
 			price: 3180,
 			description: 'Resina epoxi marca cristal tack 300gr',
 			sells: 20,
@@ -1359,7 +1492,7 @@ export default {
 			title: 'Limpiador DPM liquido',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 1170,
+			price: 1400,
 			description: 'Limpiador liquido sin solventes para resinas epoxi 250cc',
 			sells: 0,
 			image:
@@ -1381,7 +1514,7 @@ export default {
 			title: 'Resina epoxi glosstack 210gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 2430,
+			price: 2600,
 			description:
 				'Resina epoxi glosstack cristal 210gr, dimensional epoxi cristalino, para acabados.',
 			sells: 0,
@@ -1415,7 +1548,7 @@ export default {
 			title: 'Resina poliuretano Ebalta sg2000 400g',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 4320,
+			price: 4640,
 			description:
 				'Compuesto de colada base poliuretano de muy baja viscosidad y endurecimiento rápido y alta calidad de reproducción de detalles. Color blanco tiza.',
 			sells: 0,
@@ -1558,7 +1691,7 @@ export default {
 			title: 'Velador con forma de luna 14cm + base',
 			type: '3d',
 			offer: false,
-			price: 2520,
+			price: 2750,
 			description:
 				'Lampara luna velador 14cm con base decoración. Fabricada mediante impresión 3D',
 			sells: 0,
@@ -1585,7 +1718,7 @@ export default {
 			price: 1500,
 			description:
 				'Soporte para notebook, refrigeracio, 5 posiciones, portatil con antideslizante',
-			sells: 5,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/3d-stand-notebook.webp?alt=media&token=3aeb5f0b-789b-4fae-8a59-fc75728a77c5',
 		},
