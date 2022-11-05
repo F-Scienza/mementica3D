@@ -49,14 +49,16 @@ function Form2() {
 	const { state } = useContext(AppContext);
 	const { cart } = state;
 	let cartTotal2 = 0;
-	cart.forEach(prod => cartTotal2 += prod.price);
-	
-	{/*let mercadoPago10 = {
+	cart.forEach(prod => (cartTotal2 += prod.price));
+
+	{
+		/*let mercadoPago10 = {
 		price: cartTotal2 * 0.1,
 		title: 'Comision mercado Pago',
 		description: 'costo de servicio mercado pago',
 		id: 2606,
-	};*/}
+	};*/
+	}
 	const {
 		form,
 		errors,
@@ -239,7 +241,7 @@ function Form2() {
 						</label>
 					</div>
 				</div>*/}
-				<div className='btnform-container'>
+				<div className="btnform-container">
 					<Link className="backbutton-link" to="/mementica3d/cart">
 						<div className="backbutton">Regresar al carrito</div>
 					</Link>
@@ -247,9 +249,9 @@ function Form2() {
 					{
 						// eslint-disable-next-line
 						Object.entries(errors) == 0 ? (
-									<button className="chart-btn btn-transferencia" type="submit">
-										IR A PAGAR MEDIANTE TRANSFERENCIA
-									</button>
+							<button className="chart-btn btn-transferencia" type="submit">
+								IR A PAGAR MEDIANTE TRANSFERENCIA
+							</button>
 						) : (
 							<div className="backbutton alert">IR A PAGAR</div>
 						)
