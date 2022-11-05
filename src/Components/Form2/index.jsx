@@ -1,7 +1,8 @@
-import React, { useContext } from 'react';
+import React, { useContext, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
+import emailjs from '@emailjs/browser'
 import './Form2.css';
 //import mpimg from '../../Images/Asets/mp.png';
 const initialForm = {
@@ -15,6 +16,9 @@ const initialForm = {
 	adr: '',
 	dpto: '',
 	cp: '',
+	total: '',
+	cantProd: '',
+	productos: ''
 };
 const validateForm = form => {
 	let errors = {};
@@ -46,42 +50,59 @@ const validateForm = form => {
 };
 
 function Form2() {
-	const { state } = useContext(AppContext);
-	const { cart } = state;
-	let cartTotal2 = 0;
-	cart.forEach(prod => (cartTotal2 += prod.price));
 
-	{
-		/*let mercadoPago10 = {
+	const formmm = useRef()
+	const sendEmail = (e) => {
+		e.preventDefault();
+		emailjs.sendForm('service_af5klkp', 'template_6oj20bs', formmm.current, 'hz9bIy8_CFkFxfHkl')
+			.then((result) => {
+				console.log(result.text, formmm);
+			}, (error) => {
+				console.log(error.text);
+			});
+		handleSubmit()
+	};
+
+	const { state } = useContext(AppContext);
+	const { cart, buyer } = state;
+	let cartTotal2 = 0;
+	cart.forEach(prod => cartTotal2 += prod.price);
+	{/*let mercadoPago10 = {
 		price: cartTotal2 * 0.1,
 		title: 'Comision mercado Pago',
 		description: 'costo de servicio mercado pago',
 		id: 2606,
-	};*/
-	}
+	};*/}
+	let envio = false
+	cart.find(p => p.title === 'ClicOH envio') ? envio = true : envio = false
 	const {
 		form,
 		errors,
 		//mercadoPago,
-		envio,
 		handleBlur,
 		handleChange,
 		handleSubmit,
 		//handleSetMp,
-		handleSetEnvio,
+		//handleSetEnvio,
 	} = useForm(initialForm, validateForm);
-
+	form.productos = cart.map(p => ' ' + p.title)
+	form.cantProd = cart.length
+	form.total = cartTotal2
 	return (
 		<div className="form-container">
 			<h1>Informacion del comprador</h1>
-			<form onSubmit={handleSubmit}>
+			<form ref={formmm} onSubmit={sendEmail}>
+				<input className='hiddeninputs' type="number" name='cantProd' id='cantProd' value={form.cantProd} />
+				<input className='hiddeninputs' type="text" name="productos" id="productos" value={form.productos} />
+				<input className='hiddeninputs' type="number" name="total" id="total" value={form.total} />
+
 				<label htmlFor="fname">Nombre:</label>
 				<input
 					type="text"
 					id="fname"
 					name="fname"
 					placeholder="Juan"
-					value={form.name}
+					value={form.fname}
 					onChange={handleChange}
 					onBlur={handleBlur}
 					required
@@ -137,20 +158,11 @@ function Form2() {
 					required
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
-				<div className="label-envio">
-					<label htmlFor="envio">¿Deseas agregar informacion de envio?</label>
-					<input
-						id="envio"
-						type="checkbox"
-						name="envio"
-						defaultChecked={envio}
-						onChange={handleSetEnvio}
-					/>
-				</div>
 
 				{envio && (
 					//logica para que esta parte del formulario aparezca solo
 					//si compraron el envio
+
 					<div className="form-infoenvio">
 						<label htmlFor="cp">Codigo postal</label>
 						<input

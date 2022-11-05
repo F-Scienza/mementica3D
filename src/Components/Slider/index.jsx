@@ -24,7 +24,6 @@ function Slider() {
 						transition
 					);
 			}
-			
 			sliderContainer.current.addEventListener('transitionend', transition)
 		} 
 	};

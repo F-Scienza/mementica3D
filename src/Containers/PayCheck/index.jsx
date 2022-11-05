@@ -32,15 +32,16 @@ function PayCheck() {
 			</h2>
 			<p>
 				Recorda que nuestros horarios de atención son de lunes a viernes de 9 a 16hs. 
-				Los pedidos pueden tener demora de hasta 48hs habiles. <br />
+				Los pedidos pueden tener demora de hasta 48hs habiles en ser despachados. <br />
+				Los envios son a domicilio a traves de clicOH <br />
 				Por favor le pedimos que conserve una captura de pantalla para evitar
 				cualquier inconveniente.
 			</p>
 			<h3>Muchas gracias por confiar en nosotros</h3>
 			<span className='mementica-font'>MEMENTICA</span>
 			<br />
-			<Link className="backbutton" to="/mementica3d/">
-				<div className="backbutton-link">Regresar al inicio</div>
+			<Link className="backbutton homelink" to="/mementica3d/">
+				Regresar al inicio
 			</Link>
 		</div>
 	);

@@ -56,9 +56,6 @@ input[type='number'] {
 	border: 1px solid #ccc;
 	border-radius: 3px;
 }
-input[type='number']::-webkit-inner-spin-button {
-	-webkit-appearance: none;
-}
 label {
 	font-size: 1.2em;
 	margin-bottom: 0px;
@@ -163,4 +160,7 @@ span.price {
 }
 .btnform-container{
 	margin-top: 20px;
+}
+.hiddeninputs{
+	display: none;
 }

@@ -55,12 +55,12 @@ function PayInfo() {
 			<div>
 				<h2>SIGUIENTE PASO:</h2>
 				<p>
-					Una vez que confirmemos el pago, nos comunicaremos contigo, mediante
-					los datos brindados en el formulario anterior e informaremos los
-					plazos de entrega.
+					Envianos el comprobante del pago a nuestro mail o whatsapp asi aceleramos el proceso 
+					de confirmación del mismo.
+					<br />
 					<br />
 					En caso de que el pago sea en efectivo y el retiro sea personal,
-					deberás comunicarte con nosotros mediante un mail o nuestro WhatsApp.
+					comunicate con nosotros y haznoslo saber
 				</p>
 			</div>
 			<div className="payinfo-contact-container">
@@ -80,6 +80,7 @@ function PayInfo() {
 					<br />
 				</p>
 				<button
+				type='submit'
 				className='btn'
 				onClick={handlePayConfirm}
 				>!Pago realizado!</button>
