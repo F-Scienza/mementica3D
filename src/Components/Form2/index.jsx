@@ -253,7 +253,7 @@ function Form2() {
 						</label>
 					</div>
 				</div>*/}
-				<div className='btnform-container'>
+				<div className="btnform-container">
 					<Link className="backbutton-link" to="/mementica3d/cart">
 						<div className="backbutton">Regresar al carrito</div>
 					</Link>
