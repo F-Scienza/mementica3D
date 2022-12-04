@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mementica3D/static/css/main.cbc71dc6.chunk.css",
-    "main.js": "/mementica3D/static/js/main.8a6f28a9.chunk.js",
-    "main.js.map": "/mementica3D/static/js/main.8a6f28a9.chunk.js.map",
+    "main.js": "/mementica3D/static/js/main.598c4368.chunk.js",
+    "main.js.map": "/mementica3D/static/js/main.598c4368.chunk.js.map",
     "runtime-main.js": "/mementica3D/static/js/runtime-main.f8c3e0d5.js",
     "runtime-main.js.map": "/mementica3D/static/js/runtime-main.f8c3e0d5.js.map",
-    "static/js/2.6f87983f.chunk.js": "/mementica3D/static/js/2.6f87983f.chunk.js",
-    "static/js/2.6f87983f.chunk.js.map": "/mementica3D/static/js/2.6f87983f.chunk.js.map",
+    "static/js/2.46ce7ad7.chunk.js": "/mementica3D/static/js/2.46ce7ad7.chunk.js",
+    "static/js/2.46ce7ad7.chunk.js.map": "/mementica3D/static/js/2.46ce7ad7.chunk.js.map",
     "index.html": "/mementica3D/index.html",
     "static/css/main.cbc71dc6.chunk.css.map": "/mementica3D/static/css/main.cbc71dc6.chunk.css.map",
-    "static/js/2.6f87983f.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.6f87983f.chunk.js.LICENSE.txt",
+    "static/js/2.46ce7ad7.chunk.js.LICENSE.txt": "/mementica3D/static/js/2.46ce7ad7.chunk.js.LICENSE.txt",
     "static/media/3d.081cd6ca.png": "/mementica3D/static/media/3d.081cd6ca.png",
     "static/media/404.ec49b834.png": "/mementica3D/static/media/404.ec49b834.png",
     "static/media/Galicia-logo.8c4b90ea.svg": "/mementica3D/static/media/Galicia-logo.8c4b90ea.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f8c3e0d5.js",
-    "static/js/2.6f87983f.chunk.js",
+    "static/js/2.46ce7ad7.chunk.js",
     "static/css/main.cbc71dc6.chunk.css",
-    "static/js/main.8a6f28a9.chunk.js"
+    "static/js/main.598c4368.chunk.js"
   ]
 }
