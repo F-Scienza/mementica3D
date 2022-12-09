@@ -7,7 +7,7 @@ function PageNotFound() {
 			<div className="not-found-container">
 				<img src={img404} alt="404" className="img404" />
 				<span className="not-found-msj">Lo sentimos pagina no encontrada</span>
-				<Link className="not-found-msj link" to="/mementica3d">
+				<Link className="not-found-msj link" to="/">
 					<button className='not-found-btn'>Volver al inicio</button>
 				</Link>
 			</div>

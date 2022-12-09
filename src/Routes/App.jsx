@@ -21,29 +21,29 @@ function App() {
 			<div className="App">
 				<Header />
 				<Routes>
-					<Route exact path="/mementica3d" element={<Home />} />
+					<Route exact path="/" element={<Home />} />
 					<Route path="*" element={<NotFound />} />
-					<Route path="/mementica3d/ProductList" element={<ProductList />} />
+					<Route path="/ProductList" element={<ProductList />} />
 					<Route
-						path="/mementica3d/ProductList/:type"
+						path="/ProductList/:type"
 						element={<ProductList />}
 					/>
-					<Route exact path="/mementica3d/Cart" element={<Cart />} />
-					<Route exact path="/mementica3d/Checkout" element={<Checkout />} />
+					<Route exact path="/Cart" element={<Cart />} />
+					<Route exact path="/Checkout" element={<Checkout />} />
 					<Route
 						exact
-						path="/mementica3d/Checkout/Payment"
+						path="/Checkout/Payment"
 						element={<Payment />}
 					/>
-					<Route exact path="/mementica3d/Checkout/form" element={<Form2 />} />
+					<Route exact path="/Checkout/form" element={<Form2 />} />
 					<Route
 						exact
-						path="/mementica3d/Checkout/form/payinfo"
+						path="/Checkout/form/payinfo"
 						element={<PayInfo />}
 					/>
 					<Route
 						exact
-						path="/mementica3d/Checkout/form/payinfo/paycheck"
+						path="/Checkout/form/payinfo/paycheck"
 						element={<PayCheck />}
 					/>
 				</Routes>

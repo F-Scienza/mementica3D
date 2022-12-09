@@ -11,7 +11,7 @@ function PayInfo() {
 	let carttotal = 0;
 	const navigate = useNavigate();
 	const handlePayConfirm = () =>{
-		navigate('/mementica3d/Checkout/form/payinfo/paycheck')
+		navigate('/Checkout/form/payinfo/paycheck')
 	}
 	return (
 		<div className="payinfo-container">

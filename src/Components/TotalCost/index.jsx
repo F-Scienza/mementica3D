@@ -23,7 +23,7 @@ function TotalCost() {
 						Agregar envio por $800
 					</button>
 			}
-			<Link className="cart-btn-pay" to="/mementica3d/Checkout/form">
+			<Link className="cart-btn-pay" to="/Checkout/form">
 				<button className="chart-btn "> Confirmar carrito </button>
 			</Link>
 		</div>
