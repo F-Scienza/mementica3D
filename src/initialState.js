@@ -1328,6 +1328,18 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-zodiacalesx12.webp?alt=media&token=91167c92-58eb-4639-8251-f890d0506481',
 		},
+		{
+			id: 222,
+			title: 'Reloj 20cm',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3400,
+			description:
+				'Molde con forma de reloj 20cm, orificio en el centro y lineas que marcan la hora.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/reloj20cm.webp?alt=media&token=cbc7ae00-17a2-40ea-a6f1-f7fd0f5b3a09',
+		},
 
 		{
 			id: 300,
