@@ -6,6 +6,7 @@ import moldesVelas from '../../Images/vela.png';
 import reventa from '../../Images/reventa.jpg';
 import impresion3D from '../../Images/3d.png';
 import allproducts from '../../Images/logo-M-scaled.webp';
+import letras from '../../Images/letras.png'
 import { Link } from 'react-router-dom';
 
 function CategoryCards() {
@@ -41,6 +42,12 @@ function CategoryCards() {
 						<Card2
 							categoryTitle="IMPRESION 3D"
 							categoryBackground={impresion3D}
+						/>
+					</Link>
+					<Link to="/ProductList/Letras">
+						<Card2
+							categoryTitle="LETRAS"
+							categoryBackground={letras}
 						/>
 					</Link>
 				</div>
