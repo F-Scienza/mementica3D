@@ -1544,7 +1544,7 @@ export default {
 		{
 			id: 400,
 			title: 'Tapas optica Chevrolet Cruze LTZ',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description: 'tapas optica para chevrolet Cruze LTZ extendida para led',
@@ -1555,7 +1555,7 @@ export default {
 		{
 			id: 401,
 			title: 'Tapas optica Peugeot 208',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1567,7 +1567,7 @@ export default {
 		{
 			id: 402,
 			title: 'Tapas optica Chevrolet Cruze LT',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2550,
 			description:
@@ -1579,7 +1579,7 @@ export default {
 		{
 			id: 403,
 			title: 'Tapas optica Chevrolet Cruze LT H7',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1591,7 +1591,7 @@ export default {
 		{
 			id: 404,
 			title: 'Tapas optica Chevrolet Cruze LT Guantera',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 3700,
 			description:
@@ -1603,7 +1603,7 @@ export default {
 		{
 			id: 405,
 			title: 'Tapas optica BMW Gs F800 (2017/2018)',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1615,7 +1615,7 @@ export default {
 		{
 			id: 406,
 			title: 'Tapas optica BMW Gs F800 (16/17)',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1350,
 			description:
@@ -1627,7 +1627,7 @@ export default {
 		{
 			id: 407,
 			title: 'Tapas optica Yamaha super Tenere',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1639,7 +1639,7 @@ export default {
 		{
 			id: 408,
 			title: 'Tapas optica BMW Gs F800',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1651,7 +1651,7 @@ export default {
 		{
 			id: 409,
 			title: 'Tapas optica BMW s1000rr Xr y otros',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1663,7 +1663,7 @@ export default {
 		{
 			id: 410,
 			title: 'Velador con forma de luna 14cm + base',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 3200,
 			description:
@@ -1675,7 +1675,7 @@ export default {
 		{
 			id: 411,
 			title: 'Tapas optica BMW Gs 1200',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1687,7 +1687,7 @@ export default {
 		{
 			id: 412,
 			title: 'Soporte stand notebook',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1500,
 			description:
@@ -1699,7 +1699,7 @@ export default {
 		{
 			id: 413,
 			title: 'Tapas optica Peugeot 207',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1711,7 +1711,7 @@ export default {
 		{
 			id: 414,
 			title: '10 llaveros ninjacat',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1530,
 			description:
@@ -1723,7 +1723,7 @@ export default {
 		{
 			id: 415,
 			title: 'Tapas optica Hyundai tucson',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2000,
 			description:
@@ -1735,7 +1735,7 @@ export default {
 		{
 			id: 416,
 			title: 'Control de velocidad crucero para motos',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 600,
 			description:
@@ -1747,7 +1747,7 @@ export default {
 		{
 			id: 417,
 			title: 'Tapas optica Yamaha R3',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2100,
 			description:
@@ -1759,7 +1759,7 @@ export default {
 		{
 			id: 419,
 			title: 'Tapas optica Chevrolet Tracker led 17/18',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1771,7 +1771,7 @@ export default {
 		{
 			id: 420,
 			title: '50 llaveros ninjacat',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 4500,
 			description:
@@ -1783,7 +1783,7 @@ export default {
 		{
 			id: 421,
 			title: 'Soporte playstation 4',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 630,
 			description:
@@ -1795,7 +1795,7 @@ export default {
 		{
 			id: 422,
 			title: 'Tapas optica Chevrolet Cruze LT H15',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1710,
 			description:
@@ -1807,7 +1807,7 @@ export default {
 		{
 			id: 423,
 			title: 'Tapas optica Chevrolet Onix',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1819,7 +1819,7 @@ export default {
 		{
 			id: 424,
 			title: 'Exhibidor de lentes',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 3100,
 			description: 'Exhibidor de lentes para optica de impresion 3D',
