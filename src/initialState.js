@@ -1346,7 +1346,7 @@ export default {
 			title: 'Resina epoxi 300gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 4400,
+			price: 5000,
 			description: 'Resina epoxi marca cristal tack 300gr',
 			sells: 20,
 			image:
@@ -1357,7 +1357,7 @@ export default {
 			title: 'Resina epoxi 750gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 7460,
+			price: 8100,
 			description: 'Resina epoxi cristal tack 750gr',
 			sells: 0,
 			image:
