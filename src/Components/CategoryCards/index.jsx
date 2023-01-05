@@ -34,7 +34,7 @@ function CategoryCards() {
 					</Link>
 					<Link to="/ProductList/ProductosVarios">
 						<Card2
-							categoryTitle="PRODUCTOS DE REVENTA"
+							categoryTitle="RESINAS PIGMENTOS Y MAS"
 							categoryBackground={reventa}
 						/>
 					</Link>
