@@ -138,9 +138,7 @@ function Form2() {
 				<input
 					type="number"
 					id="phone"
-					name="phone"
-					placeholder="telefono"
-					onChange={handleChange}
+			onChange={handleChange}
 					onBlur={handleBlur}
 					value={form.phone}
 					required
@@ -159,6 +157,16 @@ function Form2() {
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
 				<div className="form-infoenvio">
+					<div>
+						<p>			name="phone"
+					placeholder="telefono"
+				
+							A partir de los $10000 tendrás el envio bonificado. <br />
+							De lo contrario, deberás abonarlo por $1000
+						</p>
+						<button> agregar envio</button>
+					</div>
+
 					<label htmlFor="cp">Codigo postal</label>
 					<input
 						type="text"

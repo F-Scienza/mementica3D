@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import galicia from '../../Images/Galicia-logo.svg';
+import brubank from '../../Images/brubank.png';
 import wsp from '../../Images/Asets/whatsapp.svg';
 import gmail from '../../Images/Asets/gmail.svg';
 import './PayInfo.css';
@@ -43,14 +43,18 @@ function PayInfo() {
 			<div className="payinfo-bank">
 				<h2>INFORMACION DE LA CUENTA </h2>
 				<div className="galicia-container">
-					<img className="payinfo-galicia" src={galicia} alt="banco galicia" />
+					<img className="payinfo-galicia" src={brubank} alt="banco galicia" />
 				</div>
 				<span> Titular de la cuenta: </span>
 				<span className="payinfo-bank-info"> Jose Maria Iriarte </span>
+				<span> CUIT/CUIL: </span>
+				<span className="payinfo-bank-info"> 20-37628033-1 </span>
 				<span> Alias: </span>
-				<span className="payinfo-bank-info"> MEMENTICA3D </span>
+				<span className="payinfo-bank-info"> joseiriarte.bru.6039 </span>
 				<span> CBU: </span>
-				<span className="payinfo-bank-info"> 0070115630004016063612 </span>
+				<span className="payinfo-bank-info"> 1430001713031857800013 </span>
+				<span> Nro de cuenta: </span>
+				<span className="payinfo-bank-info"> 1303185780001 </span>
 			</div>
 			<div>
 				<h2>SIGUIENTE PASO:</h2>

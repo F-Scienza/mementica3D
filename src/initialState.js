@@ -1472,7 +1472,7 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/limpiadordpm.webp?alt=media&token=54a045a5-1902-4f48-8709-90e44987f85a',
 		},
-		{
+		{/*
 			id: 314,
 			title: 'Resina epoxi dicast 41',
 			type: 'ProductosVarios',
@@ -1482,6 +1482,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-dicast41.webp?alt=media&token=3f6274cb-d80e-4c33-be76-ded82eb482f8',
+			*/
 		},
 		{
 			id: 315,
