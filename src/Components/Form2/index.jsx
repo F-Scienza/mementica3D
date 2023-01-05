@@ -138,6 +138,8 @@ function Form2() {
 				<input
 					type="number"
 					id="phone"
+					name='phone'
+					placeholder='Numero de contacto'
 					onChange={handleChange}
 					onBlur={handleBlur}
 					value={form.phone}
