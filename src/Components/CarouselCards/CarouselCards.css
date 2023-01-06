@@ -27,8 +27,6 @@
     display: none;
 }
 .carousel-buttons{
-    position: absolute;
-    margin-top: 1em;
     width: 100%;
     text-align: center;
     display: flex;
@@ -36,26 +34,16 @@
 }
 
 .btn-carousel-cards{
-    background-color: transparent;
+    border-radius: 50%;
+    background-color: #28c4ac;
     border: none;
     cursor: pointer;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 50%;
-    height: 50px;
+    height: 30px;
     width: 30px;
+    padding: 0;
     position: relative;
     z-index: 20;
 }
-.btn-carousel-cards::after{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    top: 0px;
-    left: 0px;
-    content: "";
-    border-radius: 50%;
-    filter: blur(6px);
-    z-index: -1;
+.btn-img{
+    width: 30px;
 }
