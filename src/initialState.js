@@ -858,7 +858,7 @@ export default {
 			offer: false,
 			price: 4290,
 			description: 'Molde de silicona para tapa agenda tamaño A6 para anillado',
-			sells: 10,
+			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/tapaaga6x2.webp?alt=media&token=6594556e-3856-4555-ba7c-bd7967741168',
 		},
@@ -1301,7 +1301,7 @@ export default {
 			offer: false,
 			price: 1870,
 			description: 'Molde con 3 cavidades con forma de Messi grabado (5x5cm).',
-			sells: 0,
+			sells: 30,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/messix3.webp?alt=media&token=46a5ff71-f05f-4317-9786-bf34e4604d64',
 		},
@@ -1336,7 +1336,7 @@ export default {
 			price: 3400,
 			description:
 				'Molde con forma de reloj 20cm, orificio en el centro y lineas que marcan la hora.',
-			sells: 0,
+			sells: 20,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/reloj20cm.webp?alt=media&token=cbc7ae00-17a2-40ea-a6f1-f7fd0f5b3a09',
 		},

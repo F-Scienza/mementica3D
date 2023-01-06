@@ -3,20 +3,6 @@ import React from 'react';
 import burguerIcon from '../../Images/hamburguesa.ico';
 import { Link } from 'react-router-dom';
 function MainNavbar() {
-	{/*
-		const [matches, setMatches] = useState(
-			window.matchMedia("(min-width: 375px)").matches
-		)
-
-		useEffect(() => {
-			window
-				.matchMedia("(min-width: 375px)")
-				.addEventListener('change', e => setMatches(e.matches));
-		}, []);
-
-		let mobile = false
-
-	*/}
 
 	return (
 		<nav className="navbar__container">
