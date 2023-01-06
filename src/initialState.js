@@ -866,8 +866,8 @@ export default {
 			id: 180,
 			title: 'Arcoiris 7x7',
 			type: 'MoldesResina',
-			offer: false,
-			price: 2830,
+			offer: true,
+			price: 2430,
 			description: 'Molde de silicona con forma de arcoiris de 7x7x2 cm',
 			sells: 0,
 			image:
@@ -1339,6 +1339,18 @@ export default {
 			sells: 20,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/reloj20cm.webp?alt=media&token=cbc7ae00-17a2-40ea-a6f1-f7fd0f5b3a09',
+		},
+		{
+			id: 223,
+			title: 'Mano de Fatima',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2120,
+			description:
+				'Molde con forma de portasahumerios mano de fatima. 15x12cm',
+			sells: 20,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/portasahumerio-mano.webp?alt=media&token=09fb10db-0e4d-436c-a56d-1963eba08315',
 		},
 
 		{
