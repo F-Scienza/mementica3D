@@ -1,4 +1,4 @@
-.cart-total{
+.cart-total {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -15,33 +15,40 @@
     justify-self: center;
     align-self: flex-start;
 }
-.cart-total h3{
+
+.cart-total h3 {
     margin-block-start: 0.3em;
     margin-bottom: 10px;
 }
-.cart-btn-pay{
+
+.cart-btn-pay {
     width: 90%;
 }
-.cart-btn-confirm{
-    background-color: rgba(13, 191, 255, 0.842);
+
+.cart-btn-confirm {
+    background-color: rgba(246, 10, 10, 0.842);
     border: none;
     border-radius: 10px;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.input-radio{
+
+.input-radio {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.input-radio label{
+
+.input-radio label {
     margin-top: 5px;
 }
-.input-radio input{
+
+.input-radio input {
     margin-top: 5px;
 }
-.cart-total-btn{
+
+.cart-total-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,17 +63,38 @@
     border: 2px solid black;
     margin-bottom: 10px;
 }
-.cart-envio-img{
+
+.cart-envio-img {
     margin-left: 1em;
     width: 2em;
 }
-.envio-btn{
+
+.envio-btn {
     width: 90%;
-    border: 2px solid rgba(13, 191, 255, 0.842);
-    background-color: transparent;
+    border: 2px solid rgba(9, 1, 1, 0.618);
+    background-color: rgba(33, 251, 236, 0);
     border-radius: 2px;
     font-size: 1em;
     font-weight: 600;
     color: black;
     margin-bottom: 15px;
+    animation: slide 3s infinite
+}
+
+@keyframes slide {
+    0% {
+        border: 2px solid rgba(9, 1, 1, 0.033)
+    }
+
+    15% {
+        border: 2px solid rgba(8, 121, 251, 0.607);
+    }
+
+    30% {
+        border: 2px solid rgba(9, 1, 1, 0.033)
+    }
+
+    40% {
+        border: 2px solid rgba(9, 1, 1, 0.618);
+    }
 }

@@ -37,7 +37,7 @@ export const useForm = (initalForm, validateForm) => {
 	}
 	const handleSubmit = () => {
 		setErrors(validateForm(form));
-		navigate('/mementica3d/Checkout/form/PAYINFO');
+		navigate('/Checkout/form/PAYINFO');
 		if (Object.keys(errors).length === 0) {
 			setBuyer(form)
 		} else {

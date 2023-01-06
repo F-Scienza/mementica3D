@@ -6,6 +6,7 @@ import moldesVelas from '../../Images/vela.png';
 import reventa from '../../Images/reventa.jpg';
 import impresion3D from '../../Images/3d.png';
 import allproducts from '../../Images/logo-M-scaled.webp';
+import letras from '../../Images/letras.png'
 import { Link } from 'react-router-dom';
 
 function CategoryCards() {
@@ -13,34 +14,40 @@ function CategoryCards() {
 			<div className="category-container">
 				<h2 className="mementica-font">CATEGORIAS</h2>
 				<div className="Category-cards-container">
-					<Link to="/mementica3d/ProductList/">
+					<Link to="/ProductList/">
 						<Card2
 							categoryTitle="VER TODOS LOS PRODUCTOS"
 							categoryBackground={allproducts}
 						/>
 					</Link>
-					<Link to="/mementica3d/ProductList/moldesvelas">
+					<Link to="/ProductList/moldesvelas">
 						<Card2
 							categoryTitle="MOLDES PARA VELAS"
 							categoryBackground={moldesVelas}
 						/>
 					</Link>
-					<Link to="/mementica3d/ProductList/MoldesResina">
+					<Link to="/ProductList/MoldesResina">
 						<Card2
 							categoryTitle="MOLDES PARA RESINA"
 							categoryBackground={moldesResina}
 						/>
 					</Link>
-					<Link to="/mementica3d/ProductList/ProductosVarios">
+					<Link to="/ProductList/ProductosVarios">
 						<Card2
-							categoryTitle="PRODUCTOS DE REVENTA"
+							categoryTitle="RESINAS PIGMENTOS Y MAS"
 							categoryBackground={reventa}
 						/>
 					</Link>
-					<Link to="/mementica3d/ProductList/3D">
+					<Link to="/ProductList/3D">
 						<Card2
 							categoryTitle="IMPRESION 3D"
 							categoryBackground={impresion3D}
+						/>
+					</Link>
+					<Link to="/ProductList/Letras">
+						<Card2
+							categoryTitle="LETRAS"
+							categoryBackground={letras}
 						/>
 					</Link>
 				</div>

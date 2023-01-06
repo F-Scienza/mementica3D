@@ -74,7 +74,7 @@ function Form2() {
 		id: 2606,
 	};*/}
 	let envio = false
-	cart.find(p => p.title === 'ClicOH envio') ? envio = true : envio = false
+	cart.find(p => p.title === 'Envio') ? envio = true : envio = false
 	const {
 		form,
 		errors,
@@ -138,8 +138,8 @@ function Form2() {
 				<input
 					type="number"
 					id="phone"
-					name="phone"
-					placeholder="telefono"
+					name='phone'
+					placeholder='Numero de contacto'
 					onChange={handleChange}
 					onBlur={handleBlur}
 					value={form.phone}
@@ -158,71 +158,66 @@ function Form2() {
 					required
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
+				<div className="form-infoenvio">
 
-				{envio && (
-					//logica para que esta parte del formulario aparezca solo
-					//si compraron el envio
-
-					<div className="form-infoenvio">
-						<label htmlFor="cp">Codigo postal</label>
-						<input
-							type="text"
-							id="cp"
-							name="cp"
-							placeholder="0000"
-							onChange={handleChange}
-							onBlur={handleBlur}
-							value={form.cp}
-							required
-						/>
-						<label htmlFor="state">Provincia</label>
-						<input
-							type="text"
-							id="state"
-							name="state"
-							placeholder="Córdoba"
-							onChange={handleChange}
-							onBlur={handleBlur}
-							value={form.state}
-							required
-						/>
-						{errors.state && <p className="required-p"> {errors.state} </p>}
-						<label htmlFor="city">Ciudad</label>
-						<input
-							type="text"
-							id="city"
-							name="city"
-							placeholder="Capital"
-							onChange={handleChange}
-							onBlur={handleBlur}
-							value={form.city}
-							required
-						/>
-						{errors.city && <p className="required-p"> {errors.city} </p>}
-						<label htmlFor="adr">Direccion</label>
-						<input
-							type="text"
-							id="adr"
-							name="adr"
-							placeholder="Olmos 123"
-							onChange={handleChange}
-							onBlur={handleBlur}
-							value={form.adr}
-							required
-						/>
-						{errors.adr && <p className="required-p"> {errors.adr} </p>}
-						<label htmlFor="dpto">Dpto</label>
-						<input
-							type="text"
-							id="dpto"
-							name="dpto"
-							placeholder="10"
-							onChange={handleChange}
-							onBlur={handleBlur}
-							value={form.dpto}
-						/>
-					</div>
-				)}
+					<label htmlFor="cp">Codigo postal</label>
+					<input
+						type="text"
+						id="cp"
+						name="cp"
+						placeholder="0000"
+						onChange={handleChange}
+						onBlur={handleBlur}
+						value={form.cp}
+						required
+					/>
+					<label htmlFor="state">Provincia</label>
+					<input
+						type="text"
+						id="state"
+						name="state"
+						placeholder="Córdoba"
+						onChange={handleChange}
+						onBlur={handleBlur}
+						value={form.state}
+						required
+					/>
+					{errors.state && <p className="required-p"> {errors.state} </p>}
+					<label htmlFor="city">Ciudad</label>
+					<input
+						type="text"
+						id="city"
+						name="city"
+						placeholder="Capital"
+						onChange={handleChange}
+						onBlur={handleBlur}
+						value={form.city}
+						required
+					/>
+					{errors.city && <p className="required-p"> {errors.city} </p>}
+					<label htmlFor="adr">Direccion</label>
+					<input
+						type="text"
+						id="adr"
+						name="adr"
+						placeholder="Olmos 123"
+						onChange={handleChange}
+						onBlur={handleBlur}
+						value={form.adr}
+						required
+					/>
+					{errors.adr && <p className="required-p"> {errors.adr} </p>}
+					<label htmlFor="dpto">Dpto</label>
+					<input
+						type="text"
+						id="dpto"
+						name="dpto"
+						placeholder="10"
+						onChange={handleChange}
+						onBlur={handleBlur}
+						value={form.dpto}
+					/>
+				</div>
 				{errors.cp && <p> {errors.cp} </p>}
 
 				{/*<div className="form-paymethod ">
@@ -254,7 +249,7 @@ function Form2() {
 					</div>
 				</div>*/}
 				<div className="btnform-container">
-					<Link className="backbutton-link" to="/mementica3d/cart">
+					<Link className="backbutton-link" to="/cart">
 						<div className="backbutton">Regresar al carrito</div>
 					</Link>
 

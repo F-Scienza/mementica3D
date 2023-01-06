@@ -12,12 +12,12 @@ function Header() {
     return (
 			<div className="header-container">
 				<MainNavbar/>
-				<Link className="header-logos-container" to="/mementica3d">
+				<Link className="header-logos-container" to="/">
 					<img className="header-logo2" src={MLogo} alt="logo" />
 					<img className="header-logo" src={BlackLogo} alt="logo" />
 				</Link>
 				<div>
-					<Link className="cart" to="/mementica3d/Cart">
+					<Link className="cart" to="/Cart">
 						<img className="cart-icon" src={cartIcon} alt="" />
 						{cart.length > 0 ? (
 							<div className="cart-alert">

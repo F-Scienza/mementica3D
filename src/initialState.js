@@ -1328,13 +1328,25 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-zodiacalesx12.webp?alt=media&token=91167c92-58eb-4639-8251-f890d0506481',
 		},
+		{
+			id: 222,
+			title: 'Reloj 20cm',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3400,
+			description:
+				'Molde con forma de reloj 20cm, orificio en el centro y lineas que marcan la hora.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/reloj20cm.webp?alt=media&token=cbc7ae00-17a2-40ea-a6f1-f7fd0f5b3a09',
+		},
 
 		{
 			id: 300,
 			title: 'Resina epoxi 300gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 4400,
+			price: 5000,
 			description: 'Resina epoxi marca cristal tack 300gr',
 			sells: 20,
 			image:
@@ -1345,7 +1357,7 @@ export default {
 			title: 'Resina epoxi 750gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 7460,
+			price: 8100,
 			description: 'Resina epoxi cristal tack 750gr',
 			sells: 0,
 			image:
@@ -1460,7 +1472,7 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/limpiadordpm.webp?alt=media&token=54a045a5-1902-4f48-8709-90e44987f85a',
 		},
-		{
+		{/*
 			id: 314,
 			title: 'Resina epoxi dicast 41',
 			type: 'ProductosVarios',
@@ -1470,6 +1482,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-dicast41.webp?alt=media&token=3f6274cb-d80e-4c33-be76-ded82eb482f8',
+			*/
 		},
 		{
 			id: 315,
@@ -1532,7 +1545,7 @@ export default {
 		{
 			id: 400,
 			title: 'Tapas optica Chevrolet Cruze LTZ',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description: 'tapas optica para chevrolet Cruze LTZ extendida para led',
@@ -1543,7 +1556,7 @@ export default {
 		{
 			id: 401,
 			title: 'Tapas optica Peugeot 208',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1555,7 +1568,7 @@ export default {
 		{
 			id: 402,
 			title: 'Tapas optica Chevrolet Cruze LT',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2550,
 			description:
@@ -1567,7 +1580,7 @@ export default {
 		{
 			id: 403,
 			title: 'Tapas optica Chevrolet Cruze LT H7',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1579,7 +1592,7 @@ export default {
 		{
 			id: 404,
 			title: 'Tapas optica Chevrolet Cruze LT Guantera',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 3700,
 			description:
@@ -1591,7 +1604,7 @@ export default {
 		{
 			id: 405,
 			title: 'Tapas optica BMW Gs F800 (2017/2018)',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1603,7 +1616,7 @@ export default {
 		{
 			id: 406,
 			title: 'Tapas optica BMW Gs F800 (16/17)',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1350,
 			description:
@@ -1615,7 +1628,7 @@ export default {
 		{
 			id: 407,
 			title: 'Tapas optica Yamaha super Tenere',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1627,7 +1640,7 @@ export default {
 		{
 			id: 408,
 			title: 'Tapas optica BMW Gs F800',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1639,7 +1652,7 @@ export default {
 		{
 			id: 409,
 			title: 'Tapas optica BMW s1000rr Xr y otros',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1651,7 +1664,7 @@ export default {
 		{
 			id: 410,
 			title: 'Velador con forma de luna 14cm + base',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 3200,
 			description:
@@ -1663,7 +1676,7 @@ export default {
 		{
 			id: 411,
 			title: 'Tapas optica BMW Gs 1200',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1675,7 +1688,7 @@ export default {
 		{
 			id: 412,
 			title: 'Soporte stand notebook',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1500,
 			description:
@@ -1687,7 +1700,7 @@ export default {
 		{
 			id: 413,
 			title: 'Tapas optica Peugeot 207',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1699,7 +1712,7 @@ export default {
 		{
 			id: 414,
 			title: '10 llaveros ninjacat',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1530,
 			description:
@@ -1711,7 +1724,7 @@ export default {
 		{
 			id: 415,
 			title: 'Tapas optica Hyundai tucson',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2000,
 			description:
@@ -1723,7 +1736,7 @@ export default {
 		{
 			id: 416,
 			title: 'Control de velocidad crucero para motos',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 600,
 			description:
@@ -1735,7 +1748,7 @@ export default {
 		{
 			id: 417,
 			title: 'Tapas optica Yamaha R3',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2100,
 			description:
@@ -1747,7 +1760,7 @@ export default {
 		{
 			id: 419,
 			title: 'Tapas optica Chevrolet Tracker led 17/18',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2250,
 			description:
@@ -1759,7 +1772,7 @@ export default {
 		{
 			id: 420,
 			title: '50 llaveros ninjacat',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 4500,
 			description:
@@ -1771,7 +1784,7 @@ export default {
 		{
 			id: 421,
 			title: 'Soporte playstation 4',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 630,
 			description:
@@ -1783,7 +1796,7 @@ export default {
 		{
 			id: 422,
 			title: 'Tapas optica Chevrolet Cruze LT H15',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 1710,
 			description:
@@ -1795,7 +1808,7 @@ export default {
 		{
 			id: 423,
 			title: 'Tapas optica Chevrolet Onix',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 2600,
 			description:
@@ -1807,13 +1820,299 @@ export default {
 		{
 			id: 424,
 			title: 'Exhibidor de lentes',
-			type: '3d',
+			type: '3D',
 			offer: false,
 			price: 3100,
 			description: 'Exhibidor de lentes para optica de impresion 3D',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/3d-exhibidorcabeza.webp?alt=media&token=afc71057-cee0-405b-a327-db1b85eab604',
+		},
+		{
+			id: 500,
+			title: 'Letra A',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraA.webp?alt=media&token=aa0a909e-3a9f-4650-937a-c7914ff7742a',
+		},
+		{
+			id: 501,
+			title: 'Letra B',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraB.webp?alt=media&token=cf57aec9-bbad-40fe-b488-76634376fbe4',
+		},
+		{
+			id: 503,
+			title: 'Letra C',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraC.webp?alt=media&token=c1c49482-4c79-4e6a-b9a0-fa75036877a7',
+		},
+		{
+			id: 504,
+			title: 'Letra D',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraD.webp?alt=media&token=069f565f-22d9-46cf-b8c8-1fc00dd29bed',
+		},
+		{
+			id: 505,
+			title: 'Letra E',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraE.webp?alt=media&token=52d35449-60cc-41e5-ab5d-1837dd9136e7',
+		},
+		{
+			id: 506,
+			title: 'Letra F',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraF.webp?alt=media&token=683754d3-fc5e-4726-ad9f-39275d58b5e2',
+		},
+		{
+			id: 507,
+			title: 'Letra G',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraG.webp?alt=media&token=1db27c72-00cd-4e41-a35a-9791786ea883',
+		},
+		{
+			id: 508,
+			title: 'Letra H',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraH.webp?alt=media&token=32d27d3d-78c6-443d-a72a-166c35221d7c',
+		},
+		{
+			id: 509,
+			title: 'Letra I',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letrai.webp?alt=media&token=d5fad97c-c90d-4655-a481-17afc1a16d14',
+		},
+		{
+			id: 510,
+			title: 'Letra J',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraJ.webp?alt=media&token=a4b09e8e-6d75-4129-bd3f-71536bc99554',
+		},
+		{
+			id: 511,
+			title: 'Letra K',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraK.webp?alt=media&token=3211ad01-a456-42e1-a251-bd8d5ff56b94',
+		},
+		{
+			id: 512,
+			title: 'Letra L',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraL.webp?alt=media&token=38397c94-8107-4da5-9318-4f802917ac66',
+		},
+		{
+			id: 513,
+			title: 'Letra M',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraM.webp?alt=media&token=1df1f92a-9eb1-4948-af4c-16ab2b9e202b',
+		},
+		{
+			id: 514,
+			title: 'Letra N',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraN.webp?alt=media&token=b1265f7c-b8e3-4b62-9a8c-0155c7cf6dcd',
+		},
+		{
+			id: 515,
+			title: 'Letra O',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraO.webp?alt=media&token=a86341e5-8e10-4dc9-980a-7f875dc81584',
+		},
+		{
+			id: 516,
+			title: 'Letra P',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraP.webp?alt=media&token=92c9ee0b-7119-46b1-bf18-da969ec91a4f',
+		},
+		{
+			id: 517,
+			title: 'Letra Q',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraQ.webp?alt=media&token=919fed91-97d4-44f4-b457-7022d4aa12ce',
+		},
+		{
+			id: 518,
+			title: 'Letra R',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraR.webp?alt=media&token=6f8ad3a3-9069-41ae-ae2e-14bf231a89d4',
+		},
+		{
+			id: 519,
+			title: 'Letra S',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraS.webp?alt=media&token=9626087b-dd0e-4990-a98e-24f30edc6fc3',
+		},
+		{
+			id: 520,
+			title: 'Letra T',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraT.webp?alt=media&token=f2b01d07-db6a-4dd5-b2b7-6b9c559bca80',
+		},
+		{
+			id: 521,
+			title: 'Letra U',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraU.webp?alt=media&token=6f31f65d-1fa1-4ff6-a170-a62251eceb96',
+		},
+		{
+			id: 522,
+			title: 'Letra V',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraV.webp?alt=media&token=bf57bc6a-acca-4265-9f66-b91807706bf3',
+		},
+		{
+			id: 523,
+			title: 'Letra W',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraW.webp?alt=media&token=cd07723a-72be-436a-a2dd-780b48b2104c',
+		},
+		{
+			id: 524,
+			title: 'Letra X',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraX.webp?alt=media&token=84bba568-6005-4ae3-a676-c1fca2cb174a',
+		},
+		{
+			id: 525,
+			title: 'Letra Y',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraY.webp?alt=media&token=a8ecbfce-8ada-4939-8f2b-f576141d2b7e',
+		},
+		{
+			id: 526,
+			title: 'Letra Z',
+			type: 'Letras',
+			offer: false,
+			price: 690,
+			description: 'Letra individual de 5cm y 0,5cm de profundidad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/letraZ.webp?alt=media&token=ee746bf6-2b0d-4b1c-acc9-0c683cff06e4',
 		},
 	],
 };
