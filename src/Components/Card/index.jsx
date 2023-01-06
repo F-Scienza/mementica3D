@@ -1,7 +1,6 @@
 import React from 'react';
 import './card.css'
-//import defaultImage from '../../Images/logo-M-scaled.webp'
-const Card = ({ product, handleAddToCart, handleSetPmodal }) => {
+const Card = ({ product, handleAddToCart }) => {
 
 	return (
 		<div className="Card-Container">

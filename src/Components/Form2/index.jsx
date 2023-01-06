@@ -64,17 +64,10 @@ function Form2() {
 	};
 
 	const { state } = useContext(AppContext);
-	const { cart, buyer } = state;
+	const { cart } = state;
 	let cartTotal2 = 0;
 	cart.forEach(prod => cartTotal2 += prod.price);
-	{/*let mercadoPago10 = {
-		price: cartTotal2 * 0.1,
-		title: 'Comision mercado Pago',
-		description: 'costo de servicio mercado pago',
-		id: 2606,
-	};*/}
-	let envio = false
-	cart.find(p => p.title === 'Envio') ? envio = true : envio = false
+	
 	const {
 		form,
 		errors,
