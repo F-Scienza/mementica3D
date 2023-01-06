@@ -21,7 +21,6 @@ function ProductList() {
 				{' '}
 				{type ? type.toUpperCase() : 'TODOS LOS PRODUCTOS'}{' '}
 			</h1>
-			<Searcher />
 			<div className="PorductsList-cards">
 				{typeProducts.length > 0 ? (
 					typeProducts.map(product => (

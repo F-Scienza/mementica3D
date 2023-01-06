@@ -14,12 +14,7 @@ function CategoryCards() {
 			<div className="category-container">
 				<h2 className="mementica-font">CATEGORIAS</h2>
 				<div className="Category-cards-container">
-					<Link to="/ProductList/">
-						<Card2
-							categoryTitle="VER TODOS LOS PRODUCTOS"
-							categoryBackground={allproducts}
-						/>
-					</Link>
+					
 					<Link to="/ProductList/moldesvelas">
 						<Card2
 							categoryTitle="MOLDES PARA VELAS"
