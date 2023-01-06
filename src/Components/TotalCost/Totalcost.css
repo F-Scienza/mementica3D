@@ -78,23 +78,23 @@
     font-weight: 600;
     color: black;
     margin-bottom: 15px;
-    animation: slide 3s infinite
+    animation: slide 2s infinite
 }
 
 @keyframes slide {
     0% {
-        border: 2px solid rgba(9, 1, 1, 0.033)
+        border: 2px solid rgba(9, 1, 1, 0.141)
     }
 
-    15% {
+    33% {
         border: 2px solid rgba(8, 121, 251, 0.607);
     }
 
-    30% {
-        border: 2px solid rgba(9, 1, 1, 0.033)
+    66% {
+        border: 2px solid rgba(9, 1, 1, 0.124)
     }
 
-    40% {
+    90% {
         border: 2px solid rgba(9, 1, 1, 0.618);
     }
 }
