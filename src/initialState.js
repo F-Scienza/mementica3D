@@ -1369,7 +1369,7 @@ export default {
 			title: 'Resina epoxi 750gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 8100,
+			price: 8150,
 			description: 'Resina epoxi cristal tack 750gr',
 			sells: 0,
 			image:
@@ -1380,7 +1380,7 @@ export default {
 			title: 'Pasta colorante rosa para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 675,
+			price: 790,
 			description: 'Pasta colorante para resinas pigmento rosa 25gr',
 			sells: 0,
 			image:
@@ -1391,7 +1391,7 @@ export default {
 			title: 'Pasta colorante amarillo para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 675,
+			price: 790,
 			description: 'Pasta colorante para resinas pigmento amarillo 25gr',
 			sells: 0,
 			image:
@@ -1402,7 +1402,7 @@ export default {
 			title: 'Pasta colorante azul para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 810,
+			price: 950,
 			description: 'Pasta colorante para resinas pigmento azul 25gr',
 			sells: 0,
 			image:
@@ -1413,7 +1413,7 @@ export default {
 			title: 'Resina al agua Ecocryil 1,4kg',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 3670,
+			price: 4050,
 			description: 'Resina epoxi marca ecocryil de 1,4kg simil ceramigca',
 			sells: 0,
 			image: '/Images/ProductsImages/resinaepoxi700.jpg',
@@ -1423,7 +1423,7 @@ export default {
 			title: 'Pasta colorante negro para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 675,
+			price: 790,
 			description: 'Pasta colorante para resinas pigmento negro 25gr',
 			sells: 0,
 			image:
@@ -1434,7 +1434,7 @@ export default {
 			title: 'Pasta colorante fucsia para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 675,
+			price: 790,
 			description: 'Pasta colorante para resinas pigmento fucsia 25gr',
 			sells: 0,
 			image:
@@ -1445,7 +1445,7 @@ export default {
 			title: 'Pasta colorante rojo para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 810,
+			price: 950,
 			description: 'Pasta colorante para resinas pigmento rojo 25gr',
 			sells: 0,
 			image:
@@ -1467,7 +1467,7 @@ export default {
 			title: 'Pasta colorante blanco para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 675,
+			price: 790,
 			description: 'Pasta colorante para resinas pigmento blanco 25gr',
 			sells: 0,
 			image:
@@ -1501,7 +1501,7 @@ export default {
 			title: 'Resina epoxi glosstack 210gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 2950,
+			price: 3050,
 			description:
 				'Resina epoxi glosstack cristal 210gr, dimensional epoxi cristalino, para acabados.',
 			sells: 0,
@@ -1513,7 +1513,7 @@ export default {
 			title: 'Pasta colorante verde para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 675,
+			price: 790,
 			description: 'Pasta colorante para resinas pigmento verde 25gr',
 			sells: 0,
 			image:
@@ -1524,7 +1524,7 @@ export default {
 			title: 'Pasta colorante violeta para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 810,
+			price: 950,
 			description: 'Pasta colorante para resinas pigmento violeta 25gr',
 			sells: 0,
 			image:
@@ -1535,7 +1535,7 @@ export default {
 			title: 'Resina poliuretano Ebalta sg2000 400g',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 5000,
+			price: 5500,
 			description:
 				'Compuesto de colada base poliuretano de muy baja viscosidad y endurecimiento rápido y alta calidad de reproducción de detalles. Color blanco tiza.',
 			sells: 0,
@@ -1547,7 +1547,7 @@ export default {
 			title: 'Caucho RTV silcast 7020 500g',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 6760,
+			price: 6900,
 			description: 'Caucho de siliconas rtv silcast 7020 x500gr',
 			sells: 0,
 			image:
