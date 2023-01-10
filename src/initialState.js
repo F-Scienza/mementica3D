@@ -1462,7 +1462,7 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-ecocryl700g.webp?alt=media&token=6c01416c-9515-4221-9f92-860f91d0454f',
 		},
-		{
+		{/*
 			id: 312,
 			title: 'Pasta colorante blanco para resinas',
 			type: 'ProductosVarios',
@@ -1472,6 +1472,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-blanco.webp?alt=media&token=1114edec-c248-4595-9000-ae5cc989f3c4',
+		*/
 		},
 		{
 			id: 313,
