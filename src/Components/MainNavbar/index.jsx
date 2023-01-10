@@ -32,10 +32,6 @@ function MainNavbar() {
 					{' '}
 					PRODUCTOS DE REVENTA
 				</Link>
-				<Link className="nvabar__link" to="/ProductList">
-					{' '}
-					TODOS LOS PRODUCTOS
-				</Link>
 				<Link className="nvabar__link" to="/cart">
 					{' '}
 					CARRITO{' '}
