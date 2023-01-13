@@ -1364,7 +1364,7 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-cristaltack300.webp?alt=media&token=447ef459-4d17-4bc3-9d15-8c1813629aea',
 		},
-		{
+		{/*
 			id: 301,
 			title: 'Resina epoxi 750gr',
 			type: 'ProductosVarios',
@@ -1374,7 +1374,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-cristaltack750.webp?alt=media&token=9d5242e4-3d54-466a-bb22-ffa745d675ba',
-		},
+	*/	},
 		{
 			id: 304,
 			title: 'Pasta colorante rosa para resinas',
@@ -1497,7 +1497,7 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-dicast41.webp?alt=media&token=3f6274cb-d80e-4c33-be76-ded82eb482f8',
 			*/
 		},
-		{
+		{/*
 			id: 315,
 			title: 'Resina epoxi glosstack 210gr',
 			type: 'ProductosVarios',
@@ -1508,7 +1508,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-glosstack.webp?alt=media&token=b95e7b38-6dd1-40d5-a3cc-edd4c5a35f33',
-		},
+	*/},
 		{
 			id: 316,
 			title: 'Pasta colorante verde para resinas',
