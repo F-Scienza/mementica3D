@@ -3,6 +3,7 @@ import initialState from '../initialState';
 
 const useInitialState = () => {
 	const [state, setState] = useState(initialState);
+	const allProducts = state.products
 	const addToCart = payload => {
 		setState({
 			...state,
@@ -29,10 +30,11 @@ const useInitialState = () => {
 	};
 
 	let searchedProducts = [];
+
 	if (!searchValue.length >= 1) {
-		searchedProducts = state.products;
+		searchedProducts = allProducts;
 	} else {
-		searchedProducts = state.products.filter(prod => {
+		searchedProducts = allProducts.filter(prod => {
 			const prodText = prod.title.toLowerCase();
 			const searchText = searchValue.toLowerCase();
 			return prodText.includes(searchText);

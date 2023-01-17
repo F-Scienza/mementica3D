@@ -497,7 +497,7 @@ export default {
 			title: 'Llaveros con forma de corazon 5cm x 3 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 1870,
 			description:
 				'Molde de silicona para resina tipo llavero de 3 cavidades con forma de corazón 5cm',
 			sells: 0,

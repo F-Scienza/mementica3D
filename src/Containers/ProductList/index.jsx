@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { Card } from '../../Components/Card';
-import { Searcher } from '../../Components/Searcher';
+// import { Searcher } from '../../Components/Searcher';
 import './productList.css';
 function ProductList() {
 	const { addToCart, searchedProducts } = useContext(AppContext);

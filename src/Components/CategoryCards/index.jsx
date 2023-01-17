@@ -5,7 +5,7 @@ import moldesResina from '../../Images/moldesvarios.png';
 import moldesVelas from '../../Images/vela.png';
 import reventa from '../../Images/reventa.jpg';
 import impresion3D from '../../Images/3d.png';
-import allproducts from '../../Images/logo-M-scaled.webp';
+// import allproducts from '../../Images/logo-M-scaled.webp';
 import letras from '../../Images/letras.png'
 import { Link } from 'react-router-dom';
 
