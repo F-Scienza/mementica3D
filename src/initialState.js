@@ -1352,6 +1352,18 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/portasahumerio-mano.webp?alt=media&token=09fb10db-0e4d-436c-a56d-1963eba08315',
 		},
+		{
+			id: 224,
+			title: '4 cavidades cilindricas (6,5x3cm)',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3600,
+			description:
+				'Ideal para shampoo sólido, jabones, etc. Excelente flexibilidad, anti-adherencia. Fácil desmold',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/vel-cubos4x4-4cav.webp?alt=media&token=4de86e60-573d-418b-829f-4c8a672163ff',
+		},
 
 		{
 			id: 300,
@@ -1402,7 +1414,7 @@ export default {
 			title: 'Pasta colorante azul para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 950,
+			price: 1100,
 			description: 'Pasta colorante para resinas pigmento azul 25gr',
 			sells: 0,
 			image:
@@ -1445,7 +1457,7 @@ export default {
 			title: 'Pasta colorante rojo para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 950,
+			price: 1100,
 			description: 'Pasta colorante para resinas pigmento rojo 25gr',
 			sells: 0,
 			image:
@@ -1510,22 +1522,11 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-glosstack.webp?alt=media&token=b95e7b38-6dd1-40d5-a3cc-edd4c5a35f33',
 	*/},
 		{
-			id: 316,
-			title: 'Pasta colorante verde para resinas',
-			type: 'ProductosVarios',
-			offer: false,
-			price: 790,
-			description: 'Pasta colorante para resinas pigmento verde 25gr',
-			sells: 0,
-			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-verde.webp?alt=media&token=2e981522-ad45-4412-8342-74b57df752ae',
-		},
-		{
 			id: 317,
 			title: 'Pasta colorante violeta para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 950,
+			price: 1100,
 			description: 'Pasta colorante para resinas pigmento violeta 25gr',
 			sells: 0,
 			image:
@@ -1553,6 +1554,138 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/sil-silcast7020.webp?alt=media&token=655dd348-c917-4eb3-ac87-6cb3f411c49c',
+		},
+		{
+			id: 321,
+			title: 'Pasta colorante amarillo fluor para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 2400,
+			description: 'Pasta colorante para resinas pigmento amarillo fluor 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-amaf.webp?alt=media&token=561ba083-594f-4a4f-86a8-1c01189d2ab4',
+		},
+		{
+			id: 322,
+			title: 'Pasta colorante naranja fluor para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 2400,
+			description: 'Pasta colorante para resinas pigmento naranja fluor 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-narf.webp?alt=media&token=be62e657-aaca-484c-b1f5-827b35bf53d0',
+		},
+		{
+			id: 323,
+			title: 'Pasta colorante rosa fluor para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 2400,
+			description: 'Pasta colorante para resinas pigmento rosa fluor 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-rosaf.webp?alt=media&token=5e88ff35-602d-4269-b2b7-442ea9f50835',
+		},
+		{
+			id: 324,
+			title: 'Pasta colorante verde fluor para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 2400,
+			description: 'Pasta colorante para resinas pigmento verde fluor 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-verdef.webp?alt=media&token=ea1b0550-b093-456c-9f6c-329ee0547191',
+		},
+		{
+			id: 325,
+			title: 'Pasta colorante celeste para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 900,
+			description: 'Pasta colorante para resinas pigmento celeste 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-celeste.webp?alt=media&token=5016a37c-7c5d-4bbc-bdc4-833bc85a43a7',
+		},
+		{
+			id: 326,
+			title: 'Pasta colorante rosa piel para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 900,
+			description: 'Pasta colorante para resinas pigmento rosa piel 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-rosa.webp?alt=media&token=d8b28987-79d1-4b2d-bbcb-455f8fac5148',
+		},
+		{
+			id: 327,
+			title: 'Pasta colorante cian para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 900,
+			description: 'Pasta colorante para resinas pigmento cian 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-cian.webp?alt=media&token=242498e1-d574-4baa-83cb-8b2a6434f95c',
+		},
+		{
+			id: 328,
+			title: 'Pasta colorante verde para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 900,
+			description: 'Pasta colorante para resinas pigmento verde 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-verde.webp?alt=media&token=2e981522-ad45-4412-8342-74b57df752ae',
+		},
+		{
+			id: 329,
+			title: 'Pasta colorante roja para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 790,
+			description: 'Pasta colorante para resinas pigmento roja 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-rojo.webp?alt=media&token=8c4f5ee1-afd1-44b0-bf85-01ea8bfed47f',
+		},
+		{
+			id: 330,
+			title: 'Pasta colorante lila para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 1100,
+			description: 'Pasta colorante para resinas pigmento lila 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-lila.webp?alt=media&token=d705fc44-fa1f-4df6-a18b-3cc04399fba5',
+		},
+		{
+			id: 331,
+			title: 'Pasta colorante marron para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 790,
+			description: 'Pasta colorante para resinas pigmento marron 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-marron.webp?alt=media&token=8d6af6ab-4d18-444b-acca-640b8cf4b6f7',
+		},
+		{
+			id: 332,
+			title: 'Pasta colorante gris para resinas',
+			type: 'ProductosVarios',
+			offer: false,
+			price: 790,
+			description: 'Pasta colorante para resinas pigmento gris 25gr',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-gris.webp?alt=media&token=5af783a4-01c9-4f43-aff3-43650d6f2d0c',
 		},
 
 		{
