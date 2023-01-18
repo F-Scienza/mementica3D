@@ -1396,8 +1396,8 @@ export default {
 			description: 'Pasta colorante para resinas pigmento rosa 25gr',
 			sells: 0,
 			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-rosa.webp?alt=media&token=856ba189-3cf6-41c3-9237-a2ae25e2d99f',
-		},
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-rosa.webp?alt=media&token=d8b28987-79d1-4b2d-bbcb-455f8fac5148',
+		},	
 		{
 			id: 305,
 			title: 'Pasta colorante amarillo para resinas',
@@ -1693,7 +1693,7 @@ export default {
 			title: 'Tapas optica Chevrolet Cruze LTZ',
 			type: '3D',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description: 'tapas optica para chevrolet Cruze LTZ extendida para led',
 			sells: 0,
 			image:
@@ -1704,7 +1704,7 @@ export default {
 			title: 'Tapas optica Peugeot 208',
 			type: '3D',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'Juego de tapas para peugeot 208, flexibles goma, fabricadas con impresión 3D',
 			sells: 0,
@@ -1716,7 +1716,7 @@ export default {
 			title: 'Tapas optica Chevrolet Cruze LT',
 			type: '3D',
 			offer: false,
-			price: 2550,
+			price: 2850,
 			description:
 				'tapas optica para chevrolet Cruze LT extendida para led Aptas para colocarle el oring original de las tapas (no incluyen oring) Consultar por tapas H15 o H7',
 			sells: 0,
@@ -1728,7 +1728,7 @@ export default {
 			title: 'Tapas optica Chevrolet Cruze LT H7',
 			type: '3D',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'tapas optica para chevrolet Cruze LT H7 extendida para led Aptas para colocarle el oring original de las tapas (no incluyen oring)',
 			sells: 0,
@@ -1752,7 +1752,7 @@ export default {
 			title: 'Tapas optica BMW Gs F800 (2017/2018)',
 			type: '3D',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'Par de tapas optica para BMW Gs F800 modelo (2017/2018) extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1764,7 +1764,7 @@ export default {
 			title: 'Tapas optica BMW Gs F800 (16/17)',
 			type: '3D',
 			offer: false,
-			price: 1350,
+			price: 3100,
 			description:
 				'Par de tapas optica para BMW Gs F800 modelo (2016/2017) extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1776,7 +1776,7 @@ export default {
 			title: 'Tapas optica Yamaha super Tenere',
 			type: '3D',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'Par de tapas optica extendidas para led para Yamaha super Tenere extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1788,7 +1788,7 @@ export default {
 			title: 'Tapas optica BMW Gs F800',
 			type: '3D',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'Par de tapas optica para BMW Gs F800 y similares con tapas ovaladas extendidas para colocar led, ver foto de tapas originales, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1800,7 +1800,7 @@ export default {
 			title: 'Tapas optica BMW s1000rr Xr y otros',
 			type: '3D',
 			offer: false,
-			price: 2250,
+			price: 2950,
 			description:
 				'Par de tapas optica para BMW s1000rr Xr y otros extendidas para colocar led, ver foto de tapas originales, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1812,7 +1812,7 @@ export default {
 			title: 'Velador con forma de luna 14cm + base',
 			type: '3D',
 			offer: false,
-			price: 3200,
+			price: 3300,
 			description:
 				'Lampara luna velador 14cm con base decoración. Fabricada mediante impresión 3D',
 			sells: 0,
@@ -1824,7 +1824,7 @@ export default {
 			title: 'Tapas optica BMW Gs 1200',
 			type: '3D',
 			offer: false,
-			price: 2250,
+			price: 3150,
 			description:
 				'Par de tapas optica para BMW Gs 1200 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1836,7 +1836,7 @@ export default {
 			title: 'Soporte stand notebook',
 			type: '3D',
 			offer: false,
-			price: 1500,
+			price: 1700,
 			description:
 				'Soporte para notebook, refrigeracio, 5 posiciones, portatil con antideslizante',
 			sells: 0,
@@ -1848,7 +1848,7 @@ export default {
 			title: 'Tapas optica Peugeot 207',
 			type: '3D',
 			offer: false,
-			price: 2250,
+			price: 2950,
 			description:
 				'Par de tapas optica para Peugeot 207 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1860,7 +1860,7 @@ export default {
 			title: '10 llaveros ninjacat',
 			type: '3D',
 			offer: false,
-			price: 1530,
+			price: 1630,
 			description:
 				'10 llaveros defensa personal ninjacat colores varios, impresion 3D',
 			sells: 0,
@@ -1872,7 +1872,7 @@ export default {
 			title: 'Tapas optica Hyundai tucson',
 			type: '3D',
 			offer: false,
-			price: 2000,
+			price: 2800,
 			description:
 				'Par de tapas optica para Hyundai tucson extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1896,7 +1896,7 @@ export default {
 			title: 'Tapas optica Yamaha R3',
 			type: '3D',
 			offer: false,
-			price: 2100,
+			price: 2900,
 			description:
 				'Par de tapas optica para Yamaha R3 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1908,7 +1908,7 @@ export default {
 			title: 'Tapas optica Chevrolet Tracker led 17/18',
 			type: '3D',
 			offer: false,
-			price: 2250,
+			price: 3150,
 			description:
 				'Par de tapas optica Chevrolet Tracker led 17/18 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -1920,7 +1920,7 @@ export default {
 			title: '50 llaveros ninjacat',
 			type: '3D',
 			offer: false,
-			price: 4500,
+			price: 5100,
 			description:
 				'50 llaveros defensa personal ninjacat colores varios, impresion 3D',
 			sells: 0,
@@ -1944,7 +1944,7 @@ export default {
 			title: 'Tapas optica Chevrolet Cruze LT H15',
 			type: '3D',
 			offer: false,
-			price: 1710,
+			price: 2610,
 			description:
 				'tapas optica para chevrolet Cruze LT H15 ALTAS extendida para led Aptas para colocarle el oring original de las tapas.',
 			sells: 0,
@@ -1956,7 +1956,7 @@ export default {
 			title: 'Tapas optica Chevrolet Onix',
 			type: '3D',
 			offer: false,
-			price: 2600,
+			price: 3000,
 			description:
 				'Juego de tapas optica para chevrolet Onix extendida para led',
 			sells: 0,
@@ -1974,6 +1974,7 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/3d-exhibidorcabeza.webp?alt=media&token=afc71057-cee0-405b-a327-db1b85eab604',
 		},
+		
 		{
 			id: 500,
 			title: 'Letra A',
