@@ -25,6 +25,8 @@ function CarouselCards({titleCarousel, type }) {
 		? (carouselProducts = products.filter(prod => prod.offer === true))
 		: type === 'top'
 		? (carouselProducts = products.filter(prod => prod.sells > 0))
+		: type === 'new' 
+		? (carouselProducts = products.filter(prod => prod.isNew === true))
 		: (carouselProducts = products);
 			
     return (

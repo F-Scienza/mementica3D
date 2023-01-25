@@ -3,7 +3,7 @@ import './Card2.css'
 
 function Card2({categoryTitle, categoryBackground}) {
     return (
-			<div className="Category-card">
+			<div className="Category-card grow">
 				<div className="Card-img2">
 					<img
 						src={categoryBackground}

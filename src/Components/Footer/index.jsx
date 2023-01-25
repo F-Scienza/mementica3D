@@ -17,6 +17,7 @@ function Footer() {
 					<p>
 						Somos emprendedores igual que vos, buscamos crecer junto a nuestros
 						clientes, innovamos con vos. <br />
+						Fabricantes de moldes para resina epoxi<br/>
 						Todos los productos son de fabricacion propia: molderia de caucho,
 						impresiones 3D y carteleria con polifan. <br />
 						Si es necesario algún molde o impresión 3D en particular que no esté
