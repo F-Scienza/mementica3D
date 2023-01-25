@@ -1,15 +1,15 @@
 .App {
-  text-align: center;
-  background-color: #F8F8FF;
-  margin: 0 auto;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+	text-align: center;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	margin: 0 auto;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
