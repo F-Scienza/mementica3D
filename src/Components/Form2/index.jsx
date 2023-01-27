@@ -2,7 +2,7 @@ import React, { useContext, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { useForm } from '../../Hooks/useForm';
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 import './Form2.css';
 //import mpimg from '../../Images/Asets/mp.png';
 const initialForm = {
@@ -18,7 +18,8 @@ const initialForm = {
 	cp: '',
 	total: '',
 	cantProd: '',
-	productos: ''
+	productos: '',
+	coment: '',
 };
 const validateForm = form => {
 	let errors = {};
@@ -50,24 +51,32 @@ const validateForm = form => {
 };
 
 function Form2() {
-
-	const formmm = useRef()
-	const sendEmail = (e) => {
+	const formmm = useRef();
+	const sendEmail = e => {
 		e.preventDefault();
-		emailjs.sendForm('service_af5klkp', 'template_6oj20bs', formmm.current, 'hz9bIy8_CFkFxfHkl')
-			.then((result) => {
-				console.log(result.text, formmm);
-			}, (error) => {
-				console.log(error.text);
-			});
-		handleSubmit()
+		emailjs
+			.sendForm(
+				'service_af5klkp',
+				'template_6oj20bs',
+				formmm.current,
+				'hz9bIy8_CFkFxfHkl'
+			)
+			.then(
+				result => {
+					console.log(result.text, formmm);
+				},
+				error => {
+					console.log(error.text);
+				}
+			);
+		handleSubmit();
 	};
 
 	const { state } = useContext(AppContext);
 	const { cart } = state;
 	let cartTotal2 = 0;
-	cart.forEach(prod => cartTotal2 += prod.price);
-	
+	cart.forEach(prod => (cartTotal2 += prod.price));
+
 	const {
 		form,
 		errors,
@@ -78,16 +87,34 @@ function Form2() {
 		//handleSetMp,
 		//handleSetEnvio,
 	} = useForm(initialForm, validateForm);
-	form.productos = cart.map(p => ' ' + p.title)
-	form.cantProd = cart.length
-	form.total = cartTotal2
+	form.productos = cart.map(p => ' ' + p.title);
+	form.cantProd = cart.length;
+	form.total = cartTotal2;
 	return (
 		<div className="form-container">
 			<h1>Informacion del comprador</h1>
 			<form ref={formmm} onSubmit={sendEmail}>
-				<input className='hiddeninputs' type="number" name='cantProd' id='cantProd' value={form.cantProd} />
-				<input className='hiddeninputs' type="text" name="productos" id="productos" value={form.productos} />
-				<input className='hiddeninputs' type="number" name="total" id="total" value={form.total} />
+				<input
+					className="hiddeninputs"
+					type="number"
+					name="cantProd"
+					id="cantProd"
+					value={form.cantProd}
+				/>
+				<input
+					className="hiddeninputs"
+					type="text"
+					name="productos"
+					id="productos"
+					value={form.productos}
+				/>
+				<input
+					className="hiddeninputs"
+					type="number"
+					name="total"
+					id="total"
+					value={form.total}
+				/>
 
 				<label htmlFor="fname">Nombre:</label>
 				<input
@@ -131,8 +158,8 @@ function Form2() {
 				<input
 					type="number"
 					id="phone"
-					name='phone'
-					placeholder='Numero de contacto'
+					name="phone"
+					placeholder="Numero de contacto"
 					onChange={handleChange}
 					onBlur={handleBlur}
 					value={form.phone}
@@ -152,7 +179,6 @@ function Form2() {
 				/>
 				{errors.email && <p className="required-p"> {errors.email} </p>}
 				<div className="form-infoenvio">
-
 					<label htmlFor="cp">Codigo postal</label>
 					<input
 						type="text"
@@ -209,6 +235,16 @@ function Form2() {
 						onChange={handleChange}
 						onBlur={handleBlur}
 						value={form.dpto}
+					/>
+					<textarea
+						className='coment'
+						type="text"
+						id="coment"
+						name="coment"
+						placeholder="Si necesitas un link de pago, retirar en el local o hacer alguna aclaración por favor escribinos acá."
+						onChange={handleChange}
+						onBlur={handleBlur}
+						value={form.coment}
 					/>
 				</div>
 				{errors.cp && <p> {errors.cp} </p>}

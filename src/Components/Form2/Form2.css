@@ -66,7 +66,7 @@ label {
 	padding: 7px 0;
 	font-size: 24px;
 }
-.label-envio{
+.label-envio {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -93,7 +93,7 @@ span.price {
 	float: right;
 	color: grey;
 }
-.form-infoenvio{
+.form-infoenvio {
 	margin-top: 16px;
 }
 .form-paymethod {
@@ -109,15 +109,15 @@ span.price {
 	font-weight: 550;
 	margin-block-end: 12px;
 }
-.alert{
+.alert {
 	margin-block-start: 0;
 	margin-block-end: 0;
 	color: black;
 }
-.icon-mp{
+.icon-mp {
 	height: 1.5em;
 }
-.backbutton{
+.backbutton {
 	border-radius: 6px;
 	cursor: pointer;
 	padding: 0;
@@ -133,34 +133,43 @@ span.price {
 	font-size: 1.2em;
 	font-weight: 600;
 }
-.backbutton-link{
+.backbutton-link {
 	text-decoration: none;
 	color: black;
 }
-.btn-transferencia{
+.btn-transferencia {
 	border: none;
 	border-radius: 6px;
-	background: #4CAF50;
+	background: #4caf50;
 	font-weight: 600;
-    line-height: 1.25;
+	line-height: 1.25;
 }
 
-.btn-mercadopago{
+.btn-mercadopago {
 	border: none;
 	border-radius: 6px;
 	background: #009ee3;
 	font-weight: 600;
-    line-height: 1.25;
+	line-height: 1.25;
 }
-.alert{
+.alert {
 	opacity: 0.7;
-	background: #4CAF50;
-	color:black;
+	background: #4caf50;
+	color: black;
 	cursor: not-allowed;
 }
-.btnform-container{
+.btnform-container {
 	margin-top: 20px;
 }
-.hiddeninputs{
+.hiddeninputs {
 	display: none;
+}
+.coment {
+	height: 4em;
+	width: 300px;
+	margin-top: 4px;
+	margin-bottom: 16px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
 }
