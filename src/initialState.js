@@ -1586,6 +1586,18 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/corazon-part.webp?alt=media&token=4f5003ef-bb7c-4b05-b585-51f5e9b5b862',
 			isNew: true,
 		},
+		{
+			id: 234,
+			title: 'Estrellas x3 cavidades',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3300,
+			description: 'Molde con 3 cavidades con forma de estrellas.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/estrellx3.webp?alt=media&token=1e9e9fbd-b5ba-4a4d-b4d4-93486079ed82',
+			isNew: false,
+		},
 
 		{
 			id: 300,
