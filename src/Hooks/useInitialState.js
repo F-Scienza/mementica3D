@@ -46,8 +46,8 @@ const useInitialState = () => {
 		removeFromCart,
 		setBuyer,
 		searchValue,
-		searchedProducts,
 		onSearchValueChange,
+		searchedProducts,
 		state,
 	};
 };

@@ -1543,7 +1543,7 @@ export default {
 			title: 'Angelitos x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3200,
 			description: '8 cavidades con forma de angelito rezando 7x5cm',
 			sells: 0,
 			image:
@@ -1616,7 +1616,7 @@ export default {
 			title: 'Resina epoxi 750gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 9400,
+			price: 9200,
 			description: 'Resina epoxi cristal tack 750gr',
 			sells: 0,
 			image:
@@ -1742,8 +1742,8 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/limpiadordpm.webp?alt=media&token=54a045a5-1902-4f48-8709-90e44987f85a',
 			isNew: false,
 		},
+		/*
 		{
-			/*
 			id: 314,
 			title: 'Resina epoxi dicast 41',
 			type: 'ProductosVarios',
@@ -1754,10 +1754,9 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-dicast41.webp?alt=media&token=3f6274cb-d80e-4c33-be76-ded82eb482f8',
 				isNew: false,
+			},
 			*/
-		},
-		{
-			/*
+		/*{
 			id: 315,
 			title: 'Resina epoxi glosstack 210gr',
 			type: 'ProductosVarios',
@@ -1769,8 +1768,8 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-glosstack.webp?alt=media&token=b95e7b38-6dd1-40d5-a3cc-edd4c5a35f33',
 				isNew: false
-	*/
-		},
+			
+		},*/
 		{
 			id: 317,
 			title: 'Pasta colorante violeta para resinas',
@@ -2022,7 +2021,7 @@ export default {
 			title: 'Tapas optica BMW Gs F800 (2017/2018)',
 			type: '3D',
 			offer: false,
-			price: 3000,
+			price: 3200,
 			description:
 				'Par de tapas optica para BMW Gs F800 modelo (2017/2018) extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2035,7 +2034,7 @@ export default {
 			title: 'Tapas optica BMW Gs F800 (16/17)',
 			type: '3D',
 			offer: false,
-			price: 3100,
+			price: 1800,
 			description:
 				'Par de tapas optica para BMW Gs F800 modelo (2016/2017) extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2048,7 +2047,7 @@ export default {
 			title: 'Tapas optica Yamaha super Tenere',
 			type: '3D',
 			offer: false,
-			price: 3000,
+			price: 3200,
 			description:
 				'Par de tapas optica extendidas para led para Yamaha super Tenere extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
