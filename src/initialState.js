@@ -1562,6 +1562,30 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/angelitosx3.webp?alt=media&token=546c1e4a-4d67-48f0-ab84-1dd13c22ef81',
 			isNew: true,
 		},
+		{
+			id: 232,
+			title: 'Corazon partido x3',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2000,
+			description: '3 cavidades con forma de corazon partido 6x4cm cada mitad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/corazon-partx3.webp?alt=media&token=367fb581-79ee-41e2-ab9a-5a5dd6e0b6e8',
+			isNew: true,
+		},
+		{
+			id: 233,
+			title: 'Corazon partido simple',
+			type: 'MoldesResina',
+			offer: false,
+			price: 1000,
+			description: 'Molde con forma de corazon partido 6x4cm cada mitad',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/corazon-part.webp?alt=media&token=4f5003ef-bb7c-4b05-b585-51f5e9b5b862',
+			isNew: true,
+		},
 
 		{
 			id: 300,
@@ -1683,7 +1707,6 @@ export default {
 			isNew: false,
 		},
 		{
-			/*
 			id: 312,
 			title: 'Pasta colorante blanco para resinas',
 			type: 'ProductosVarios',
@@ -1693,8 +1716,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-blanco.webp?alt=media&token=1114edec-c248-4595-9000-ae5cc989f3c4',
-				isNew: false,
-		*/
+			isNew: false,
 		},
 		{
 			id: 313,
