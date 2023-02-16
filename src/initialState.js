@@ -1598,7 +1598,7 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/estrellx3.webp?alt=media&token=1e9e9fbd-b5ba-4a4d-b4d4-93486079ed82',
 			isNew: false,
 		},
-
+/*
 		{
 			id: 300,
 			title: 'Resina epoxi 300gr',
@@ -1623,6 +1623,7 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-cristaltack750.webp?alt=media&token=9d5242e4-3d54-466a-bb22-ffa745d675ba',
 			isNew: false,
 		},
+		*/
 		{
 			id: 304,
 			title: 'Pasta colorante rosa para resinas',
