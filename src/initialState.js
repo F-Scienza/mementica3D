@@ -1463,7 +1463,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/portasahumerio-mano.webp?alt=media&token=09fb10db-0e4d-436c-a56d-1963eba08315',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 224,
@@ -1500,7 +1500,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/basquetx8.webp?alt=media&token=0f28a943-5ac5-4530-8df8-b9701d29ed4d',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 227,
@@ -1512,7 +1512,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/basquetx3.webp?alt=media&token=7f07ee0c-3ff7-4d06-b12f-d835af63549d',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 228,
@@ -1524,7 +1524,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/mickeyx8.webp?alt=media&token=69647186-c69e-4057-9782-daa77996c0cd',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 229,
@@ -1533,10 +1533,10 @@ export default {
 			offer: false,
 			price: 1920,
 			description: '3 cavidades con forma de personaje Mickey 5cm',
-			sells: 0,
+			sells: 10,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/mickeyx3.webp?alt=media&token=a8febddc-4554-4a70-ad77-d693aae1ae95',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 230,
@@ -1548,7 +1548,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/angelitosx8.webp?alt=media&token=33c72384-6430-427a-806d-6ed476436930',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 231,
@@ -1557,10 +1557,10 @@ export default {
 			offer: false,
 			price: 1800,
 			description: '3 cavidades con forma de angelito rezando 7x5cm',
-			sells: 0,
+			sells: 10,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/angelitosx3.webp?alt=media&token=546c1e4a-4d67-48f0-ab84-1dd13c22ef81',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 232,
@@ -1572,7 +1572,7 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/corazon-partx3.webp?alt=media&token=367fb581-79ee-41e2-ab9a-5a5dd6e0b6e8',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 233,
@@ -1581,10 +1581,10 @@ export default {
 			offer: false,
 			price: 1000,
 			description: 'Molde con forma de corazon partido 6x4cm cada mitad',
-			sells: 0,
+			sells: 10,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/corazon-part.webp?alt=media&token=4f5003ef-bb7c-4b05-b585-51f5e9b5b862',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 234,
@@ -1598,6 +1598,69 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/estrellx3.webp?alt=media&token=1e9e9fbd-b5ba-4a4d-b4d4-93486079ed82',
 			isNew: false,
 		},
+		{
+			id: 235,
+			title: 'Bandeja oval con borde',
+			type: 'MoldesResina',
+			offer: false,
+			price: 4800,
+			description: 'Bandeja de armado oval 20x12cm con borde de 3mm.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/band20x12.webp?alt=media&token=9e35d1b4-4523-456f-8559-f340971971cf',
+			isNew: true,
+		},
+		{
+			id: 236,
+			title: 'kit flores',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3300,
+			description: 'Molde con 3 cavidades con forma de margarita y 3 cavidades flor (Sin agujeros)',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/floresx2.webp?alt=media&token=80b01a39-a161-4cae-8093-73816a46bb8e',
+			isNew: true,
+		},
+		{
+			id: 237,
+			title: 'Escudos 6cm x 7,5cm',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3490,
+			description: 'Molde con 4 cavidades con forma de escudos de 6cm x 7,5cm.',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/escudosx4.webp?alt=media&token=d9a1dd30-fbcf-4027-9d03-ce7667958882',
+			isNew: true,
+		},
+		{
+			id: 238,
+			title: 'Foquitos de luz',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3100,
+			description: 'Molde 8 cavidades con forma de foquito para llavero de 5cm x 3cm',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llavfoquitosx8.webp?alt=media&token=55b73881-dcee-4e78-86fa-ba13d6707290',
+			isNew: true,
+		},
+		{
+			id: 238,
+			title: 'Mezcladores corazón',
+			type: 'MoldesResina',
+			offer: false,
+			price: 4100,
+			description: 'Molde 10 cavidades con forma de corazon para mezclador de 20cm de largo',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/marcorazon.webp?alt=media&token=cb3f7a75-a0fe-4008-bfe6-5c58314ef4f3',
+			isNew: true,
+		},
+
+
+		
 /*
 		{
 			id: 300,
