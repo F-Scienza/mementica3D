@@ -50,7 +50,7 @@ function PayInfo() {
 				<span> CUIT/CUIL: </span>
 				<span className="payinfo-bank-info"> 20-37628033-1 </span>
 				<span> Alias: </span>
-				<span className="payinfo-bank-info"> joseiriarte.bru.6039 </span>
+				<span className="payinfo-bank-info"> mementicabrubank </span>
 				<span> CBU: </span>
 				<span className="payinfo-bank-info"> 1430001713031857800013 </span>
 				<span> Nro de cuenta: </span>
