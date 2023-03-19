@@ -1219,7 +1219,7 @@ export default {
 			title: 'Circulo 50cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 17900,
+			price: 18900,
 			description:
 				'Molde de silicona circulo de 50x3cm. Apto para resina,cemento, yeso, etc.',
 			sells: 0,
@@ -1370,7 +1370,7 @@ export default {
 			title: 'Reloj 30cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 4900,
+			price: 5400,
 			description:
 				'Molde con forma de reloj 30cm, orificio en el centro y lineas que marcan la hora.',
 			sells: 0,
@@ -1692,7 +1692,7 @@ export default {
 			title: 'Pasta colorante rosa para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento rosa 25gr',
 			sells: 0,
 			image:
@@ -1704,7 +1704,7 @@ export default {
 			title: 'Pasta colorante amarillo para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento amarillo 25gr',
 			sells: 0,
 			image:
@@ -1716,7 +1716,7 @@ export default {
 			title: 'Pasta colorante azul para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 1100,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento azul 25gr',
 			sells: 0,
 			image:
@@ -1739,7 +1739,7 @@ export default {
 			title: 'Pasta colorante negro para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento negro 25gr',
 			sells: 0,
 			image:
@@ -1751,7 +1751,7 @@ export default {
 			title: 'Pasta colorante fucsia para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento fucsia 25gr',
 			sells: 0,
 			image:
@@ -1763,7 +1763,7 @@ export default {
 			title: 'Pasta colorante rojo para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 1100,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento rojo 25gr',
 			sells: 0,
 			image:
@@ -1787,7 +1787,7 @@ export default {
 			title: 'Pasta colorante blanco para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento blanco 25gr',
 			sells: 0,
 			image:
@@ -1839,7 +1839,7 @@ export default {
 			title: 'Pasta colorante violeta para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 1100,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento violeta 25gr',
 			sells: 0,
 			image:
@@ -1924,7 +1924,7 @@ export default {
 			title: 'Pasta colorante celeste para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 900,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento celeste 25gr',
 			sells: 0,
 			image:
@@ -1936,7 +1936,7 @@ export default {
 			title: 'Pasta colorante rosa piel para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 900,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento rosa piel 25gr',
 			sells: 0,
 			image:
@@ -1948,7 +1948,7 @@ export default {
 			title: 'Pasta colorante cian para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 900,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento cian 25gr',
 			sells: 0,
 			image:
@@ -1960,7 +1960,7 @@ export default {
 			title: 'Pasta colorante verde para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 900,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento verde 25gr',
 			sells: 0,
 			image:
@@ -1972,7 +1972,7 @@ export default {
 			title: 'Pasta colorante roja para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento roja 25gr',
 			sells: 0,
 			image:
@@ -1984,7 +1984,7 @@ export default {
 			title: 'Pasta colorante lila para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 1100,
+			price: 1400,
 			description: 'Pasta colorante para resinas pigmento lila 25gr',
 			sells: 0,
 			image:
@@ -1996,7 +1996,7 @@ export default {
 			title: 'Pasta colorante marron para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento marron 25gr',
 			sells: 0,
 			image:
@@ -2008,7 +2008,7 @@ export default {
 			title: 'Pasta colorante gris para resinas',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 790,
+			price: 910,
 			description: 'Pasta colorante para resinas pigmento gris 25gr',
 			sells: 0,
 			image:
