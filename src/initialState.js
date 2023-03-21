@@ -1661,13 +1661,12 @@ export default {
 
 
 		
-/*
 		{
 			id: 300,
 			title: 'Resina epoxi 300gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 5000,
+			price: 5800,
 			description: 'Resina epoxi marca cristal tack 300gr',
 			sells: 20,
 			image:
@@ -1679,14 +1678,14 @@ export default {
 			title: 'Resina epoxi 750gr',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 9200,
+			price: 11800,
 			description: 'Resina epoxi cristal tack 750gr',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/res-cristaltack750.webp?alt=media&token=9d5242e4-3d54-466a-bb22-ffa745d675ba',
 			isNew: false,
 		},
-		*/
+		
 		{
 			id: 304,
 			title: 'Pasta colorante rosa para resinas',
@@ -1728,7 +1727,7 @@ export default {
 			title: 'Resina al agua Ecocryil 1,4kg',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 4800,
+			price: 5700,
 			description: 'Resina epoxi marca ecocryil de 1,4kg simil ceramigca',
 			sells: 0,
 			image: '/Images/ProductsImages/resinaepoxi700.jpg',
@@ -1775,7 +1774,7 @@ export default {
 			title: 'Resina al agua Ecocryil 700g',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 3000,
+			price: 3300,
 			description: 'Resina epoxi marca ecocryil de 700g simil ceramigca',
 			sells: 0,
 			image:
@@ -1851,7 +1850,7 @@ export default {
 			title: 'Resina poliuretano Ebalta sg2000 400g',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 6000,
+			price: 6400,
 			description:
 				'Compuesto de colada base poliuretano de muy baja viscosidad y endurecimiento rápido y alta calidad de reproducción de detalles. Color blanco tiza.',
 			sells: 0,
