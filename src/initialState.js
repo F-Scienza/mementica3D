@@ -20,7 +20,7 @@ export default {
 			title: 'Bandeja con borde',
 			type: 'MoldesResina',
 			offer: false,
-			price: 4450,
+			price: 5050,
 			description: 'Molde bandeja de 18x9cm para resina',
 			sells: 0,
 			image:
@@ -45,7 +45,7 @@ export default {
 			title: 'Cenicero Corazon',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 2800,
 			description:
 				'Molde de silicona para resina: cenicero con forma de corazon 8,5x8x1,5cm',
 			sells: 0,
@@ -58,7 +58,7 @@ export default {
 			title: 'cenicero cuadrado',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 2800,
 			description:
 				'molde de silicona para resina: cenicero con forma de cuadrado 8x8x1,8cm',
 			sells: 0,
@@ -71,7 +71,7 @@ export default {
 			title: 'Cenicero redondo',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 2800,
 			description:
 				'Molde de silicona para resina: cenicero con forma redonda 7x1,8cm',
 			sells: 0,
@@ -84,7 +84,7 @@ export default {
 			title: 'Cenicero hexagonal',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 2800,
 			description:
 				'Molde de silicona para resina: cenicero con forma hexagonal 8x7x1,5cm',
 			sells: 0,
@@ -97,7 +97,7 @@ export default {
 			title: 'Cenicero triangular',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 2800,
 			description:
 				'Molde de silicona para resina: ceniceros con forma triangular 8x1,7cm',
 			sells: 0,
@@ -110,7 +110,7 @@ export default {
 			title: 'Cenicero hoja',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2500,
+			price: 2800,
 			description:
 				'Molde de silicona para resina: ceniceros con forma de hoja 8x8,5x1,5cm',
 			sells: 0,
@@ -123,7 +123,7 @@ export default {
 			title: 'Circulo 29cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 4650,
+			price: 5150,
 			description: 'Molde de silicona circulo de 29 cm',
 			sells: 0,
 			image:
@@ -135,7 +135,7 @@ export default {
 			title: 'Dijes en formas varias',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2900,
+			price: 3200,
 			description:
 				'Molde de silicona para resina para dijes en varias formas (11 cavidades)',
 			sells: 0,
@@ -148,7 +148,7 @@ export default {
 			title: 'Escudos con agujero',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2800,
+			price: 3000,
 			description:
 				'Molde de silicona para resina con forma de escudos 8 cavidades de 3,5cm',
 			sells: 0,
@@ -156,25 +156,25 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-escudosx8.webp?alt=media&token=e54242bd-4adc-4abc-ac88-807700f6da02',
 			isNew: false,
 		},
-		{
-			id: 111,
-			title: 'Expansores en 9 medidas',
-			type: 'MoldesResina',
-			offer: false,
-			price: 4150,
-			description:
-				'Molde de silicona para resina en forma de expansores con 18 cavidades en 9 medidas diferentes',
-			sells: 0,
-			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/expansores9.webp?alt=media&token=8f12f43c-470e-4571-bbda-d7083b5f593b',
-			isNew: false,
-		},
+		// {
+		// 	id: 111,
+		// 	title: 'Expansores en 9 medidas',
+		// 	type: 'MoldesResina',
+		// 	offer: false,
+		// 	price: 4150,
+		// 	description:
+		// 		'Molde de silicona para resina en forma de expansores con 18 cavidades en 9 medidas diferentes',
+		// 	sells: 0,
+		// 	image:
+		// 		'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/expansores9.webp?alt=media&token=8f12f43c-470e-4571-bbda-d7083b5f593b',
+		// 	isNew: false,
+		// },
 		{
 			id: 112,
 			title: 'Ninjacat',
 			type: 'MoldesResina',
 			offer: true,
-			price: 1600,
+			price: 1800,
 			description:
 				'Molde de silicona para resina tipo llavero con forma de gato ninjacat defensa personal',
 			sells: 0,
@@ -200,7 +200,7 @@ export default {
 			title: 'Huesito',
 			type: 'MoldesResina',
 			offer: true,
-			price: 780,
+			price: 890,
 			description: 'Molde de silicona tipo llavero con forma de huesito 7x4cm',
 			sells: 0,
 			image:
@@ -225,7 +225,7 @@ export default {
 			title: 'Llaveros circulos x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina tipo llaveros con forma circular de 5cm con 8 cavidades',
 			sells: 0,
@@ -238,7 +238,7 @@ export default {
 			title: 'Llaveros cuadrados 8 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina tipo llaveros cuadrados 5cm x 8 cavidades',
 			sells: 0,
@@ -377,7 +377,7 @@ export default {
 			title: 'Combo posavasos con borde',
 			type: 'MoldesResina',
 			offer: false,
-			price: 6200,
+			price: 6890,
 			description:
 				'Combo x3 moldes de silicona con formas posavasos con borde.',
 			sells: 0,
@@ -390,7 +390,7 @@ export default {
 			title: 'Posavaso cuadrado',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2400,
+			price: 2600,
 			description: 'Molde de silicona posavaso con borde forma cuadrado',
 			sells: 0,
 			image:
@@ -402,7 +402,7 @@ export default {
 			title: 'Posavasos redondo',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2400,
+			price: 2600,
 			description: 'Molde de silicona posavaso con borde forma circular',
 			sells: 0,
 			image:
@@ -414,7 +414,7 @@ export default {
 			title: 'Tapa de agenda A5 doble',
 			type: 'MoldesResina',
 			offer: false,
-			price: 4630,
+			price: 5200,
 			description:
 				'Molde de silicona forma tapa de agenda A5 con anillado x 2 cavidades',
 			sells: 0,
@@ -427,7 +427,7 @@ export default {
 			title: 'Combo vela zig-zag',
 			type: 'moldesvelas',
 			offer: false,
-			price: 4920,
+			price: 5300,
 			description: 'Moldes de silicona para velas forma zig zag curvo y recto',
 			sells: 0,
 			image:
@@ -439,7 +439,7 @@ export default {
 			title: 'Vela zig-zag curvo',
 			type: 'moldesvelas',
 			offer: false,
-			price: 2829,
+			price: 3300,
 			description: 'Molde de silicona para velas forma zig-zag curvo',
 			sells: 0,
 			image:
@@ -451,7 +451,7 @@ export default {
 			title: 'Vela zig-zag recta',
 			type: 'moldesvelas',
 			offer: false,
-			price: 2829,
+			price: 3300,
 			description: 'Molde de silicona para velas forma zig-zag recta',
 			sells: 0,
 			image:
@@ -463,7 +463,7 @@ export default {
 			title: 'Posavasos hexagonal',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2400,
+			price: 2600,
 			description: 'Molde de silicona posavaso con borde forma hexagonal.',
 			sells: 0,
 			image:
@@ -475,7 +475,7 @@ export default {
 			title: 'Ninjacat x4',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3536,
+			price: 3900,
 			description: 'Molde de silicona con forma de gato ninjacat x4',
 			sells: 0,
 			image:
@@ -487,7 +487,7 @@ export default {
 			title: 'Llaveros 3,5cm x12 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2829,
+			price: 3150,
 			description: 'Molde de silicona tipo llavero. 12 cavidades 3,5cm',
 			sells: 0,
 			image:
@@ -499,7 +499,7 @@ export default {
 			title: 'Llaveros con forma de corazon 5cm x 8 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina tipo llavero de 8 cavidades con forma de corazón 5cm',
 			sells: 0,
@@ -525,7 +525,7 @@ export default {
 			title: 'Posavasos x 3 formas',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina tipo posavasos de 8cm x 3 cavidades (circular, cuadrada y hexagonal)',
 			sells: 0,
@@ -538,7 +538,7 @@ export default {
 			title: 'Llaveros con forma de corazon 5cm x 3 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1870,
+			price: 2010,
 			description:
 				'Molde de silicona para resina tipo llavero de 3 cavidades con forma de corazón 5cm',
 			sells: 10,
@@ -577,7 +577,7 @@ export default {
 			title: 'Bandeja irregular 40x25cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 6950,
+			price: 7750,
 			description:
 				'Molde de silicona para resina con forma irregular para bandeja de 40x25cm acabado liso brillante',
 			sells: 0,
@@ -603,7 +603,7 @@ export default {
 			title: 'Paleta pintor 30cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3525,
+			price: 3925,
 			description:
 				'Molde de silicona para paleta de pintor con agujero. 30x20cm acabado liso.',
 			sells: 0,
@@ -616,7 +616,7 @@ export default {
 			title: 'Llaveros rectangulares',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina tipo llaveros rectangulares 4,2x8cm 8 cavidades.',
 			sells: 0,
@@ -655,7 +655,7 @@ export default {
 			title: 'Combo 4 moldes para llaveros',
 			type: 'MoldesResina',
 			offer: false,
-			price: 10550,
+			price: 11750,
 			description:
 				'Molde de silicona tipo llaveros de 8 cavidades de 5cm cada uno con formas cuadradas, circulares, hexagonales y corazones',
 			sells: 0,
@@ -668,7 +668,7 @@ export default {
 			title: 'Soporte para celulares',
 			type: 'MoldesResina',
 			offer: false,
-			price: 4250,
+			price: 4700,
 			description:
 				'Molde de silicona para resina con forma de soporte de celulares acabado liso 20,5 x 9cm',
 			sells: 0,
@@ -681,7 +681,7 @@ export default {
 			title: 'Vela con forma de almeja',
 			type: 'moldesvelas',
 			offer: false,
-			price: 3180,
+			price: 3500,
 			description:
 				'Moldes de silicona para velas con forma de almeja 9x6,5x4cm',
 			sells: 0,
@@ -720,7 +720,7 @@ export default {
 			title: 'Tabla picadas',
 			type: 'MoldesResina',
 			offer: false,
-			price: 4705,
+			price: 5205,
 			description:
 				'Molde de silicona para resina tipo paleta de pintura/tabla de picadas 35x15x1cm',
 			sells: 0,
@@ -746,7 +746,7 @@ export default {
 			title: 'Llaveros hexagonales',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina tipo llavero con 8 cavidades hexagonales de 5cm',
 			sells: 0,
@@ -772,7 +772,7 @@ export default {
 			title: 'Cuadrado 20cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina forma Cuadrada de 20x0,5 cm acabado liso.',
 			sells: 0,
@@ -824,7 +824,7 @@ export default {
 			title: 'Bandeja 20x12 para sushi',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para resina con forma de bandeja con borde irregular para sushi 20x12cm',
 			sells: 0,
@@ -927,7 +927,7 @@ export default {
 			title: 'Tapa agenda A6 doble',
 			type: 'MoldesResina',
 			offer: false,
-			price: 4490,
+			price: 4700,
 			description: 'Molde de silicona para tapa agenda tamaño A6 para anillado',
 			sells: 0,
 			image:
@@ -951,7 +951,7 @@ export default {
 			title: 'LLavero camiseta x3 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1870,
+			price: 2010,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de camiseta de futlbol x3 cavidades 5x3,6cm',
 			sells: 0,
@@ -964,7 +964,7 @@ export default {
 			title: 'LLavero circulos x3 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1870,
+			price: 2010,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de circular 3 cavidades 5cm',
 			sells: 5,
@@ -990,7 +990,7 @@ export default {
 			title: 'LLavero gatito x3 cav.',
 			type: 'MoldesResina',
 			offer: true,
-			price: 1870,
+			price: 2010,
 			description:
 				'Molde de silicona con 3 cavidades tipo llavero con forma de gatito 3 cavidades 3x3cm',
 			sells: 0,
@@ -1028,7 +1028,7 @@ export default {
 			title: 'LLavero gatito x8 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona con 8 cavidades tipo llavero con forma de gatito 8 cavidades 3x3cm',
 			sells: 0,
@@ -1041,7 +1041,7 @@ export default {
 			title: 'Llaveros cuadrados x3 cav.',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1870,
+			price: 2010,
 			description:
 				'Molde de silicona para resina tipo llaveros cuadrados 5cm x 3 cavidades',
 			sells: 0,
@@ -1131,7 +1131,7 @@ export default {
 			title: 'Tapa agenda A4 para anillado',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3850,
+			price: 4100,
 			description: 'Molde de silicona para tapa agenda tamaño A4 para anillado',
 			sells: 0,
 			image:
@@ -1143,7 +1143,7 @@ export default {
 			title: 'Tapa agenda A5 para anillado',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description: 'Molde de silicona para tapa agenda tamaño A5 para anillado',
 			sells: 0,
 			image:
@@ -1155,7 +1155,7 @@ export default {
 			title: 'Tapa agenda A4 Doble para anillado ',
 			type: 'MoldesResina',
 			offer: false,
-			price: 6730,
+			price: 7300,
 			description: 'Molde de silicona para tapa agenda tamaño A4 para anillado',
 			sells: 0,
 			image:
@@ -1167,7 +1167,7 @@ export default {
 			title: 'Llavero copa del mundo x3 cav',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1870,
+			price: 2010,
 			description:
 				'Molde de silicona para llaveros con forma de la copa del mundo 3 cavidades',
 			sells: 10,
@@ -1180,7 +1180,7 @@ export default {
 			title: 'Llavero copa del mundo x8 cav',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona para llaveros con forma de la copa del mundo 8 cavidades',
 			sells: 0,
@@ -1206,7 +1206,7 @@ export default {
 			title: 'Circulo 35cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 8950,
+			price: 9950,
 			description:
 				'Molde de silicona circulo de 35x3cm. Apto para resina,cemento, yeso, etc.',
 			sells: 0,
@@ -1219,7 +1219,7 @@ export default {
 			title: 'Circulo 50cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 18900,
+			price: 19800,
 			description:
 				'Molde de silicona circulo de 50x3cm. Apto para resina,cemento, yeso, etc.',
 			sells: 0,
@@ -1232,7 +1232,7 @@ export default {
 			title: 'Mariposa x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description:
 				'Molde de silicona tipo llaeveros con forma de mariposa x8 cavidades',
 			sells: 0,
@@ -1283,7 +1283,7 @@ export default {
 			title: 'Marcador x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 5880,
+			price: 6280,
 			description: 'Molde de silicona tipo separador de paginas x8 cavidades',
 			sells: 0,
 			image:
@@ -1295,7 +1295,7 @@ export default {
 			title: 'Combo tapas agendas',
 			type: 'MoldesResina',
 			offer: false,
-			price: 8850,
+			price: 9850,
 			description: 'Tapas de agenda A4, A5 y A6 simples',
 			sells: 0,
 			image:
@@ -1307,14 +1307,13 @@ export default {
 			title: 'Combo tapas agendas doble',
 			type: 'MoldesResina',
 			offer: false,
-			price: 15905,
+			price: 17100,
 			description: 'Tapas de agenda A4, A5 y A6 dobles',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/combo-agendasdobles.webp?alt=media&token=9bcc43ee-31f0-4285-b8c2-d6ba3603d293',
 			isNew: false,
 		},
-
 		{
 			id: 212,
 			title: 'Kit futbol',
@@ -1328,13 +1327,12 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/kit-futbolx3.webp?alt=media&token=a9dc0f95-aa6d-407a-8239-10d187c4b0aa',
 			isNew: false,
 		},
-
 		{
 			id: 213,
 			title: 'Portacopas',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description: 'Molde para resina con forma de portacopas de champagne',
 			sells: 0,
 			image:
@@ -1346,7 +1344,7 @@ export default {
 			title: 'Pelota de Futbol x3 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1870,
+			price: 2010,
 			description: 'Molde con 3 cavidades con forma de futbol grabado.',
 			sells: 10,
 			image:
@@ -1358,7 +1356,7 @@ export default {
 			title: 'Pelota de Futbol x8 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description: 'Molde con 8 cavidades con forma de futbol grabado.',
 			sells: 0,
 			image:
@@ -1383,7 +1381,7 @@ export default {
 			title: 'Estrellas x8 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description: 'Molde con 8 cavidades con forma de estrellas.',
 			sells: 0,
 			image:
@@ -1395,7 +1393,7 @@ export default {
 			title: 'Aritos/dijes 32 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2999,
+			price: 3299,
 			description:
 				'32 cavidades para pendientes 8 formas diferentes 2cm cada uno, detalles grabados',
 			sells: 0,
@@ -1408,7 +1406,7 @@ export default {
 			title: 'Messi x3 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1970,
+			price: 2010,
 			description: 'Molde con 3 cavidades con forma de Messi grabado (5x5cm).',
 			sells: 30,
 			image:
@@ -1420,7 +1418,7 @@ export default {
 			title: 'Messi x8 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description: 'Molde con 8 cavidades con forma de Messi grabado (5x5cm)',
 			sells: 0,
 			image:
@@ -1432,7 +1430,7 @@ export default {
 			title: 'Signos zodiacales',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2998,
+			price: 3300,
 			description:
 				'!2 cavidades tipo llavero con 12 cavidades con los signos zodiacales',
 			sells: 0,
@@ -1445,7 +1443,7 @@ export default {
 			title: 'Reloj 20cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3600,
+			price: 3999,
 			description:
 				'Molde con forma de reloj 20cm, orificio en el centro y lineas que marcan la hora.',
 			sells: 20,
@@ -1458,7 +1456,7 @@ export default {
 			title: 'Mano de Fatima',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2120,
+			price: 2700,
 			description: 'Molde con forma de portasahumerios mano de fatima. 15x12cm',
 			sells: 0,
 			image:
@@ -1495,7 +1493,7 @@ export default {
 			title: 'Pelota de basquet x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3100,
+			price: 3600,
 			description: '8 cavidades con forma de pelota de basquet 5cm',
 			sells: 0,
 			image:
@@ -1507,7 +1505,7 @@ export default {
 			title: 'Pelota de basquet x3',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1720,
+			price: 2100,
 			description: '3 cavidades con forma de pelota de basquet 5cm',
 			sells: 0,
 			image:
@@ -1519,7 +1517,7 @@ export default {
 			title: 'Mickey x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3200,
+			price: 3600,
 			description: '8 cavidades con forma de personaje Mickey 5cm',
 			sells: 0,
 			image:
@@ -1531,7 +1529,7 @@ export default {
 			title: 'Mickey x3',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1920,
+			price: 2100,
 			description: '3 cavidades con forma de personaje Mickey 5cm',
 			sells: 10,
 			image:
@@ -1543,7 +1541,7 @@ export default {
 			title: 'Angelitos x8',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3400,
+			price: 3600,
 			description: '8 cavidades con forma de angelito rezando 7x5cm',
 			sells: 0,
 			image:
@@ -1555,7 +1553,7 @@ export default {
 			title: 'Angelitos x3',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1800,
+			price: 2100,
 			description: '3 cavidades con forma de angelito rezando 7x5cm',
 			sells: 10,
 			image:
@@ -1567,7 +1565,7 @@ export default {
 			title: 'Corazon partido x3',
 			type: 'MoldesResina',
 			offer: false,
-			price: 2120,
+			price: 2100,
 			description: '3 cavidades con forma de corazon partido 6x4cm cada mitad',
 			sells: 0,
 			image:
@@ -1579,7 +1577,7 @@ export default {
 			title: 'Corazon partido simple',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1000,
+			price: 1100,
 			description: 'Molde con forma de corazon partido 6x4cm cada mitad',
 			sells: 10,
 			image:
@@ -1591,7 +1589,7 @@ export default {
 			title: 'Estrellas x3 cavidades',
 			type: 'MoldesResina',
 			offer: false,
-			price: 1900,
+			price: 2100,
 			description: 'Molde con 3 cavidades con forma de estrellas.',
 			sells: 0,
 			image:
@@ -1602,20 +1600,20 @@ export default {
 			id: 235,
 			title: 'Bandeja oval con borde',
 			type: 'MoldesResina',
-			offer: false,
+			offer: true,
 			price: 4800,
 			description: 'Bandeja de armado oval 20x12cm con borde de 3mm.',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/band20x12.webp?alt=media&token=9e35d1b4-4523-456f-8559-f340971971cf',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 236,
 			title: 'kit flores',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description: 'Molde con 3 cavidades con forma de margarita y 3 cavidades flor (Sin agujeros)',
 			sells: 0,
 			image:
@@ -1627,27 +1625,27 @@ export default {
 			title: 'Escudos 6cm x 7,5cm',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3490,
+			price: 3680,
 			description: 'Molde con 4 cavidades con forma de escudos de 6cm x 7,5cm.',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/escudosx4.webp?alt=media&token=d9a1dd30-fbcf-4027-9d03-ce7667958882',
-			isNew: true,
+			isNew: false,
 		},
 		{
 			id: 238,
 			title: 'Foquitos de luz',
 			type: 'MoldesResina',
 			offer: false,
-			price: 3100,
+			price: 3300,
 			description: 'Molde 8 cavidades con forma de foquito para llavero de 5cm x 3cm',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llavfoquitosx8.webp?alt=media&token=55b73881-dcee-4e78-86fa-ba13d6707290',
-			isNew: true,
+			isNew: false,
 		},
 		{
-			id: 238,
+			id: 239,
 			title: 'Mezcladores corazón',
 			type: 'MoldesResina',
 			offer: false,
@@ -1656,6 +1654,78 @@ export default {
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/marcorazon.webp?alt=media&token=cb3f7a75-a0fe-4008-bfe6-5c58314ef4f3',
+			isNew: false,
+		},
+		{
+			id: 240,
+			title: 'Llaveros Spotify',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2300,
+			description: 'Molde 3 cavidades spotify 6,5cm x 4cm',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-spotifyx3.webp?alt=media&token=b167d430-a26a-414b-a95f-4cea4af2ea59',
+			isNew: true,
+		},
+		{
+			id: 241,
+			title: 'Llaveros cruces x3',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2100,
+			description: 'Molde llavero cruces x3 cavidades 5cm x 3cm',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-cruzx3.webp?alt=media&token=65000843-fec2-4a87-b4a8-fec6dc91cf07',
+			isNew: true,
+		},
+		{
+			id: 242,
+			title: 'Llaveros cruces x6',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3600,
+			description: 'Molde llavero cruces x6 cavidades 5cm x 3cm',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/llav-cruzx6.webp?alt=media&token=2adabc13-69ad-4bd5-846e-0cc35f22aeee',
+			isNew: true,
+		},
+		{
+			id: 243,
+			title: 'Abecedario y numeros 2cm',
+			type: 'MoldesResina',
+			offer: false,
+			price: 3600,
+			description: 'Molde abecedario y numeros 2cm x 2cm',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/abc2cm.webp?alt=media&token=42af324b-b55f-4264-b1e3-34d2e48b5458',
+			isNew: true,
+		},
+		{
+			id: 244,
+			title: 'Mate x3',
+			type: 'MoldesResina',
+			offer: false,
+			price: 2300,
+			description: 'Molde con forma de mate 3 cavidades 4,5cm mas la bombilla 2,5cm',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/matex3.webp?alt=media&token=15eb63a7-db43-4c16-961d-385aecb39701',
+			isNew: true,
+		},
+		{
+			id: 245,
+			title: 'Carroza',
+			type: 'MoldesResina',
+			offer: false,
+			price: 4500,
+			description: 'Molde con forma de carroza 10cm',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/carroza.webp?alt=media&token=3e24cc09-c27d-4c8f-a0e0-8699e391ee17',
 			isNew: true,
 		},
 
@@ -1774,7 +1844,7 @@ export default {
 			title: 'Resina al agua Ecocryil 700g',
 			type: 'ProductosVarios',
 			offer: false,
-			price: 3300,
+			price: 3600,
 			description: 'Resina epoxi marca ecocryil de 700g simil ceramigca',
 			sells: 0,
 			image:
@@ -2020,7 +2090,7 @@ export default {
 			title: 'Tapas optica Chevrolet Cruze LTZ',
 			type: '3D',
 			offer: false,
-			price: 3260,
+			price: 3620,
 			description: 'tapas optica para chevrolet Cruze LTZ extendida para led',
 			sells: 0,
 			image:
@@ -2032,7 +2102,7 @@ export default {
 			title: 'Tapas optica Peugeot 208',
 			type: '3D',
 			offer: false,
-			price: 3260,
+			price: 3600,
 			description:
 				'Juego de tapas para peugeot 208, flexibles goma, fabricadas con impresión 3D',
 			sells: 0,
@@ -2041,24 +2111,11 @@ export default {
 			isNew: false,
 		},
 		{
-			id: 402,
-			title: 'Tapas optica Chevrolet Cruze LT',
-			type: '3D',
-			offer: false,
-			price: 3050,
-			description:
-				'tapas optica para chevrolet Cruze LT extendida para led Aptas para colocarle el oring original de las tapas (no incluyen oring) Consultar por tapas H15 o H7',
-			sells: 0,
-			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/opt-lt.webp?alt=media&token=1a171048-3544-438c-a3b5-8dddfdb9c5d2',
-			isNew: false,
-		},
-		{
 			id: 403,
 			title: 'Tapas optica Chevrolet Cruze LT H7',
 			type: '3D',
 			offer: false,
-			price: 3260,
+			price: 3600,
 			description:
 				'tapas optica para chevrolet Cruze LT H7 extendida para led Aptas para colocarle el oring original de las tapas (no incluyen oring)',
 			sells: 0,
@@ -2071,7 +2128,7 @@ export default {
 			title: 'Tapas optica Chevrolet Cruze LT Guantera',
 			type: '3D',
 			offer: false,
-			price: 4500,
+			price: 4900,
 			description:
 				'tapas optica para chevrolet Cruze Incluye las 4 tapas (H15 y H7) extendida para led Aptas para colocarle el oring original de las tapas (no incluyen oring)',
 			sells: 0,
@@ -2084,22 +2141,9 @@ export default {
 			title: 'Tapas optica BMW Gs F800 (2017/2018)',
 			type: '3D',
 			offer: false,
-			price: 3200,
+			price: 3600,
 			description:
 				'Par de tapas optica para BMW Gs F800 modelo (2017/2018) extendidas para colocar led, colocar el oring de las tapas originales',
-			sells: 0,
-			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/opt-bmw-gsf800-1617.webp?alt=media&token=ec1375e9-c5e2-4d66-afeb-841d4c7b398b',
-			isNew: false,
-		},
-		{
-			id: 406,
-			title: 'Tapas optica BMW Gs F800 (16/17) TAPA CHICA',
-			type: '3D',
-			offer: false,
-			price: 1500,
-			description:
-				'Par de tapas optica para BMW Gs F800 modelo (2016/2017) extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/opt-bmw-gsf800-1617.webp?alt=media&token=ec1375e9-c5e2-4d66-afeb-841d4c7b398b',
@@ -2110,7 +2154,7 @@ export default {
 			title: 'Tapas optica Yamaha super Tenere',
 			type: '3D',
 			offer: false,
-			price: 3200,
+			price: 3600,
 			description:
 				'Par de tapas optica extendidas para led para Yamaha super Tenere extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2120,15 +2164,15 @@ export default {
 		},
 		{
 			id: 408,
-			title: 'Tapas optica BMW Gs F800 16/17 GRANDE',
+			title: 'Tapas optica BMW Gs F800 modelos',
 			type: '3D',
 			offer: false,
-			price: 1600,
+			price: 3600,
 			description:
 				'Par de tapas optica para BMW Gs F800 y similares con tapas ovaladas extendidas para colocar led, ver foto de tapas originales, colocar el oring de las tapas originales',
 			sells: 0,
 			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/opt-bmw-gs-f800.webp?alt=media&token=e5808416-2590-4f82-bd7e-e3ca1d270a29',
+				'',
 			isNew: false,
 		},
 		{
@@ -2136,7 +2180,7 @@ export default {
 			title: 'Tapas optica BMW s1000rr Xr y otros',
 			type: '3D',
 			offer: false,
-			price: 3250,
+			price: 3600,
 			description:
 				'Par de tapas optica para BMW s1000rr Xr y otros extendidas para colocar led, ver foto de tapas originales, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2149,7 +2193,7 @@ export default {
 			title: 'Velador con forma de luna 14cm + base',
 			type: '3D',
 			offer: false,
-			price: 3700,
+			price: 3900,
 			description:
 				'Lampara luna velador 14cm con base decoración. Fabricada mediante impresión 3D',
 			sells: 0,
@@ -2167,7 +2211,7 @@ export default {
 				'Par de tapas optica para BMW Gs 1200 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
 			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/opt-gs1200.webp?alt=media&token=e4ce43e6-2bcd-41c9-8291-1c6f683b2138',
+				'',
 			isNew: false,
 		},
 		{
@@ -2175,7 +2219,7 @@ export default {
 			title: 'Soporte stand notebook',
 			type: '3D',
 			offer: false,
-			price: 1900,
+			price: 1980,
 			description:
 				'Soporte para notebook, refrigeracio, 5 posiciones, portatil',
 			sells: 0,
@@ -2188,7 +2232,7 @@ export default {
 			title: 'Tapas optica Peugeot 207',
 			type: '3D',
 			offer: false,
-			price: 2950,
+			price: 3300,
 			description:
 				'Par de tapas optica para Peugeot 207 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2201,7 +2245,7 @@ export default {
 			title: '10 llaveros ninjacat',
 			type: '3D',
 			offer: false,
-			price: 1730,
+			price: 2160,
 			description:
 				'10 llaveros defensa personal ninjacat colores varios, impresion 3D',
 			sells: 0,
@@ -2214,7 +2258,7 @@ export default {
 			title: 'Tapas optica Hyundai tucson',
 			type: '3D',
 			offer: false,
-			price: 3100,
+			price: 3300,
 			description:
 				'Par de tapas optica para Hyundai tucson extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2240,7 +2284,7 @@ export default {
 			title: 'Tapas optica Yamaha R3',
 			type: '3D',
 			offer: false,
-			price: 2900,
+			price: 3300,
 			description:
 				'Par de tapas optica para Yamaha R3 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2253,7 +2297,7 @@ export default {
 			title: 'Tapas optica Chevrolet Tracker led 17/18',
 			type: '3D',
 			offer: false,
-			price: 3350,
+			price: 3600,
 			description:
 				'Par de tapas optica Chevrolet Tracker led 17/18 extendidas para colocar led, colocar el oring de las tapas originales',
 			sells: 0,
@@ -2266,7 +2310,7 @@ export default {
 			title: '50 llaveros ninjacat',
 			type: '3D',
 			offer: false,
-			price: 5100,
+			price: 6750,
 			description:
 				'50 llaveros defensa personal ninjacat colores varios, impresion 3D',
 			sells: 0,
@@ -2274,25 +2318,25 @@ export default {
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/3d-ninjacat.webp?alt=media&token=62e5ebbd-ce4c-42fe-806c-2b9bc6f29d24',
 			isNew: false,
 		},
-		{
-			id: 421,
-			title: 'Soporte playstation 4',
-			type: '3D',
-			offer: false,
-			price: 630,
-			description:
-				'soporte para playstation 4 para refrigeracion, mejor circulacion de aire',
-			sells: 0,
-			image:
-				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/3d-sopplay.webp?alt=media&token=f8d53c76-0f90-41f1-9906-44b6c1687392',
-			isNew: false,
-		},
+		// {
+		// 	id: 421,
+		// 	title: 'Soporte playstation 4',
+		// 	type: '3D',
+		// 	offer: false,
+		// 	price: 630,
+		// 	description:
+		// 		'soporte para playstation 4 para refrigeracion, mejor circulacion de aire',
+		// 	sells: 0,
+		// 	image:
+		// 		'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/3d-sopplay.webp?alt=media&token=f8d53c76-0f90-41f1-9906-44b6c1687392',
+		// 	isNew: false,
+		// },
 		{
 			id: 422,
 			title: 'Tapas optica Chevrolet Cruze LT H15 ALTAS',
 			type: '3D',
 			offer: false,
-			price: 2610,
+			price: 2970,
 			description:
 				'tapas optica para chevrolet Cruze LT H15 ALTAS extendida para led Aptas para colocarle el oring original de las tapas.',
 			sells: 0,
@@ -2305,7 +2349,7 @@ export default {
 			title: 'Tapas optica Chevrolet Onix',
 			type: '3D',
 			offer: false,
-			price: 3260,
+			price: 3300,
 			description:
 				'Juego de tapas optica para chevrolet Onix extendida para led',
 			sells: 0,
@@ -2318,11 +2362,24 @@ export default {
 			title: 'Exhibidor de lentes',
 			type: '3D',
 			offer: false,
-			price: 3100,
+			price: 3600,
 			description: 'Exhibidor de lentes para optica de impresion 3D',
 			sells: 0,
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/3d-exhibidorcabeza.webp?alt=media&token=afc71057-cee0-405b-a327-db1b85eab604',
+			isNew: false,
+		},
+		{
+			id: 425,
+			title: 'Tapas optica BMW Gs 1200',
+			type: '3D',
+			offer: false,
+			price: 3600,
+			description:
+				'Par de tapas optica para BMW Gs 1200 extendidas para colocar led, colocar el oring de las tapas originales',
+			sells: 0,
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/opt-gs1200.webp?alt=media&token=e4ce43e6-2bcd-41c9-8291-1c6f683b2138',
 			isNew: false,
 		},
 
@@ -2331,7 +2388,7 @@ export default {
 			title: 'Letra A',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2343,7 +2400,7 @@ export default {
 			title: 'Letra B',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2355,7 +2412,7 @@ export default {
 			title: 'Letra C',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2367,7 +2424,7 @@ export default {
 			title: 'Letra D',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2379,7 +2436,7 @@ export default {
 			title: 'Letra E',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2391,7 +2448,7 @@ export default {
 			title: 'Letra F',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2403,7 +2460,7 @@ export default {
 			title: 'Letra G',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2415,7 +2472,7 @@ export default {
 			title: 'Letra H',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2427,7 +2484,7 @@ export default {
 			title: 'Letra I',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2439,7 +2496,7 @@ export default {
 			title: 'Letra J',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2451,7 +2508,7 @@ export default {
 			title: 'Letra K',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2463,7 +2520,7 @@ export default {
 			title: 'Letra L',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2475,7 +2532,7 @@ export default {
 			title: 'Letra M',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2487,7 +2544,7 @@ export default {
 			title: 'Letra N',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2499,7 +2556,7 @@ export default {
 			title: 'Letra O',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2511,7 +2568,7 @@ export default {
 			title: 'Letra P',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2523,7 +2580,7 @@ export default {
 			title: 'Letra Q',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2535,7 +2592,7 @@ export default {
 			title: 'Letra R',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2547,7 +2604,7 @@ export default {
 			title: 'Letra S',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2559,7 +2616,7 @@ export default {
 			title: 'Letra T',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2571,7 +2628,7 @@ export default {
 			title: 'Letra U',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2583,7 +2640,7 @@ export default {
 			title: 'Letra V',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2595,7 +2652,7 @@ export default {
 			title: 'Letra W',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2607,7 +2664,7 @@ export default {
 			title: 'Letra X',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2619,7 +2676,7 @@ export default {
 			title: 'Letra Y',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:
@@ -2631,7 +2688,7 @@ export default {
 			title: 'Letra Z',
 			type: 'Letras',
 			offer: false,
-			price: 760,
+			price: 810,
 			description: 'Letra individual de 5cm y 0,5cm de profundidad',
 			sells: 0,
 			image:

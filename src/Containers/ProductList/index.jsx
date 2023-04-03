@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import { Card } from '../../Components/Card';
 import { Searcher } from '../../Components/Searcher';
+import lupa from '../../Images/busqueda.png'
 import './productList.css';
 function ProductList() {
 	const { addToCart, searchedProducts } = useContext(AppContext);
@@ -21,7 +22,7 @@ function ProductList() {
 				{' '}
 				{type ? type.toUpperCase() : 'TODOS LOS PRODUCTOS'}{' '}
 			</h1>
-			<Searcher/>
+			<Searcher />
 			<div className="PorductsList-cards">
 				{typeProducts.length > 0 ? (
 					typeProducts.map(product => (
@@ -40,7 +41,10 @@ function ProductList() {
 						/>
 					))
 				) : (
-					<h2>no hay resultados</h2>
+					<div className='noresult-container'>
+						<img src={lupa} alt="no hay resultados" className='lupa'/>
+						<h2 className="mementica-font">No hay resultados</h2>
+					</div>
 				)}
 			</div>
 		</div>

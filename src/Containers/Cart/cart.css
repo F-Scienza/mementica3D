@@ -3,7 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-;
 }
 .cart-title{
     margin-block-start: 0;
@@ -16,7 +15,7 @@
 .cart-cards-container{
     height: 500px;
     width: 350px;
-    margin-top: 10px;
+    margin-top: -20px;
     margin-bottom: 20px;
     margin-right: 12px;
     margin-left: 12px;
@@ -24,4 +23,12 @@
     overflow-y: scroll;
     border-radius: 10px;
     box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.2);
+}
+.empty-cart-container{
+    margin-top: 40%;
+}
+.empty-cart{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-left: -5px;
 }

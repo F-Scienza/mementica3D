@@ -15,24 +15,24 @@ function MainNavbar() {
 				<a className="nvabar__link navbar__x" href="#/">
 					cerrar
 				</a>
-				<Link className="nvabar__link" to="/ProductList/moldesvelas">
+				<Link className="nvabar__link mementica-font" to="/ProductList/moldesvelas">
 					{' '}
 					MOLDES PARA VELAS Y JABONES{' '}
 				</Link>
-				<Link className="nvabar__link" to="/ProductList/moldesresina">
+				<Link className="nvabar__link mementica-font" to="/ProductList/moldesresina">
 					{' '}
 					MOLDES PARA RESINA
 					{' '}
 				</Link>
-				<Link className="nvabar__link" to="/ProductList/Impresion3D">
+				<Link className="nvabar__link mementica-font" to="/ProductList/Impresion3D">
 					{' '}
 					PRODUCTOS DE IMPRESION 3D{' '}
 				</Link>
-				<Link className="nvabar__link" to="/ProductList">
+				<Link className="nvabar__link mementica-font" to="ProductList/ProductosVarios">
 					{' '}
-					PRODUCTOS DE REVENTA
+					RESINAS Y PIGMENTOS
 				</Link>
-				<Link className="nvabar__link" to="/cart">
+				<Link className="nvabar__link mementica-font" to="/cart">
 					{' '}
 					CARRITO{' '}
 				</Link>
