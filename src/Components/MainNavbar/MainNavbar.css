@@ -1,4 +1,4 @@
-.navbar__container{
+.navbar__container {
     padding: 0 40px;
     color: white;
     height: 80px;
@@ -6,22 +6,22 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar__links{
+
+.navbar__links {
     padding-top: 50px;
     position: fixed;
     left: 0;
     bottom: 0;
     top: 80px;
     right: 0;
-    background-color:black;
+    background-color: black;
     opacity: 0.95;
     display: grid;
     place-items: left;
-    clip-path: circle(0% at top left);
-    transition: clip-path .4s;
     z-index: 1000;
 }
-.nvabar__link{
+
+.nvabar__link {
     align-self: flex-start;
     height: 15px;
     width: auto;
@@ -30,18 +30,43 @@
     font-weight: 500;
     font-size: 2em;
 }
-.nvabar__link:hover{
+
+.nvabar__link:hover {
     transform: scale(1.05);
     transition: transform 0.12s;
 }
-.navbar__x{
+
+.navbar__x {
     justify-self: flex-end;
     margin-right: 15%;
     color: red;
 }
-.navbar__links:target{
-    clip-path: circle(150% at top left );
+
+.navbar__links:target {
+    clip-path: circle(150% at top left);
 }
-.burguericon{
+
+.burguericon {
     width: 32px;
+}
+
+.btn-nav {
+    background-color: transparent;
+    border: none;
+}
+
+.animated-element {
+    animation: slide-in 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
