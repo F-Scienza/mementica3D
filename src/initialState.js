@@ -1862,7 +1862,7 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/pig-blanco.webp?alt=media&token=1114edec-c248-4595-9000-ae5cc989f3c4',
 			isNew: false,
-		},
+		},/*
 		{
 			id: 313,
 			title: 'Limpiador DPM liquido',
@@ -1874,7 +1874,7 @@ export default {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/mementica3d-db4af.appspot.com/o/limpiadordpm.webp?alt=media&token=54a045a5-1902-4f48-8709-90e44987f85a',
 			isNew: false,
-		},
+		},*/
 		/*
 		{
 			id: 314,
